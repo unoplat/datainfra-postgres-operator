@@ -1,0 +1,4202 @@
+{
+ "SPDXID": "SPDXRef-DOCUMENT",
+ "name": "ghcr.io/spartansdataplatform/datainfra-postgres-operator-v1.8.2",
+ "spdxVersion": "SPDX-2.2",
+ "creationInfo": {
+  "created": "2022-09-22T17:38:48.275384304Z",
+  "creators": [
+   "Organization: Anchore, Inc",
+   "Tool: syft-0.53.4"
+  ],
+  "licenseListVersion": "3.17"
+ },
+ "dataLicense": "CC0-1.0",
+ "documentNamespace": "https://anchore.com/syft/image/ghcr.io/spartansdataplatform/datainfra-postgres-operator-v1.8.2-0950f339-6733-4c3a-b62d-94e7ef908e0e",
+ "packages": [
+  {
+   "SPDXID": "SPDXRef-ab971b290905df2",
+   "name": "alpine-baselayout",
+   "licenseConcluded": "GPL-2.0-only",
+   "description": "Alpine base dir structure and init scripts",
+   "downloadLocation": "https://git.alpinelinux.org/cgit/aports/tree/main/alpine-baselayout",
+   "externalRefs": [
+    {
+     "referenceCategory": "SECURITY",
+     "referenceLocator": "cpe:2.3:a:alpine-baselayout:alpine-baselayout:3.2.0-r7:*:*:*:*:*:*:*",
+     "referenceType": "cpe23Type"
+    },
+    {
+     "referenceCategory": "SECURITY",
+     "referenceLocator": "cpe:2.3:a:alpine-baselayout:alpine_baselayout:3.2.0-r7:*:*:*:*:*:*:*",
+     "referenceType": "cpe23Type"
+    },
+    {
+     "referenceCategory": "SECURITY",
+     "referenceLocator": "cpe:2.3:a:alpine_baselayout:alpine-baselayout:3.2.0-r7:*:*:*:*:*:*:*",
+     "referenceType": "cpe23Type"
+    },
+    {
+     "referenceCategory": "SECURITY",
+     "referenceLocator": "cpe:2.3:a:alpine_baselayout:alpine_baselayout:3.2.0-r7:*:*:*:*:*:*:*",
+     "referenceType": "cpe23Type"
+    },
+    {
+     "referenceCategory": "SECURITY",
+     "referenceLocator": "cpe:2.3:a:alpine:alpine-baselayout:3.2.0-r7:*:*:*:*:*:*:*",
+     "referenceType": "cpe23Type"
+    },
+    {
+     "referenceCategory": "SECURITY",
+     "referenceLocator": "cpe:2.3:a:alpine:alpine_baselayout:3.2.0-r7:*:*:*:*:*:*:*",
+     "referenceType": "cpe23Type"
+    },
+    {
+     "referenceCategory": "PACKAGE_MANAGER",
+     "referenceLocator": "pkg:alpine/alpine-baselayout@3.2.0-r7?arch=x86_64&upstream=alpine-baselayout&distro=alpine-3.12.12",
+     "referenceType": "purl"
+    }
+   ],
+   "filesAnalyzed": false,
+   "licenseDeclared": "GPL-2.0-only",
+   "originator": "Person: Natanael Copa <ncopa@alpinelinux.org>",
+   "sourceInfo": "acquired package info from APK DB: /lib/apk/db/installed",
+   "versionInfo": "3.2.0-r7"
+  },
+  {
+   "SPDXID": "SPDXRef-fdfd5687263b905c",
+   "name": "alpine-keys",
+   "licenseConcluded": "MIT",
+   "description": "Public keys for Alpine Linux packages",
+   "downloadLocation": "https://alpinelinux.org",
+   "externalRefs": [
+    {
+     "referenceCategory": "SECURITY",
+     "referenceLocator": "cpe:2.3:a:alpine-keys:alpine-keys:2.4-r0:*:*:*:*:*:*:*",
+     "referenceType": "cpe23Type"
+    },
+    {
+     "referenceCategory": "SECURITY",
+     "referenceLocator": "cpe:2.3:a:alpine-keys:alpine_keys:2.4-r0:*:*:*:*:*:*:*",
+     "referenceType": "cpe23Type"
+    },
+    {
+     "referenceCategory": "SECURITY",
+     "referenceLocator": "cpe:2.3:a:alpine_keys:alpine-keys:2.4-r0:*:*:*:*:*:*:*",
+     "referenceType": "cpe23Type"
+    },
+    {
+     "referenceCategory": "SECURITY",
+     "referenceLocator": "cpe:2.3:a:alpine_keys:alpine_keys:2.4-r0:*:*:*:*:*:*:*",
+     "referenceType": "cpe23Type"
+    },
+    {
+     "referenceCategory": "SECURITY",
+     "referenceLocator": "cpe:2.3:a:alpine:alpine-keys:2.4-r0:*:*:*:*:*:*:*",
+     "referenceType": "cpe23Type"
+    },
+    {
+     "referenceCategory": "SECURITY",
+     "referenceLocator": "cpe:2.3:a:alpine:alpine_keys:2.4-r0:*:*:*:*:*:*:*",
+     "referenceType": "cpe23Type"
+    },
+    {
+     "referenceCategory": "PACKAGE_MANAGER",
+     "referenceLocator": "pkg:alpine/alpine-keys@2.4-r0?arch=x86_64&upstream=alpine-keys&distro=alpine-3.12.12",
+     "referenceType": "purl"
+    }
+   ],
+   "filesAnalyzed": false,
+   "licenseDeclared": "MIT",
+   "originator": "Person: Natanael Copa <ncopa@alpinelinux.org>",
+   "sourceInfo": "acquired package info from APK DB: /lib/apk/db/installed",
+   "versionInfo": "2.4-r0"
+  },
+  {
+   "SPDXID": "SPDXRef-7609c21653a53e4f",
+   "name": "apk-tools",
+   "licenseConcluded": "GPL-2.0-only",
+   "description": "Alpine Package Keeper - package manager for alpine",
+   "downloadLocation": "https://gitlab.alpinelinux.org/alpine/apk-tools",
+   "externalRefs": [
+    {
+     "referenceCategory": "SECURITY",
+     "referenceLocator": "cpe:2.3:a:apk-tools:apk-tools:2.10.8-r1:*:*:*:*:*:*:*",
+     "referenceType": "cpe23Type"
+    },
+    {
+     "referenceCategory": "SECURITY",
+     "referenceLocator": "cpe:2.3:a:apk-tools:apk_tools:2.10.8-r1:*:*:*:*:*:*:*",
+     "referenceType": "cpe23Type"
+    },
+    {
+     "referenceCategory": "SECURITY",
+     "referenceLocator": "cpe:2.3:a:apk_tools:apk-tools:2.10.8-r1:*:*:*:*:*:*:*",
+     "referenceType": "cpe23Type"
+    },
+    {
+     "referenceCategory": "SECURITY",
+     "referenceLocator": "cpe:2.3:a:apk_tools:apk_tools:2.10.8-r1:*:*:*:*:*:*:*",
+     "referenceType": "cpe23Type"
+    },
+    {
+     "referenceCategory": "SECURITY",
+     "referenceLocator": "cpe:2.3:a:apk:apk-tools:2.10.8-r1:*:*:*:*:*:*:*",
+     "referenceType": "cpe23Type"
+    },
+    {
+     "referenceCategory": "SECURITY",
+     "referenceLocator": "cpe:2.3:a:apk:apk_tools:2.10.8-r1:*:*:*:*:*:*:*",
+     "referenceType": "cpe23Type"
+    },
+    {
+     "referenceCategory": "PACKAGE_MANAGER",
+     "referenceLocator": "pkg:alpine/apk-tools@2.10.8-r1?arch=x86_64&upstream=apk-tools&distro=alpine-3.12.12",
+     "referenceType": "purl"
+    }
+   ],
+   "filesAnalyzed": false,
+   "licenseDeclared": "GPL-2.0-only",
+   "originator": "Person: Natanael Copa <ncopa@alpinelinux.org>",
+   "sourceInfo": "acquired package info from APK DB: /lib/apk/db/installed",
+   "versionInfo": "2.10.8-r1"
+  },
+  {
+   "SPDXID": "SPDXRef-a2df16fe1b3cca11",
+   "name": "busybox",
+   "licenseConcluded": "GPL-2.0-only",
+   "description": "Size optimized toolbox of many common UNIX utilities",
+   "downloadLocation": "https://busybox.net/",
+   "externalRefs": [
+    {
+     "referenceCategory": "SECURITY",
+     "referenceLocator": "cpe:2.3:a:busybox:busybox:1.31.1-r22:*:*:*:*:*:*:*",
+     "referenceType": "cpe23Type"
+    },
+    {
+     "referenceCategory": "PACKAGE_MANAGER",
+     "referenceLocator": "pkg:alpine/busybox@1.31.1-r22?arch=x86_64&upstream=busybox&distro=alpine-3.12.12",
+     "referenceType": "purl"
+    }
+   ],
+   "filesAnalyzed": false,
+   "licenseDeclared": "GPL-2.0-only",
+   "originator": "Person: Natanael Copa <ncopa@alpinelinux.org>",
+   "sourceInfo": "acquired package info from APK DB: /lib/apk/db/installed",
+   "versionInfo": "1.31.1-r22"
+  },
+  {
+   "SPDXID": "SPDXRef-37964d136f439ff1",
+   "name": "ca-certificates",
+   "licenseConcluded": "MPL-2.0 AND GPL-2.0-or-later",
+   "description": "Common CA certificates PEM files from Mozilla",
+   "downloadLocation": "https://www.mozilla.org/en-US/about/governance/policies/security-group/certs/",
+   "externalRefs": [
+    {
+     "referenceCategory": "SECURITY",
+     "referenceLocator": "cpe:2.3:a:ca-certificates:ca-certificates:20211220-r0:*:*:*:*:*:*:*",
+     "referenceType": "cpe23Type"
+    },
+    {
+     "referenceCategory": "SECURITY",
+     "referenceLocator": "cpe:2.3:a:ca-certificates:ca_certificates:20211220-r0:*:*:*:*:*:*:*",
+     "referenceType": "cpe23Type"
+    },
+    {
+     "referenceCategory": "SECURITY",
+     "referenceLocator": "cpe:2.3:a:ca_certificates:ca-certificates:20211220-r0:*:*:*:*:*:*:*",
+     "referenceType": "cpe23Type"
+    },
+    {
+     "referenceCategory": "SECURITY",
+     "referenceLocator": "cpe:2.3:a:ca_certificates:ca_certificates:20211220-r0:*:*:*:*:*:*:*",
+     "referenceType": "cpe23Type"
+    },
+    {
+     "referenceCategory": "SECURITY",
+     "referenceLocator": "cpe:2.3:a:ca:ca-certificates:20211220-r0:*:*:*:*:*:*:*",
+     "referenceType": "cpe23Type"
+    },
+    {
+     "referenceCategory": "SECURITY",
+     "referenceLocator": "cpe:2.3:a:ca:ca_certificates:20211220-r0:*:*:*:*:*:*:*",
+     "referenceType": "cpe23Type"
+    },
+    {
+     "referenceCategory": "PACKAGE_MANAGER",
+     "referenceLocator": "pkg:alpine/ca-certificates@20211220-r0?arch=x86_64&upstream=ca-certificates&distro=alpine-3.12.12",
+     "referenceType": "purl"
+    }
+   ],
+   "filesAnalyzed": false,
+   "licenseDeclared": "MPL-2.0 AND GPL-2.0-or-later",
+   "originator": "Person: Natanael Copa <ncopa@alpinelinux.org>",
+   "sourceInfo": "acquired package info from APK DB: /lib/apk/db/installed",
+   "versionInfo": "20211220-r0"
+  },
+  {
+   "SPDXID": "SPDXRef-d44f92f020efc258",
+   "name": "ca-certificates-bundle",
+   "licenseConcluded": "MPL-2.0 AND GPL-2.0-or-later",
+   "description": "Pre generated bundle of Mozilla certificates",
+   "downloadLocation": "https://www.mozilla.org/en-US/about/governance/policies/security-group/certs/",
+   "externalRefs": [
+    {
+     "referenceCategory": "SECURITY",
+     "referenceLocator": "cpe:2.3:a:ca-certificates-bundle:ca-certificates-bundle:20211220-r0:*:*:*:*:*:*:*",
+     "referenceType": "cpe23Type"
+    },
+    {
+     "referenceCategory": "SECURITY",
+     "referenceLocator": "cpe:2.3:a:ca-certificates-bundle:ca_certificates_bundle:20211220-r0:*:*:*:*:*:*:*",
+     "referenceType": "cpe23Type"
+    },
+    {
+     "referenceCategory": "SECURITY",
+     "referenceLocator": "cpe:2.3:a:ca_certificates_bundle:ca-certificates-bundle:20211220-r0:*:*:*:*:*:*:*",
+     "referenceType": "cpe23Type"
+    },
+    {
+     "referenceCategory": "SECURITY",
+     "referenceLocator": "cpe:2.3:a:ca_certificates_bundle:ca_certificates_bundle:20211220-r0:*:*:*:*:*:*:*",
+     "referenceType": "cpe23Type"
+    },
+    {
+     "referenceCategory": "SECURITY",
+     "referenceLocator": "cpe:2.3:a:ca-certificates:ca-certificates-bundle:20211220-r0:*:*:*:*:*:*:*",
+     "referenceType": "cpe23Type"
+    },
+    {
+     "referenceCategory": "SECURITY",
+     "referenceLocator": "cpe:2.3:a:ca-certificates:ca_certificates_bundle:20211220-r0:*:*:*:*:*:*:*",
+     "referenceType": "cpe23Type"
+    },
+    {
+     "referenceCategory": "SECURITY",
+     "referenceLocator": "cpe:2.3:a:ca_certificates:ca-certificates-bundle:20211220-r0:*:*:*:*:*:*:*",
+     "referenceType": "cpe23Type"
+    },
+    {
+     "referenceCategory": "SECURITY",
+     "referenceLocator": "cpe:2.3:a:ca_certificates:ca_certificates_bundle:20211220-r0:*:*:*:*:*:*:*",
+     "referenceType": "cpe23Type"
+    },
+    {
+     "referenceCategory": "SECURITY",
+     "referenceLocator": "cpe:2.3:a:ca:ca-certificates-bundle:20211220-r0:*:*:*:*:*:*:*",
+     "referenceType": "cpe23Type"
+    },
+    {
+     "referenceCategory": "SECURITY",
+     "referenceLocator": "cpe:2.3:a:ca:ca_certificates_bundle:20211220-r0:*:*:*:*:*:*:*",
+     "referenceType": "cpe23Type"
+    },
+    {
+     "referenceCategory": "PACKAGE_MANAGER",
+     "referenceLocator": "pkg:alpine/ca-certificates-bundle@20211220-r0?arch=x86_64&upstream=ca-certificates&distro=alpine-3.12.12",
+     "referenceType": "purl"
+    }
+   ],
+   "filesAnalyzed": false,
+   "licenseDeclared": "MPL-2.0 AND GPL-2.0-or-later",
+   "originator": "Person: Natanael Copa <ncopa@alpinelinux.org>",
+   "sourceInfo": "acquired package info from APK DB: /lib/apk/db/installed",
+   "versionInfo": "20211220-r0"
+  },
+  {
+   "SPDXID": "SPDXRef-40ab39beb3d999c7",
+   "name": "curl",
+   "licenseConcluded": "MIT",
+   "description": "URL retrival utility and library",
+   "downloadLocation": "https://curl.se/",
+   "externalRefs": [
+    {
+     "referenceCategory": "SECURITY",
+     "referenceLocator": "cpe:2.3:a:curl:curl:7.79.1-r1:*:*:*:*:*:*:*",
+     "referenceType": "cpe23Type"
+    },
+    {
+     "referenceCategory": "PACKAGE_MANAGER",
+     "referenceLocator": "pkg:alpine/curl@7.79.1-r1?arch=x86_64&upstream=curl&distro=alpine-3.12.12",
+     "referenceType": "purl"
+    }
+   ],
+   "filesAnalyzed": false,
+   "licenseDeclared": "MIT",
+   "originator": "Person: Natanael Copa <ncopa@alpinelinux.org>",
+   "sourceInfo": "acquired package info from APK DB: /lib/apk/db/installed",
+   "versionInfo": "7.79.1-r1"
+  },
+  {
+   "SPDXID": "SPDXRef-bacb91982dc3c6a2",
+   "name": "github.com/aws/aws-sdk-go",
+   "licenseConcluded": "NONE",
+   "downloadLocation": "NOASSERTION",
+   "externalRefs": [
+    {
+     "referenceCategory": "SECURITY",
+     "referenceLocator": "cpe:2.3:a:aws:aws-sdk-go:v1.42.18:*:*:*:*:*:*:*",
+     "referenceType": "cpe23Type"
+    },
+    {
+     "referenceCategory": "SECURITY",
+     "referenceLocator": "cpe:2.3:a:aws:aws_sdk_go:v1.42.18:*:*:*:*:*:*:*",
+     "referenceType": "cpe23Type"
+    },
+    {
+     "referenceCategory": "PACKAGE_MANAGER",
+     "referenceLocator": "pkg:golang/github.com/aws/aws-sdk-go@v1.42.18",
+     "referenceType": "purl"
+    }
+   ],
+   "filesAnalyzed": false,
+   "licenseDeclared": "NONE",
+   "sourceInfo": "acquired package info from go module information: /postgres-operator",
+   "versionInfo": "v1.42.18"
+  },
+  {
+   "SPDXID": "SPDXRef-50f5bb1627e6d69e",
+   "name": "github.com/davecgh/go-spew",
+   "licenseConcluded": "NONE",
+   "downloadLocation": "NOASSERTION",
+   "externalRefs": [
+    {
+     "referenceCategory": "SECURITY",
+     "referenceLocator": "cpe:2.3:a:davecgh:go-spew:v1.1.1:*:*:*:*:*:*:*",
+     "referenceType": "cpe23Type"
+    },
+    {
+     "referenceCategory": "SECURITY",
+     "referenceLocator": "cpe:2.3:a:davecgh:go_spew:v1.1.1:*:*:*:*:*:*:*",
+     "referenceType": "cpe23Type"
+    },
+    {
+     "referenceCategory": "PACKAGE_MANAGER",
+     "referenceLocator": "pkg:golang/github.com/davecgh/go-spew@v1.1.1",
+     "referenceType": "purl"
+    }
+   ],
+   "filesAnalyzed": false,
+   "licenseDeclared": "NONE",
+   "sourceInfo": "acquired package info from go module information: /postgres-operator",
+   "versionInfo": "v1.1.1"
+  },
+  {
+   "SPDXID": "SPDXRef-88ba7337f16091aa",
+   "name": "github.com/go-logr/logr",
+   "licenseConcluded": "NONE",
+   "downloadLocation": "NOASSERTION",
+   "externalRefs": [
+    {
+     "referenceCategory": "SECURITY",
+     "referenceLocator": "cpe:2.3:a:go-logr:logr:v0.4.0:*:*:*:*:*:*:*",
+     "referenceType": "cpe23Type"
+    },
+    {
+     "referenceCategory": "SECURITY",
+     "referenceLocator": "cpe:2.3:a:go_logr:logr:v0.4.0:*:*:*:*:*:*:*",
+     "referenceType": "cpe23Type"
+    },
+    {
+     "referenceCategory": "SECURITY",
+     "referenceLocator": "cpe:2.3:a:go:logr:v0.4.0:*:*:*:*:*:*:*",
+     "referenceType": "cpe23Type"
+    },
+    {
+     "referenceCategory": "PACKAGE_MANAGER",
+     "referenceLocator": "pkg:golang/github.com/go-logr/logr@v0.4.0",
+     "referenceType": "purl"
+    }
+   ],
+   "filesAnalyzed": false,
+   "licenseDeclared": "NONE",
+   "sourceInfo": "acquired package info from go module information: /postgres-operator",
+   "versionInfo": "v0.4.0"
+  },
+  {
+   "SPDXID": "SPDXRef-8bc2a5ace5977e0b",
+   "name": "github.com/gogo/protobuf",
+   "licenseConcluded": "NONE",
+   "downloadLocation": "NOASSERTION",
+   "externalRefs": [
+    {
+     "referenceCategory": "SECURITY",
+     "referenceLocator": "cpe:2.3:a:gogo:protobuf:v1.3.2:*:*:*:*:*:*:*",
+     "referenceType": "cpe23Type"
+    },
+    {
+     "referenceCategory": "PACKAGE_MANAGER",
+     "referenceLocator": "pkg:golang/github.com/gogo/protobuf@v1.3.2",
+     "referenceType": "purl"
+    }
+   ],
+   "filesAnalyzed": false,
+   "licenseDeclared": "NONE",
+   "sourceInfo": "acquired package info from go module information: /postgres-operator",
+   "versionInfo": "v1.3.2"
+  },
+  {
+   "SPDXID": "SPDXRef-535ee6b28516ade5",
+   "name": "github.com/golang/groupcache",
+   "licenseConcluded": "NONE",
+   "downloadLocation": "NOASSERTION",
+   "externalRefs": [
+    {
+     "referenceCategory": "SECURITY",
+     "referenceLocator": "cpe:2.3:a:golang:groupcache:v0.0.0-20210331224755-41bb18bfe9da:*:*:*:*:*:*:*",
+     "referenceType": "cpe23Type"
+    },
+    {
+     "referenceCategory": "PACKAGE_MANAGER",
+     "referenceLocator": "pkg:golang/github.com/golang/groupcache@v0.0.0-20210331224755-41bb18bfe9da",
+     "referenceType": "purl"
+    }
+   ],
+   "filesAnalyzed": false,
+   "licenseDeclared": "NONE",
+   "sourceInfo": "acquired package info from go module information: /postgres-operator",
+   "versionInfo": "v0.0.0-20210331224755-41bb18bfe9da"
+  },
+  {
+   "SPDXID": "SPDXRef-258b04f7ce6f91bd",
+   "name": "github.com/golang/protobuf",
+   "licenseConcluded": "NONE",
+   "downloadLocation": "NOASSERTION",
+   "externalRefs": [
+    {
+     "referenceCategory": "SECURITY",
+     "referenceLocator": "cpe:2.3:a:golang:protobuf:v1.5.2:*:*:*:*:*:*:*",
+     "referenceType": "cpe23Type"
+    },
+    {
+     "referenceCategory": "PACKAGE_MANAGER",
+     "referenceLocator": "pkg:golang/github.com/golang/protobuf@v1.5.2",
+     "referenceType": "purl"
+    }
+   ],
+   "filesAnalyzed": false,
+   "licenseDeclared": "NONE",
+   "sourceInfo": "acquired package info from go module information: /postgres-operator",
+   "versionInfo": "v1.5.2"
+  },
+  {
+   "SPDXID": "SPDXRef-e01bef90841c496a",
+   "name": "github.com/google/go-cmp",
+   "licenseConcluded": "NONE",
+   "downloadLocation": "NOASSERTION",
+   "externalRefs": [
+    {
+     "referenceCategory": "SECURITY",
+     "referenceLocator": "cpe:2.3:a:google:go-cmp:v0.5.5:*:*:*:*:*:*:*",
+     "referenceType": "cpe23Type"
+    },
+    {
+     "referenceCategory": "SECURITY",
+     "referenceLocator": "cpe:2.3:a:google:go_cmp:v0.5.5:*:*:*:*:*:*:*",
+     "referenceType": "cpe23Type"
+    },
+    {
+     "referenceCategory": "PACKAGE_MANAGER",
+     "referenceLocator": "pkg:golang/github.com/google/go-cmp@v0.5.5",
+     "referenceType": "purl"
+    }
+   ],
+   "filesAnalyzed": false,
+   "licenseDeclared": "NONE",
+   "sourceInfo": "acquired package info from go module information: /postgres-operator",
+   "versionInfo": "v0.5.5"
+  },
+  {
+   "SPDXID": "SPDXRef-958258a70bc03ea2",
+   "name": "github.com/google/gofuzz",
+   "licenseConcluded": "NONE",
+   "downloadLocation": "NOASSERTION",
+   "externalRefs": [
+    {
+     "referenceCategory": "SECURITY",
+     "referenceLocator": "cpe:2.3:a:google:gofuzz:v1.1.0:*:*:*:*:*:*:*",
+     "referenceType": "cpe23Type"
+    },
+    {
+     "referenceCategory": "PACKAGE_MANAGER",
+     "referenceLocator": "pkg:golang/github.com/google/gofuzz@v1.1.0",
+     "referenceType": "purl"
+    }
+   ],
+   "filesAnalyzed": false,
+   "licenseDeclared": "NONE",
+   "sourceInfo": "acquired package info from go module information: /postgres-operator",
+   "versionInfo": "v1.1.0"
+  },
+  {
+   "SPDXID": "SPDXRef-3b60ec84670163ba",
+   "name": "github.com/googleapis/gnostic",
+   "licenseConcluded": "NONE",
+   "downloadLocation": "NOASSERTION",
+   "externalRefs": [
+    {
+     "referenceCategory": "SECURITY",
+     "referenceLocator": "cpe:2.3:a:googleapis:gnostic:v0.5.5:*:*:*:*:*:*:*",
+     "referenceType": "cpe23Type"
+    },
+    {
+     "referenceCategory": "PACKAGE_MANAGER",
+     "referenceLocator": "pkg:golang/github.com/googleapis/gnostic@v0.5.5",
+     "referenceType": "purl"
+    }
+   ],
+   "filesAnalyzed": false,
+   "licenseDeclared": "NONE",
+   "sourceInfo": "acquired package info from go module information: /postgres-operator",
+   "versionInfo": "v0.5.5"
+  },
+  {
+   "SPDXID": "SPDXRef-3ee53636d65841c",
+   "name": "github.com/imdario/mergo",
+   "licenseConcluded": "NONE",
+   "downloadLocation": "NOASSERTION",
+   "externalRefs": [
+    {
+     "referenceCategory": "SECURITY",
+     "referenceLocator": "cpe:2.3:a:imdario:mergo:v0.3.5:*:*:*:*:*:*:*",
+     "referenceType": "cpe23Type"
+    },
+    {
+     "referenceCategory": "PACKAGE_MANAGER",
+     "referenceLocator": "pkg:golang/github.com/imdario/mergo@v0.3.5",
+     "referenceType": "purl"
+    }
+   ],
+   "filesAnalyzed": false,
+   "licenseDeclared": "NONE",
+   "sourceInfo": "acquired package info from go module information: /postgres-operator",
+   "versionInfo": "v0.3.5"
+  },
+  {
+   "SPDXID": "SPDXRef-ea46cd4e4ec714e7",
+   "name": "github.com/jmespath/go-jmespath",
+   "licenseConcluded": "NONE",
+   "downloadLocation": "NOASSERTION",
+   "externalRefs": [
+    {
+     "referenceCategory": "SECURITY",
+     "referenceLocator": "cpe:2.3:a:jmespath:go-jmespath:v0.4.0:*:*:*:*:*:*:*",
+     "referenceType": "cpe23Type"
+    },
+    {
+     "referenceCategory": "SECURITY",
+     "referenceLocator": "cpe:2.3:a:jmespath:go_jmespath:v0.4.0:*:*:*:*:*:*:*",
+     "referenceType": "cpe23Type"
+    },
+    {
+     "referenceCategory": "PACKAGE_MANAGER",
+     "referenceLocator": "pkg:golang/github.com/jmespath/go-jmespath@v0.4.0",
+     "referenceType": "purl"
+    }
+   ],
+   "filesAnalyzed": false,
+   "licenseDeclared": "NONE",
+   "sourceInfo": "acquired package info from go module information: /postgres-operator",
+   "versionInfo": "v0.4.0"
+  },
+  {
+   "SPDXID": "SPDXRef-75114e22597f866f",
+   "name": "github.com/json-iterator/go",
+   "licenseConcluded": "NONE",
+   "downloadLocation": "NOASSERTION",
+   "externalRefs": [
+    {
+     "referenceCategory": "SECURITY",
+     "referenceLocator": "cpe:2.3:a:json-iterator:go:v1.1.11:*:*:*:*:*:*:*",
+     "referenceType": "cpe23Type"
+    },
+    {
+     "referenceCategory": "SECURITY",
+     "referenceLocator": "cpe:2.3:a:json_iterator:go:v1.1.11:*:*:*:*:*:*:*",
+     "referenceType": "cpe23Type"
+    },
+    {
+     "referenceCategory": "SECURITY",
+     "referenceLocator": "cpe:2.3:a:json:go:v1.1.11:*:*:*:*:*:*:*",
+     "referenceType": "cpe23Type"
+    },
+    {
+     "referenceCategory": "PACKAGE_MANAGER",
+     "referenceLocator": "pkg:golang/github.com/json-iterator/go@v1.1.11",
+     "referenceType": "purl"
+    }
+   ],
+   "filesAnalyzed": false,
+   "licenseDeclared": "NONE",
+   "sourceInfo": "acquired package info from go module information: /postgres-operator",
+   "versionInfo": "v1.1.11"
+  },
+  {
+   "SPDXID": "SPDXRef-55712e508660723b",
+   "name": "github.com/kr/text",
+   "licenseConcluded": "NONE",
+   "downloadLocation": "NOASSERTION",
+   "externalRefs": [
+    {
+     "referenceCategory": "SECURITY",
+     "referenceLocator": "cpe:2.3:a:kr:text:v0.2.0:*:*:*:*:*:*:*",
+     "referenceType": "cpe23Type"
+    },
+    {
+     "referenceCategory": "PACKAGE_MANAGER",
+     "referenceLocator": "pkg:golang/github.com/kr/text@v0.2.0",
+     "referenceType": "purl"
+    }
+   ],
+   "filesAnalyzed": false,
+   "licenseDeclared": "NONE",
+   "sourceInfo": "acquired package info from go module information: /postgres-operator",
+   "versionInfo": "v0.2.0"
+  },
+  {
+   "SPDXID": "SPDXRef-fba8eb9a7fa666f5",
+   "name": "github.com/lib/pq",
+   "licenseConcluded": "NONE",
+   "downloadLocation": "NOASSERTION",
+   "externalRefs": [
+    {
+     "referenceCategory": "SECURITY",
+     "referenceLocator": "cpe:2.3:a:lib:pq:v1.10.4:*:*:*:*:*:*:*",
+     "referenceType": "cpe23Type"
+    },
+    {
+     "referenceCategory": "PACKAGE_MANAGER",
+     "referenceLocator": "pkg:golang/github.com/lib/pq@v1.10.4",
+     "referenceType": "purl"
+    }
+   ],
+   "filesAnalyzed": false,
+   "licenseDeclared": "NONE",
+   "sourceInfo": "acquired package info from go module information: /postgres-operator",
+   "versionInfo": "v1.10.4"
+  },
+  {
+   "SPDXID": "SPDXRef-960be0cd55429b37",
+   "name": "github.com/moby/spdystream",
+   "licenseConcluded": "NONE",
+   "downloadLocation": "NOASSERTION",
+   "externalRefs": [
+    {
+     "referenceCategory": "SECURITY",
+     "referenceLocator": "cpe:2.3:a:moby:spdystream:v0.2.0:*:*:*:*:*:*:*",
+     "referenceType": "cpe23Type"
+    },
+    {
+     "referenceCategory": "PACKAGE_MANAGER",
+     "referenceLocator": "pkg:golang/github.com/moby/spdystream@v0.2.0",
+     "referenceType": "purl"
+    }
+   ],
+   "filesAnalyzed": false,
+   "licenseDeclared": "NONE",
+   "sourceInfo": "acquired package info from go module information: /postgres-operator",
+   "versionInfo": "v0.2.0"
+  },
+  {
+   "SPDXID": "SPDXRef-f5788fd73f28b199",
+   "name": "github.com/modern-go/concurrent",
+   "licenseConcluded": "NONE",
+   "downloadLocation": "NOASSERTION",
+   "externalRefs": [
+    {
+     "referenceCategory": "SECURITY",
+     "referenceLocator": "cpe:2.3:a:modern-go:concurrent:v0.0.0-20180306012644-bacd9c7ef1dd:*:*:*:*:*:*:*",
+     "referenceType": "cpe23Type"
+    },
+    {
+     "referenceCategory": "SECURITY",
+     "referenceLocator": "cpe:2.3:a:modern_go:concurrent:v0.0.0-20180306012644-bacd9c7ef1dd:*:*:*:*:*:*:*",
+     "referenceType": "cpe23Type"
+    },
+    {
+     "referenceCategory": "SECURITY",
+     "referenceLocator": "cpe:2.3:a:modern:concurrent:v0.0.0-20180306012644-bacd9c7ef1dd:*:*:*:*:*:*:*",
+     "referenceType": "cpe23Type"
+    },
+    {
+     "referenceCategory": "PACKAGE_MANAGER",
+     "referenceLocator": "pkg:golang/github.com/modern-go/concurrent@v0.0.0-20180306012644-bacd9c7ef1dd",
+     "referenceType": "purl"
+    }
+   ],
+   "filesAnalyzed": false,
+   "licenseDeclared": "NONE",
+   "sourceInfo": "acquired package info from go module information: /postgres-operator",
+   "versionInfo": "v0.0.0-20180306012644-bacd9c7ef1dd"
+  },
+  {
+   "SPDXID": "SPDXRef-ee157cfcc7cbd8d4",
+   "name": "github.com/modern-go/reflect2",
+   "licenseConcluded": "NONE",
+   "downloadLocation": "NOASSERTION",
+   "externalRefs": [
+    {
+     "referenceCategory": "SECURITY",
+     "referenceLocator": "cpe:2.3:a:modern-go:reflect2:v1.0.1:*:*:*:*:*:*:*",
+     "referenceType": "cpe23Type"
+    },
+    {
+     "referenceCategory": "SECURITY",
+     "referenceLocator": "cpe:2.3:a:modern_go:reflect2:v1.0.1:*:*:*:*:*:*:*",
+     "referenceType": "cpe23Type"
+    },
+    {
+     "referenceCategory": "SECURITY",
+     "referenceLocator": "cpe:2.3:a:modern:reflect2:v1.0.1:*:*:*:*:*:*:*",
+     "referenceType": "cpe23Type"
+    },
+    {
+     "referenceCategory": "PACKAGE_MANAGER",
+     "referenceLocator": "pkg:golang/github.com/modern-go/reflect2@v1.0.1",
+     "referenceType": "purl"
+    }
+   ],
+   "filesAnalyzed": false,
+   "licenseDeclared": "NONE",
+   "sourceInfo": "acquired package info from go module information: /postgres-operator",
+   "versionInfo": "v1.0.1"
+  },
+  {
+   "SPDXID": "SPDXRef-dfc0aab7e3ca702",
+   "name": "github.com/motomux/pretty",
+   "licenseConcluded": "NONE",
+   "downloadLocation": "NOASSERTION",
+   "externalRefs": [
+    {
+     "referenceCategory": "SECURITY",
+     "referenceLocator": "cpe:2.3:a:motomux:pretty:v0.0.0-20161209205251-b2aad2c9a95d:*:*:*:*:*:*:*",
+     "referenceType": "cpe23Type"
+    },
+    {
+     "referenceCategory": "PACKAGE_MANAGER",
+     "referenceLocator": "pkg:golang/github.com/motomux/pretty@v0.0.0-20161209205251-b2aad2c9a95d",
+     "referenceType": "purl"
+    }
+   ],
+   "filesAnalyzed": false,
+   "licenseDeclared": "NONE",
+   "sourceInfo": "acquired package info from go module information: /postgres-operator",
+   "versionInfo": "v0.0.0-20161209205251-b2aad2c9a95d"
+  },
+  {
+   "SPDXID": "SPDXRef-d08b56c7f3cb6431",
+   "name": "github.com/pkg/errors",
+   "licenseConcluded": "NONE",
+   "downloadLocation": "NOASSERTION",
+   "externalRefs": [
+    {
+     "referenceCategory": "SECURITY",
+     "referenceLocator": "cpe:2.3:a:pkg:errors:v0.9.1:*:*:*:*:*:*:*",
+     "referenceType": "cpe23Type"
+    },
+    {
+     "referenceCategory": "PACKAGE_MANAGER",
+     "referenceLocator": "pkg:golang/github.com/pkg/errors@v0.9.1",
+     "referenceType": "purl"
+    }
+   ],
+   "filesAnalyzed": false,
+   "licenseDeclared": "NONE",
+   "sourceInfo": "acquired package info from go module information: /postgres-operator",
+   "versionInfo": "v0.9.1"
+  },
+  {
+   "SPDXID": "SPDXRef-f5d01a06555f932c",
+   "name": "github.com/r3labs/diff",
+   "licenseConcluded": "NONE",
+   "downloadLocation": "NOASSERTION",
+   "externalRefs": [
+    {
+     "referenceCategory": "SECURITY",
+     "referenceLocator": "cpe:2.3:a:r3labs:diff:v1.1.0:*:*:*:*:*:*:*",
+     "referenceType": "cpe23Type"
+    },
+    {
+     "referenceCategory": "PACKAGE_MANAGER",
+     "referenceLocator": "pkg:golang/github.com/r3labs/diff@v1.1.0",
+     "referenceType": "purl"
+    }
+   ],
+   "filesAnalyzed": false,
+   "licenseDeclared": "NONE",
+   "sourceInfo": "acquired package info from go module information: /postgres-operator",
+   "versionInfo": "v1.1.0"
+  },
+  {
+   "SPDXID": "SPDXRef-99cc1edde1241477",
+   "name": "github.com/sirupsen/logrus",
+   "licenseConcluded": "NONE",
+   "downloadLocation": "NOASSERTION",
+   "externalRefs": [
+    {
+     "referenceCategory": "SECURITY",
+     "referenceLocator": "cpe:2.3:a:sirupsen:logrus:v1.8.1:*:*:*:*:*:*:*",
+     "referenceType": "cpe23Type"
+    },
+    {
+     "referenceCategory": "PACKAGE_MANAGER",
+     "referenceLocator": "pkg:golang/github.com/sirupsen/logrus@v1.8.1",
+     "referenceType": "purl"
+    }
+   ],
+   "filesAnalyzed": false,
+   "licenseDeclared": "NONE",
+   "sourceInfo": "acquired package info from go module information: /postgres-operator",
+   "versionInfo": "v1.8.1"
+  },
+  {
+   "SPDXID": "SPDXRef-ddfd811cfb4d6b53",
+   "name": "github.com/spf13/pflag",
+   "licenseConcluded": "NONE",
+   "downloadLocation": "NOASSERTION",
+   "externalRefs": [
+    {
+     "referenceCategory": "SECURITY",
+     "referenceLocator": "cpe:2.3:a:spf13:pflag:v1.0.5:*:*:*:*:*:*:*",
+     "referenceType": "cpe23Type"
+    },
+    {
+     "referenceCategory": "PACKAGE_MANAGER",
+     "referenceLocator": "pkg:golang/github.com/spf13/pflag@v1.0.5",
+     "referenceType": "purl"
+    }
+   ],
+   "filesAnalyzed": false,
+   "licenseDeclared": "NONE",
+   "sourceInfo": "acquired package info from go module information: /postgres-operator",
+   "versionInfo": "v1.0.5"
+  },
+  {
+   "SPDXID": "SPDXRef-c51fb6e2054aae86",
+   "name": "github.com/zalando/postgres-operator",
+   "licenseConcluded": "NONE",
+   "downloadLocation": "NOASSERTION",
+   "externalRefs": [
+    {
+     "referenceCategory": "SECURITY",
+     "referenceLocator": "cpe:2.3:a:zalando:postgres-operator:\\(devel\\):*:*:*:*:*:*:*",
+     "referenceType": "cpe23Type"
+    },
+    {
+     "referenceCategory": "SECURITY",
+     "referenceLocator": "cpe:2.3:a:zalando:postgres_operator:\\(devel\\):*:*:*:*:*:*:*",
+     "referenceType": "cpe23Type"
+    },
+    {
+     "referenceCategory": "PACKAGE_MANAGER",
+     "referenceLocator": "pkg:golang/github.com/zalando/postgres-operator@(devel)",
+     "referenceType": "purl"
+    }
+   ],
+   "filesAnalyzed": false,
+   "licenseDeclared": "NONE",
+   "sourceInfo": "acquired package info from go module information: /postgres-operator",
+   "versionInfo": "(devel)"
+  },
+  {
+   "SPDXID": "SPDXRef-b943d93fcfb5e619",
+   "name": "golang.org/x/crypto",
+   "licenseConcluded": "NONE",
+   "downloadLocation": "NOASSERTION",
+   "externalRefs": [
+    {
+     "referenceCategory": "SECURITY",
+     "referenceLocator": "cpe:2.3:a:golang:x\\/crypto:v0.0.0-20211202192323-5770296d904e:*:*:*:*:*:*:*",
+     "referenceType": "cpe23Type"
+    },
+    {
+     "referenceCategory": "PACKAGE_MANAGER",
+     "referenceLocator": "pkg:golang/golang.org/x/crypto@v0.0.0-20211202192323-5770296d904e",
+     "referenceType": "purl"
+    }
+   ],
+   "filesAnalyzed": false,
+   "licenseDeclared": "NONE",
+   "sourceInfo": "acquired package info from go module information: /postgres-operator",
+   "versionInfo": "v0.0.0-20211202192323-5770296d904e"
+  },
+  {
+   "SPDXID": "SPDXRef-79fbe46624b20d07",
+   "name": "golang.org/x/net",
+   "licenseConcluded": "NONE",
+   "downloadLocation": "NOASSERTION",
+   "externalRefs": [
+    {
+     "referenceCategory": "SECURITY",
+     "referenceLocator": "cpe:2.3:a:golang:x\\/net:v0.0.0-20211112202133-69e39bad7dc2:*:*:*:*:*:*:*",
+     "referenceType": "cpe23Type"
+    },
+    {
+     "referenceCategory": "PACKAGE_MANAGER",
+     "referenceLocator": "pkg:golang/golang.org/x/net@v0.0.0-20211112202133-69e39bad7dc2",
+     "referenceType": "purl"
+    }
+   ],
+   "filesAnalyzed": false,
+   "licenseDeclared": "NONE",
+   "sourceInfo": "acquired package info from go module information: /postgres-operator",
+   "versionInfo": "v0.0.0-20211112202133-69e39bad7dc2"
+  },
+  {
+   "SPDXID": "SPDXRef-42c2307f67c21413",
+   "name": "golang.org/x/oauth2",
+   "licenseConcluded": "NONE",
+   "downloadLocation": "NOASSERTION",
+   "externalRefs": [
+    {
+     "referenceCategory": "SECURITY",
+     "referenceLocator": "cpe:2.3:a:golang:x\\/oauth2:v0.0.0-20210402161424-2e8d93401602:*:*:*:*:*:*:*",
+     "referenceType": "cpe23Type"
+    },
+    {
+     "referenceCategory": "PACKAGE_MANAGER",
+     "referenceLocator": "pkg:golang/golang.org/x/oauth2@v0.0.0-20210402161424-2e8d93401602",
+     "referenceType": "purl"
+    }
+   ],
+   "filesAnalyzed": false,
+   "licenseDeclared": "NONE",
+   "sourceInfo": "acquired package info from go module information: /postgres-operator",
+   "versionInfo": "v0.0.0-20210402161424-2e8d93401602"
+  },
+  {
+   "SPDXID": "SPDXRef-ad1300e21418f4fc",
+   "name": "golang.org/x/sys",
+   "licenseConcluded": "NONE",
+   "downloadLocation": "NOASSERTION",
+   "externalRefs": [
+    {
+     "referenceCategory": "SECURITY",
+     "referenceLocator": "cpe:2.3:a:golang:x\\/sys:v0.0.0-20211124211545-fe61309f8881:*:*:*:*:*:*:*",
+     "referenceType": "cpe23Type"
+    },
+    {
+     "referenceCategory": "PACKAGE_MANAGER",
+     "referenceLocator": "pkg:golang/golang.org/x/sys@v0.0.0-20211124211545-fe61309f8881",
+     "referenceType": "purl"
+    }
+   ],
+   "filesAnalyzed": false,
+   "licenseDeclared": "NONE",
+   "sourceInfo": "acquired package info from go module information: /postgres-operator",
+   "versionInfo": "v0.0.0-20211124211545-fe61309f8881"
+  },
+  {
+   "SPDXID": "SPDXRef-5efb4a8199a21907",
+   "name": "golang.org/x/term",
+   "licenseConcluded": "NONE",
+   "downloadLocation": "NOASSERTION",
+   "externalRefs": [
+    {
+     "referenceCategory": "SECURITY",
+     "referenceLocator": "cpe:2.3:a:golang:x\\/term:v0.0.0-20210220032956-6a3ed077a48d:*:*:*:*:*:*:*",
+     "referenceType": "cpe23Type"
+    },
+    {
+     "referenceCategory": "PACKAGE_MANAGER",
+     "referenceLocator": "pkg:golang/golang.org/x/term@v0.0.0-20210220032956-6a3ed077a48d",
+     "referenceType": "purl"
+    }
+   ],
+   "filesAnalyzed": false,
+   "licenseDeclared": "NONE",
+   "sourceInfo": "acquired package info from go module information: /postgres-operator",
+   "versionInfo": "v0.0.0-20210220032956-6a3ed077a48d"
+  },
+  {
+   "SPDXID": "SPDXRef-fbe1b4ad5d0ac8d9",
+   "name": "golang.org/x/text",
+   "licenseConcluded": "NONE",
+   "downloadLocation": "NOASSERTION",
+   "externalRefs": [
+    {
+     "referenceCategory": "SECURITY",
+     "referenceLocator": "cpe:2.3:a:golang:x\\/text:v0.3.6:*:*:*:*:*:*:*",
+     "referenceType": "cpe23Type"
+    },
+    {
+     "referenceCategory": "PACKAGE_MANAGER",
+     "referenceLocator": "pkg:golang/golang.org/x/text@v0.3.6",
+     "referenceType": "purl"
+    }
+   ],
+   "filesAnalyzed": false,
+   "licenseDeclared": "NONE",
+   "sourceInfo": "acquired package info from go module information: /postgres-operator",
+   "versionInfo": "v0.3.6"
+  },
+  {
+   "SPDXID": "SPDXRef-1562fead0d6ce742",
+   "name": "golang.org/x/time",
+   "licenseConcluded": "NONE",
+   "downloadLocation": "NOASSERTION",
+   "externalRefs": [
+    {
+     "referenceCategory": "SECURITY",
+     "referenceLocator": "cpe:2.3:a:golang:x\\/time:v0.0.0-20210723032227-1f47c861a9ac:*:*:*:*:*:*:*",
+     "referenceType": "cpe23Type"
+    },
+    {
+     "referenceCategory": "PACKAGE_MANAGER",
+     "referenceLocator": "pkg:golang/golang.org/x/time@v0.0.0-20210723032227-1f47c861a9ac",
+     "referenceType": "purl"
+    }
+   ],
+   "filesAnalyzed": false,
+   "licenseDeclared": "NONE",
+   "sourceInfo": "acquired package info from go module information: /postgres-operator",
+   "versionInfo": "v0.0.0-20210723032227-1f47c861a9ac"
+  },
+  {
+   "SPDXID": "SPDXRef-fbeccc4be21c0111",
+   "name": "google.golang.org/protobuf",
+   "licenseConcluded": "NONE",
+   "downloadLocation": "NOASSERTION",
+   "externalRefs": [
+    {
+     "referenceCategory": "SECURITY",
+     "referenceLocator": "cpe:2.3:a:google:protobuf:v1.26.0:*:*:*:*:*:*:*",
+     "referenceType": "cpe23Type"
+    },
+    {
+     "referenceCategory": "PACKAGE_MANAGER",
+     "referenceLocator": "pkg:golang/google.golang.org/protobuf@v1.26.0",
+     "referenceType": "purl"
+    }
+   ],
+   "filesAnalyzed": false,
+   "licenseDeclared": "NONE",
+   "sourceInfo": "acquired package info from go module information: /postgres-operator",
+   "versionInfo": "v1.26.0"
+  },
+  {
+   "SPDXID": "SPDXRef-f0beccba494ac12c",
+   "name": "gopkg.in/inf.v0",
+   "licenseConcluded": "NONE",
+   "downloadLocation": "NOASSERTION",
+   "externalRefs": [
+    {
+     "referenceCategory": "PACKAGE_MANAGER",
+     "referenceLocator": "pkg:golang/gopkg.in/inf.v0@v0.9.1",
+     "referenceType": "purl"
+    }
+   ],
+   "filesAnalyzed": false,
+   "licenseDeclared": "NONE",
+   "sourceInfo": "acquired package info from go module information: /postgres-operator",
+   "versionInfo": "v0.9.1"
+  },
+  {
+   "SPDXID": "SPDXRef-b726e49e754c665d",
+   "name": "gopkg.in/yaml.v2",
+   "licenseConcluded": "NONE",
+   "downloadLocation": "NOASSERTION",
+   "externalRefs": [
+    {
+     "referenceCategory": "PACKAGE_MANAGER",
+     "referenceLocator": "pkg:golang/gopkg.in/yaml.v2@v2.4.0",
+     "referenceType": "purl"
+    }
+   ],
+   "filesAnalyzed": false,
+   "licenseDeclared": "NONE",
+   "sourceInfo": "acquired package info from go module information: /postgres-operator",
+   "versionInfo": "v2.4.0"
+  },
+  {
+   "SPDXID": "SPDXRef-b856c84f8265d3c3",
+   "name": "gopkg.in/yaml.v3",
+   "licenseConcluded": "NONE",
+   "downloadLocation": "NOASSERTION",
+   "externalRefs": [
+    {
+     "referenceCategory": "PACKAGE_MANAGER",
+     "referenceLocator": "pkg:golang/gopkg.in/yaml.v3@v3.0.0-20210107192922-496545a6307b",
+     "referenceType": "purl"
+    }
+   ],
+   "filesAnalyzed": false,
+   "licenseDeclared": "NONE",
+   "sourceInfo": "acquired package info from go module information: /postgres-operator",
+   "versionInfo": "v3.0.0-20210107192922-496545a6307b"
+  },
+  {
+   "SPDXID": "SPDXRef-1858266741770be3",
+   "name": "k8s.io/api",
+   "licenseConcluded": "NONE",
+   "downloadLocation": "NOASSERTION",
+   "externalRefs": [
+    {
+     "referenceCategory": "PACKAGE_MANAGER",
+     "referenceLocator": "pkg:golang/k8s.io/api@v0.22.4",
+     "referenceType": "purl"
+    }
+   ],
+   "filesAnalyzed": false,
+   "licenseDeclared": "NONE",
+   "sourceInfo": "acquired package info from go module information: /postgres-operator",
+   "versionInfo": "v0.22.4"
+  },
+  {
+   "SPDXID": "SPDXRef-fb488f6526a0113d",
+   "name": "k8s.io/apiextensions-apiserver",
+   "licenseConcluded": "NONE",
+   "downloadLocation": "NOASSERTION",
+   "externalRefs": [
+    {
+     "referenceCategory": "PACKAGE_MANAGER",
+     "referenceLocator": "pkg:golang/k8s.io/apiextensions-apiserver@v0.22.4",
+     "referenceType": "purl"
+    }
+   ],
+   "filesAnalyzed": false,
+   "licenseDeclared": "NONE",
+   "sourceInfo": "acquired package info from go module information: /postgres-operator",
+   "versionInfo": "v0.22.4"
+  },
+  {
+   "SPDXID": "SPDXRef-9fbf26dbe9721da4",
+   "name": "k8s.io/apimachinery",
+   "licenseConcluded": "NONE",
+   "downloadLocation": "NOASSERTION",
+   "externalRefs": [
+    {
+     "referenceCategory": "PACKAGE_MANAGER",
+     "referenceLocator": "pkg:golang/k8s.io/apimachinery@v0.22.4",
+     "referenceType": "purl"
+    }
+   ],
+   "filesAnalyzed": false,
+   "licenseDeclared": "NONE",
+   "sourceInfo": "acquired package info from go module information: /postgres-operator",
+   "versionInfo": "v0.22.4"
+  },
+  {
+   "SPDXID": "SPDXRef-680210cb059a1026",
+   "name": "k8s.io/client-go",
+   "licenseConcluded": "NONE",
+   "downloadLocation": "NOASSERTION",
+   "externalRefs": [
+    {
+     "referenceCategory": "PACKAGE_MANAGER",
+     "referenceLocator": "pkg:golang/k8s.io/client-go@v0.22.4",
+     "referenceType": "purl"
+    }
+   ],
+   "filesAnalyzed": false,
+   "licenseDeclared": "NONE",
+   "sourceInfo": "acquired package info from go module information: /postgres-operator",
+   "versionInfo": "v0.22.4"
+  },
+  {
+   "SPDXID": "SPDXRef-aa6e76b221ed6570",
+   "name": "k8s.io/klog/v2",
+   "licenseConcluded": "NONE",
+   "downloadLocation": "NOASSERTION",
+   "externalRefs": [
+    {
+     "referenceCategory": "SECURITY",
+     "referenceLocator": "cpe:2.3:a:klog:v2:v2.9.0:*:*:*:*:*:*:*",
+     "referenceType": "cpe23Type"
+    },
+    {
+     "referenceCategory": "PACKAGE_MANAGER",
+     "referenceLocator": "pkg:golang/k8s.io/klog/v2@v2.9.0",
+     "referenceType": "purl"
+    }
+   ],
+   "filesAnalyzed": false,
+   "licenseDeclared": "NONE",
+   "sourceInfo": "acquired package info from go module information: /postgres-operator",
+   "versionInfo": "v2.9.0"
+  },
+  {
+   "SPDXID": "SPDXRef-a2dbbfb924f18daf",
+   "name": "k8s.io/kube-openapi",
+   "licenseConcluded": "NONE",
+   "downloadLocation": "NOASSERTION",
+   "externalRefs": [
+    {
+     "referenceCategory": "PACKAGE_MANAGER",
+     "referenceLocator": "pkg:golang/k8s.io/kube-openapi@v0.0.0-20211109043538-20434351676c",
+     "referenceType": "purl"
+    }
+   ],
+   "filesAnalyzed": false,
+   "licenseDeclared": "NONE",
+   "sourceInfo": "acquired package info from go module information: /postgres-operator",
+   "versionInfo": "v0.0.0-20211109043538-20434351676c"
+  },
+  {
+   "SPDXID": "SPDXRef-9f56df60dcaafb62",
+   "name": "k8s.io/utils",
+   "licenseConcluded": "NONE",
+   "downloadLocation": "NOASSERTION",
+   "externalRefs": [
+    {
+     "referenceCategory": "PACKAGE_MANAGER",
+     "referenceLocator": "pkg:golang/k8s.io/utils@v0.0.0-20210819203725-bdf08cb9a70a",
+     "referenceType": "purl"
+    }
+   ],
+   "filesAnalyzed": false,
+   "licenseDeclared": "NONE",
+   "sourceInfo": "acquired package info from go module information: /postgres-operator",
+   "versionInfo": "v0.0.0-20210819203725-bdf08cb9a70a"
+  },
+  {
+   "SPDXID": "SPDXRef-f80d96baba263a29",
+   "name": "libc-utils",
+   "licenseConcluded": "BSD-2-Clause AND BSD-3-Clause",
+   "description": "Meta package to pull in correct libc",
+   "downloadLocation": "https://alpinelinux.org",
+   "externalRefs": [
+    {
+     "referenceCategory": "SECURITY",
+     "referenceLocator": "cpe:2.3:a:libc-utils:libc-utils:0.7.2-r3:*:*:*:*:*:*:*",
+     "referenceType": "cpe23Type"
+    },
+    {
+     "referenceCategory": "SECURITY",
+     "referenceLocator": "cpe:2.3:a:libc-utils:libc_utils:0.7.2-r3:*:*:*:*:*:*:*",
+     "referenceType": "cpe23Type"
+    },
+    {
+     "referenceCategory": "SECURITY",
+     "referenceLocator": "cpe:2.3:a:libc_utils:libc-utils:0.7.2-r3:*:*:*:*:*:*:*",
+     "referenceType": "cpe23Type"
+    },
+    {
+     "referenceCategory": "SECURITY",
+     "referenceLocator": "cpe:2.3:a:libc_utils:libc_utils:0.7.2-r3:*:*:*:*:*:*:*",
+     "referenceType": "cpe23Type"
+    },
+    {
+     "referenceCategory": "SECURITY",
+     "referenceLocator": "cpe:2.3:a:libc:libc-utils:0.7.2-r3:*:*:*:*:*:*:*",
+     "referenceType": "cpe23Type"
+    },
+    {
+     "referenceCategory": "SECURITY",
+     "referenceLocator": "cpe:2.3:a:libc:libc_utils:0.7.2-r3:*:*:*:*:*:*:*",
+     "referenceType": "cpe23Type"
+    },
+    {
+     "referenceCategory": "PACKAGE_MANAGER",
+     "referenceLocator": "pkg:alpine/libc-utils@0.7.2-r3?arch=x86_64&upstream=libc-dev&distro=alpine-3.12.12",
+     "referenceType": "purl"
+    }
+   ],
+   "filesAnalyzed": false,
+   "licenseDeclared": "BSD-2-Clause AND BSD-3-Clause",
+   "originator": "Person: Natanael Copa <ncopa@alpinelinux.org>",
+   "sourceInfo": "acquired package info from APK DB: /lib/apk/db/installed",
+   "versionInfo": "0.7.2-r3"
+  },
+  {
+   "SPDXID": "SPDXRef-29dec83807252c4d",
+   "name": "libcrypto1.1",
+   "licenseConcluded": "OpenSSL",
+   "description": "Crypto library from openssl",
+   "downloadLocation": "https://www.openssl.org/",
+   "externalRefs": [
+    {
+     "referenceCategory": "SECURITY",
+     "referenceLocator": "cpe:2.3:a:libcrypto1.1:libcrypto1.1:1.1.1n-r0:*:*:*:*:*:*:*",
+     "referenceType": "cpe23Type"
+    },
+    {
+     "referenceCategory": "PACKAGE_MANAGER",
+     "referenceLocator": "pkg:alpine/libcrypto1.1@1.1.1n-r0?arch=x86_64&upstream=openssl&distro=alpine-3.12.12",
+     "referenceType": "purl"
+    }
+   ],
+   "filesAnalyzed": false,
+   "licenseDeclared": "OpenSSL",
+   "originator": "Person: Timo Teras <timo.teras@iki.fi>",
+   "sourceInfo": "acquired package info from APK DB: /lib/apk/db/installed",
+   "versionInfo": "1.1.1n-r0"
+  },
+  {
+   "SPDXID": "SPDXRef-45e3407a0d11e6ad",
+   "name": "libcurl",
+   "licenseConcluded": "MIT",
+   "description": "The multiprotocol file transfer library",
+   "downloadLocation": "https://curl.se/",
+   "externalRefs": [
+    {
+     "referenceCategory": "SECURITY",
+     "referenceLocator": "cpe:2.3:a:libcurl:libcurl:7.79.1-r1:*:*:*:*:*:*:*",
+     "referenceType": "cpe23Type"
+    },
+    {
+     "referenceCategory": "PACKAGE_MANAGER",
+     "referenceLocator": "pkg:alpine/libcurl@7.79.1-r1?arch=x86_64&upstream=curl&distro=alpine-3.12.12",
+     "referenceType": "purl"
+    }
+   ],
+   "filesAnalyzed": false,
+   "licenseDeclared": "MIT",
+   "originator": "Person: Natanael Copa <ncopa@alpinelinux.org>",
+   "sourceInfo": "acquired package info from APK DB: /lib/apk/db/installed",
+   "versionInfo": "7.79.1-r1"
+  },
+  {
+   "SPDXID": "SPDXRef-7aa7a3e1413a8d52",
+   "name": "libssl1.1",
+   "licenseConcluded": "OpenSSL",
+   "description": "SSL shared libraries",
+   "downloadLocation": "https://www.openssl.org/",
+   "externalRefs": [
+    {
+     "referenceCategory": "SECURITY",
+     "referenceLocator": "cpe:2.3:a:libssl1.1:libssl1.1:1.1.1n-r0:*:*:*:*:*:*:*",
+     "referenceType": "cpe23Type"
+    },
+    {
+     "referenceCategory": "PACKAGE_MANAGER",
+     "referenceLocator": "pkg:alpine/libssl1.1@1.1.1n-r0?arch=x86_64&upstream=openssl&distro=alpine-3.12.12",
+     "referenceType": "purl"
+    }
+   ],
+   "filesAnalyzed": false,
+   "licenseDeclared": "OpenSSL",
+   "originator": "Person: Timo Teras <timo.teras@iki.fi>",
+   "sourceInfo": "acquired package info from APK DB: /lib/apk/db/installed",
+   "versionInfo": "1.1.1n-r0"
+  },
+  {
+   "SPDXID": "SPDXRef-cb2f5162c15647c4",
+   "name": "libtls-standalone",
+   "licenseConcluded": "ISC",
+   "description": "libtls extricated from libressl sources",
+   "downloadLocation": "https://www.libressl.org/",
+   "externalRefs": [
+    {
+     "referenceCategory": "SECURITY",
+     "referenceLocator": "cpe:2.3:a:libtls-standalone:libtls-standalone:2.9.1-r1:*:*:*:*:*:*:*",
+     "referenceType": "cpe23Type"
+    },
+    {
+     "referenceCategory": "SECURITY",
+     "referenceLocator": "cpe:2.3:a:libtls-standalone:libtls_standalone:2.9.1-r1:*:*:*:*:*:*:*",
+     "referenceType": "cpe23Type"
+    },
+    {
+     "referenceCategory": "SECURITY",
+     "referenceLocator": "cpe:2.3:a:libtls_standalone:libtls-standalone:2.9.1-r1:*:*:*:*:*:*:*",
+     "referenceType": "cpe23Type"
+    },
+    {
+     "referenceCategory": "SECURITY",
+     "referenceLocator": "cpe:2.3:a:libtls_standalone:libtls_standalone:2.9.1-r1:*:*:*:*:*:*:*",
+     "referenceType": "cpe23Type"
+    },
+    {
+     "referenceCategory": "SECURITY",
+     "referenceLocator": "cpe:2.3:a:libtls:libtls-standalone:2.9.1-r1:*:*:*:*:*:*:*",
+     "referenceType": "cpe23Type"
+    },
+    {
+     "referenceCategory": "SECURITY",
+     "referenceLocator": "cpe:2.3:a:libtls:libtls_standalone:2.9.1-r1:*:*:*:*:*:*:*",
+     "referenceType": "cpe23Type"
+    },
+    {
+     "referenceCategory": "PACKAGE_MANAGER",
+     "referenceLocator": "pkg:alpine/libtls-standalone@2.9.1-r1?arch=x86_64&upstream=libtls-standalone&distro=alpine-3.12.12",
+     "referenceType": "purl"
+    }
+   ],
+   "filesAnalyzed": false,
+   "licenseDeclared": "ISC",
+   "sourceInfo": "acquired package info from APK DB: /lib/apk/db/installed",
+   "versionInfo": "2.9.1-r1"
+  },
+  {
+   "SPDXID": "SPDXRef-8838e981d6f951d5",
+   "name": "musl",
+   "licenseConcluded": "MIT",
+   "description": "the musl c library (libc) implementation",
+   "downloadLocation": "https://musl.libc.org/",
+   "externalRefs": [
+    {
+     "referenceCategory": "SECURITY",
+     "referenceLocator": "cpe:2.3:a:musl:musl:1.1.24-r10:*:*:*:*:*:*:*",
+     "referenceType": "cpe23Type"
+    },
+    {
+     "referenceCategory": "PACKAGE_MANAGER",
+     "referenceLocator": "pkg:alpine/musl@1.1.24-r10?arch=x86_64&upstream=musl&distro=alpine-3.12.12",
+     "referenceType": "purl"
+    }
+   ],
+   "filesAnalyzed": false,
+   "licenseDeclared": "MIT",
+   "originator": "Person: Timo Teräs <timo.teras@iki.fi>",
+   "sourceInfo": "acquired package info from APK DB: /lib/apk/db/installed",
+   "versionInfo": "1.1.24-r10"
+  },
+  {
+   "SPDXID": "SPDXRef-a9ea2a9f57787a19",
+   "name": "musl-utils",
+   "licenseConcluded": "MIT",
+   "description": "the musl c library (libc) implementation",
+   "downloadLocation": "https://musl.libc.org/",
+   "externalRefs": [
+    {
+     "referenceCategory": "SECURITY",
+     "referenceLocator": "cpe:2.3:a:musl-utils:musl-utils:1.1.24-r10:*:*:*:*:*:*:*",
+     "referenceType": "cpe23Type"
+    },
+    {
+     "referenceCategory": "SECURITY",
+     "referenceLocator": "cpe:2.3:a:musl-utils:musl_utils:1.1.24-r10:*:*:*:*:*:*:*",
+     "referenceType": "cpe23Type"
+    },
+    {
+     "referenceCategory": "SECURITY",
+     "referenceLocator": "cpe:2.3:a:musl_utils:musl-utils:1.1.24-r10:*:*:*:*:*:*:*",
+     "referenceType": "cpe23Type"
+    },
+    {
+     "referenceCategory": "SECURITY",
+     "referenceLocator": "cpe:2.3:a:musl_utils:musl_utils:1.1.24-r10:*:*:*:*:*:*:*",
+     "referenceType": "cpe23Type"
+    },
+    {
+     "referenceCategory": "SECURITY",
+     "referenceLocator": "cpe:2.3:a:musl:musl-utils:1.1.24-r10:*:*:*:*:*:*:*",
+     "referenceType": "cpe23Type"
+    },
+    {
+     "referenceCategory": "SECURITY",
+     "referenceLocator": "cpe:2.3:a:musl:musl_utils:1.1.24-r10:*:*:*:*:*:*:*",
+     "referenceType": "cpe23Type"
+    },
+    {
+     "referenceCategory": "PACKAGE_MANAGER",
+     "referenceLocator": "pkg:alpine/musl-utils@1.1.24-r10?arch=x86_64&upstream=musl&distro=alpine-3.12.12",
+     "referenceType": "purl"
+    }
+   ],
+   "filesAnalyzed": false,
+   "licenseDeclared": "MIT",
+   "originator": "Person: Timo Teräs <timo.teras@iki.fi>",
+   "sourceInfo": "acquired package info from APK DB: /lib/apk/db/installed",
+   "versionInfo": "1.1.24-r10"
+  },
+  {
+   "SPDXID": "SPDXRef-496ebaafefe360d0",
+   "name": "nghttp2-libs",
+   "licenseConcluded": "MIT",
+   "description": "Experimental HTTP/2 client, server and proxy (libraries)",
+   "downloadLocation": "https://nghttp2.org",
+   "externalRefs": [
+    {
+     "referenceCategory": "SECURITY",
+     "referenceLocator": "cpe:2.3:a:nghttp2-libs:nghttp2-libs:1.41.0-r0:*:*:*:*:*:*:*",
+     "referenceType": "cpe23Type"
+    },
+    {
+     "referenceCategory": "SECURITY",
+     "referenceLocator": "cpe:2.3:a:nghttp2-libs:nghttp2_libs:1.41.0-r0:*:*:*:*:*:*:*",
+     "referenceType": "cpe23Type"
+    },
+    {
+     "referenceCategory": "SECURITY",
+     "referenceLocator": "cpe:2.3:a:nghttp2_libs:nghttp2-libs:1.41.0-r0:*:*:*:*:*:*:*",
+     "referenceType": "cpe23Type"
+    },
+    {
+     "referenceCategory": "SECURITY",
+     "referenceLocator": "cpe:2.3:a:nghttp2_libs:nghttp2_libs:1.41.0-r0:*:*:*:*:*:*:*",
+     "referenceType": "cpe23Type"
+    },
+    {
+     "referenceCategory": "SECURITY",
+     "referenceLocator": "cpe:2.3:a:nghttp2:nghttp2-libs:1.41.0-r0:*:*:*:*:*:*:*",
+     "referenceType": "cpe23Type"
+    },
+    {
+     "referenceCategory": "SECURITY",
+     "referenceLocator": "cpe:2.3:a:nghttp2:nghttp2_libs:1.41.0-r0:*:*:*:*:*:*:*",
+     "referenceType": "cpe23Type"
+    },
+    {
+     "referenceCategory": "PACKAGE_MANAGER",
+     "referenceLocator": "pkg:alpine/nghttp2-libs@1.41.0-r0?arch=x86_64&upstream=nghttp2&distro=alpine-3.12.12",
+     "referenceType": "purl"
+    }
+   ],
+   "filesAnalyzed": false,
+   "licenseDeclared": "MIT",
+   "originator": "Person: Francesco Colista <fcolista@alpinelinux.org>",
+   "sourceInfo": "acquired package info from APK DB: /lib/apk/db/installed",
+   "versionInfo": "1.41.0-r0"
+  },
+  {
+   "SPDXID": "SPDXRef-9bb2292736678189",
+   "name": "scanelf",
+   "licenseConcluded": "GPL-2.0-only",
+   "description": "Scan ELF binaries for stuff",
+   "downloadLocation": "https://wiki.gentoo.org/wiki/Hardened/PaX_Utilities",
+   "externalRefs": [
+    {
+     "referenceCategory": "SECURITY",
+     "referenceLocator": "cpe:2.3:a:scanelf:scanelf:1.2.6-r0:*:*:*:*:*:*:*",
+     "referenceType": "cpe23Type"
+    },
+    {
+     "referenceCategory": "PACKAGE_MANAGER",
+     "referenceLocator": "pkg:alpine/scanelf@1.2.6-r0?arch=x86_64&upstream=pax-utils&distro=alpine-3.12.12",
+     "referenceType": "purl"
+    }
+   ],
+   "filesAnalyzed": false,
+   "licenseDeclared": "GPL-2.0-only",
+   "originator": "Person: Natanael Copa <ncopa@alpinelinux.org>",
+   "sourceInfo": "acquired package info from APK DB: /lib/apk/db/installed",
+   "versionInfo": "1.2.6-r0"
+  },
+  {
+   "SPDXID": "SPDXRef-80d2a3f284f82154",
+   "name": "sigs.k8s.io/structured-merge-diff/v4",
+   "licenseConcluded": "NONE",
+   "downloadLocation": "NOASSERTION",
+   "externalRefs": [
+    {
+     "referenceCategory": "SECURITY",
+     "referenceLocator": "cpe:2.3:a:structured-merge-diff:v4:v4.1.2:*:*:*:*:*:*:*",
+     "referenceType": "cpe23Type"
+    },
+    {
+     "referenceCategory": "SECURITY",
+     "referenceLocator": "cpe:2.3:a:structured_merge_diff:v4:v4.1.2:*:*:*:*:*:*:*",
+     "referenceType": "cpe23Type"
+    },
+    {
+     "referenceCategory": "SECURITY",
+     "referenceLocator": "cpe:2.3:a:structured-merge:v4:v4.1.2:*:*:*:*:*:*:*",
+     "referenceType": "cpe23Type"
+    },
+    {
+     "referenceCategory": "SECURITY",
+     "referenceLocator": "cpe:2.3:a:structured_merge:v4:v4.1.2:*:*:*:*:*:*:*",
+     "referenceType": "cpe23Type"
+    },
+    {
+     "referenceCategory": "SECURITY",
+     "referenceLocator": "cpe:2.3:a:structured:v4:v4.1.2:*:*:*:*:*:*:*",
+     "referenceType": "cpe23Type"
+    },
+    {
+     "referenceCategory": "PACKAGE_MANAGER",
+     "referenceLocator": "pkg:golang/sigs.k8s.io/structured-merge-diff/v4@v4.1.2",
+     "referenceType": "purl"
+    }
+   ],
+   "filesAnalyzed": false,
+   "licenseDeclared": "NONE",
+   "sourceInfo": "acquired package info from go module information: /postgres-operator",
+   "versionInfo": "v4.1.2"
+  },
+  {
+   "SPDXID": "SPDXRef-c9a2398a74c10ef4",
+   "name": "sigs.k8s.io/yaml",
+   "licenseConcluded": "NONE",
+   "downloadLocation": "NOASSERTION",
+   "externalRefs": [
+    {
+     "referenceCategory": "PACKAGE_MANAGER",
+     "referenceLocator": "pkg:golang/sigs.k8s.io/yaml@v1.2.0",
+     "referenceType": "purl"
+    }
+   ],
+   "filesAnalyzed": false,
+   "licenseDeclared": "NONE",
+   "sourceInfo": "acquired package info from go module information: /postgres-operator",
+   "versionInfo": "v1.2.0"
+  },
+  {
+   "SPDXID": "SPDXRef-45ae35e9af81ecdf",
+   "name": "ssl_client",
+   "licenseConcluded": "GPL-2.0-only",
+   "description": "EXternal ssl_client for busybox wget",
+   "downloadLocation": "https://busybox.net/",
+   "externalRefs": [
+    {
+     "referenceCategory": "SECURITY",
+     "referenceLocator": "cpe:2.3:a:ssl-client:ssl-client:1.31.1-r22:*:*:*:*:*:*:*",
+     "referenceType": "cpe23Type"
+    },
+    {
+     "referenceCategory": "SECURITY",
+     "referenceLocator": "cpe:2.3:a:ssl-client:ssl_client:1.31.1-r22:*:*:*:*:*:*:*",
+     "referenceType": "cpe23Type"
+    },
+    {
+     "referenceCategory": "SECURITY",
+     "referenceLocator": "cpe:2.3:a:ssl_client:ssl-client:1.31.1-r22:*:*:*:*:*:*:*",
+     "referenceType": "cpe23Type"
+    },
+    {
+     "referenceCategory": "SECURITY",
+     "referenceLocator": "cpe:2.3:a:ssl_client:ssl_client:1.31.1-r22:*:*:*:*:*:*:*",
+     "referenceType": "cpe23Type"
+    },
+    {
+     "referenceCategory": "SECURITY",
+     "referenceLocator": "cpe:2.3:a:ssl:ssl-client:1.31.1-r22:*:*:*:*:*:*:*",
+     "referenceType": "cpe23Type"
+    },
+    {
+     "referenceCategory": "SECURITY",
+     "referenceLocator": "cpe:2.3:a:ssl:ssl_client:1.31.1-r22:*:*:*:*:*:*:*",
+     "referenceType": "cpe23Type"
+    },
+    {
+     "referenceCategory": "PACKAGE_MANAGER",
+     "referenceLocator": "pkg:alpine/ssl_client@1.31.1-r22?arch=x86_64&upstream=busybox&distro=alpine-3.12.12",
+     "referenceType": "purl"
+    }
+   ],
+   "filesAnalyzed": false,
+   "licenseDeclared": "GPL-2.0-only",
+   "originator": "Person: Natanael Copa <ncopa@alpinelinux.org>",
+   "sourceInfo": "acquired package info from APK DB: /lib/apk/db/installed",
+   "versionInfo": "1.31.1-r22"
+  },
+  {
+   "SPDXID": "SPDXRef-10b3990af8d43075",
+   "name": "zlib",
+   "licenseConcluded": "Zlib",
+   "description": "A compression/decompression Library",
+   "downloadLocation": "https://zlib.net/",
+   "externalRefs": [
+    {
+     "referenceCategory": "SECURITY",
+     "referenceLocator": "cpe:2.3:a:zlib:zlib:1.2.12-r0:*:*:*:*:*:*:*",
+     "referenceType": "cpe23Type"
+    },
+    {
+     "referenceCategory": "PACKAGE_MANAGER",
+     "referenceLocator": "pkg:alpine/zlib@1.2.12-r0?arch=x86_64&upstream=zlib&distro=alpine-3.12.12",
+     "referenceType": "purl"
+    }
+   ],
+   "filesAnalyzed": false,
+   "licenseDeclared": "Zlib",
+   "originator": "Person: Natanael Copa <ncopa@alpinelinux.org>",
+   "sourceInfo": "acquired package info from APK DB: /lib/apk/db/installed",
+   "versionInfo": "1.2.12-r0"
+  }
+ ],
+ "files": [
+  {
+   "SPDXID": "SPDXRef-93cb7e72e1829439",
+   "comment": "layerID: sha256:1ad27bdd166b922492031b1938a4fb2f775e3d98c8f1b72051dad0570a4dd1b5",
+   "licenseConcluded": "NOASSERTION",
+   "fileName": "/bin/busybox"
+  },
+  {
+   "SPDXID": "SPDXRef-6427e5f1405a6c5a",
+   "comment": "layerID: sha256:1ad27bdd166b922492031b1938a4fb2f775e3d98c8f1b72051dad0570a4dd1b5",
+   "licenseConcluded": "NOASSERTION",
+   "fileName": "/etc/apk/keys/alpine-devel@lists.alpinelinux.org-4a6a0840.rsa.pub"
+  },
+  {
+   "SPDXID": "SPDXRef-6cc8c06359bf631a",
+   "comment": "layerID: sha256:1ad27bdd166b922492031b1938a4fb2f775e3d98c8f1b72051dad0570a4dd1b5",
+   "licenseConcluded": "NOASSERTION",
+   "fileName": "/etc/apk/keys/alpine-devel@lists.alpinelinux.org-5243ef4b.rsa.pub"
+  },
+  {
+   "SPDXID": "SPDXRef-a6f58a29a7532518",
+   "comment": "layerID: sha256:1ad27bdd166b922492031b1938a4fb2f775e3d98c8f1b72051dad0570a4dd1b5",
+   "licenseConcluded": "NOASSERTION",
+   "fileName": "/etc/apk/keys/alpine-devel@lists.alpinelinux.org-5261cecb.rsa.pub"
+  },
+  {
+   "SPDXID": "SPDXRef-4596fdd00636bad4",
+   "comment": "layerID: sha256:1ad27bdd166b922492031b1938a4fb2f775e3d98c8f1b72051dad0570a4dd1b5",
+   "licenseConcluded": "NOASSERTION",
+   "fileName": "/etc/apk/keys/alpine-devel@lists.alpinelinux.org-6165ee59.rsa.pub"
+  },
+  {
+   "SPDXID": "SPDXRef-a5885d4f40b256b0",
+   "comment": "layerID: sha256:1ad27bdd166b922492031b1938a4fb2f775e3d98c8f1b72051dad0570a4dd1b5",
+   "licenseConcluded": "NOASSERTION",
+   "fileName": "/etc/apk/keys/alpine-devel@lists.alpinelinux.org-61666e3f.rsa.pub"
+  },
+  {
+   "SPDXID": "SPDXRef-61bf61feba348fc1",
+   "comment": "layerID: sha256:2dca9c88e69552f5fbbbd2a4c532a77246f9ea2f5c8ea11af6503ce5650dd8d9",
+   "licenseConcluded": "NOASSERTION",
+   "fileName": "/etc/apk/protected_paths.d/ca-certificates.list"
+  },
+  {
+   "SPDXID": "SPDXRef-f58f4de80a0b7b7",
+   "comment": "layerID: sha256:2dca9c88e69552f5fbbbd2a4c532a77246f9ea2f5c8ea11af6503ce5650dd8d9",
+   "licenseConcluded": "NOASSERTION",
+   "fileName": "/etc/ca-certificates.conf"
+  },
+  {
+   "SPDXID": "SPDXRef-2507f42319d423b7",
+   "comment": "layerID: sha256:2dca9c88e69552f5fbbbd2a4c532a77246f9ea2f5c8ea11af6503ce5650dd8d9",
+   "licenseConcluded": "NOASSERTION",
+   "fileName": "/etc/ca-certificates/update.d/certhash"
+  },
+  {
+   "SPDXID": "SPDXRef-e0c55db1366565e6",
+   "comment": "layerID: sha256:1ad27bdd166b922492031b1938a4fb2f775e3d98c8f1b72051dad0570a4dd1b5",
+   "licenseConcluded": "NOASSERTION",
+   "fileName": "/etc/crontabs/root"
+  },
+  {
+   "SPDXID": "SPDXRef-6c6a945680115454",
+   "comment": "layerID: sha256:1ad27bdd166b922492031b1938a4fb2f775e3d98c8f1b72051dad0570a4dd1b5",
+   "licenseConcluded": "NOASSERTION",
+   "fileName": "/etc/fstab"
+  },
+  {
+   "SPDXID": "SPDXRef-799314c19f28688f",
+   "comment": "layerID: sha256:1a51d6228ab2461f601a267ae64808b97ff116ea70029973c47b2394c7f942ae",
+   "licenseConcluded": "NOASSERTION",
+   "fileName": "/etc/group"
+  },
+  {
+   "SPDXID": "SPDXRef-24ba95f0a7931610",
+   "comment": "layerID: sha256:1ad27bdd166b922492031b1938a4fb2f775e3d98c8f1b72051dad0570a4dd1b5",
+   "licenseConcluded": "NOASSERTION",
+   "fileName": "/etc/hostname"
+  },
+  {
+   "SPDXID": "SPDXRef-5387251fe0618aa8",
+   "comment": "layerID: sha256:1ad27bdd166b922492031b1938a4fb2f775e3d98c8f1b72051dad0570a4dd1b5",
+   "licenseConcluded": "NOASSERTION",
+   "fileName": "/etc/hosts"
+  },
+  {
+   "SPDXID": "SPDXRef-1d147f7477369788",
+   "comment": "layerID: sha256:1ad27bdd166b922492031b1938a4fb2f775e3d98c8f1b72051dad0570a4dd1b5",
+   "licenseConcluded": "NOASSERTION",
+   "fileName": "/etc/inittab"
+  },
+  {
+   "SPDXID": "SPDXRef-163a7959656c5a0d",
+   "comment": "layerID: sha256:1ad27bdd166b922492031b1938a4fb2f775e3d98c8f1b72051dad0570a4dd1b5",
+   "licenseConcluded": "NOASSERTION",
+   "fileName": "/etc/logrotate.d/acpid"
+  },
+  {
+   "SPDXID": "SPDXRef-8b9bff90db6dd7e",
+   "comment": "layerID: sha256:1ad27bdd166b922492031b1938a4fb2f775e3d98c8f1b72051dad0570a4dd1b5",
+   "licenseConcluded": "NOASSERTION",
+   "fileName": "/etc/modprobe.d/aliases.conf"
+  },
+  {
+   "SPDXID": "SPDXRef-6f43d88b1a7f4075",
+   "comment": "layerID: sha256:1ad27bdd166b922492031b1938a4fb2f775e3d98c8f1b72051dad0570a4dd1b5",
+   "licenseConcluded": "NOASSERTION",
+   "fileName": "/etc/modprobe.d/blacklist.conf"
+  },
+  {
+   "SPDXID": "SPDXRef-a7e8b36870f42da6",
+   "comment": "layerID: sha256:1ad27bdd166b922492031b1938a4fb2f775e3d98c8f1b72051dad0570a4dd1b5",
+   "licenseConcluded": "NOASSERTION",
+   "fileName": "/etc/modprobe.d/i386.conf"
+  },
+  {
+   "SPDXID": "SPDXRef-c379647b57783d0d",
+   "comment": "layerID: sha256:1ad27bdd166b922492031b1938a4fb2f775e3d98c8f1b72051dad0570a4dd1b5",
+   "licenseConcluded": "NOASSERTION",
+   "fileName": "/etc/modprobe.d/kms.conf"
+  },
+  {
+   "SPDXID": "SPDXRef-fd2cf3ff487cb228",
+   "comment": "layerID: sha256:1ad27bdd166b922492031b1938a4fb2f775e3d98c8f1b72051dad0570a4dd1b5",
+   "licenseConcluded": "NOASSERTION",
+   "fileName": "/etc/modules"
+  },
+  {
+   "SPDXID": "SPDXRef-be69f9d1091986a2",
+   "comment": "layerID: sha256:1ad27bdd166b922492031b1938a4fb2f775e3d98c8f1b72051dad0570a4dd1b5",
+   "licenseConcluded": "NOASSERTION",
+   "fileName": "/etc/motd"
+  },
+  {
+   "SPDXID": "SPDXRef-b2ab419080b18b68",
+   "comment": "layerID: sha256:1ad27bdd166b922492031b1938a4fb2f775e3d98c8f1b72051dad0570a4dd1b5",
+   "licenseConcluded": "NOASSERTION",
+   "fileName": "/etc/network/if-up.d/dad"
+  },
+  {
+   "SPDXID": "SPDXRef-1b80fe8feb08c88a",
+   "comment": "layerID: sha256:1a51d6228ab2461f601a267ae64808b97ff116ea70029973c47b2394c7f942ae",
+   "licenseConcluded": "NOASSERTION",
+   "fileName": "/etc/passwd"
+  },
+  {
+   "SPDXID": "SPDXRef-61a566ae390d188a",
+   "comment": "layerID: sha256:1ad27bdd166b922492031b1938a4fb2f775e3d98c8f1b72051dad0570a4dd1b5",
+   "licenseConcluded": "NOASSERTION",
+   "fileName": "/etc/profile"
+  },
+  {
+   "SPDXID": "SPDXRef-e01b1c9adc498675",
+   "comment": "layerID: sha256:1ad27bdd166b922492031b1938a4fb2f775e3d98c8f1b72051dad0570a4dd1b5",
+   "licenseConcluded": "NOASSERTION",
+   "fileName": "/etc/profile.d/color_prompt"
+  },
+  {
+   "SPDXID": "SPDXRef-224d34ec6788fe45",
+   "comment": "layerID: sha256:1ad27bdd166b922492031b1938a4fb2f775e3d98c8f1b72051dad0570a4dd1b5",
+   "licenseConcluded": "NOASSERTION",
+   "fileName": "/etc/profile.d/locale.sh"
+  },
+  {
+   "SPDXID": "SPDXRef-2a4fd6037d5e6a0b",
+   "comment": "layerID: sha256:1ad27bdd166b922492031b1938a4fb2f775e3d98c8f1b72051dad0570a4dd1b5",
+   "licenseConcluded": "NOASSERTION",
+   "fileName": "/etc/protocols"
+  },
+  {
+   "SPDXID": "SPDXRef-769bde8c4aae1502",
+   "comment": "layerID: sha256:1ad27bdd166b922492031b1938a4fb2f775e3d98c8f1b72051dad0570a4dd1b5",
+   "licenseConcluded": "NOASSERTION",
+   "fileName": "/etc/securetty"
+  },
+  {
+   "SPDXID": "SPDXRef-d9fc3f0279137264",
+   "comment": "layerID: sha256:1ad27bdd166b922492031b1938a4fb2f775e3d98c8f1b72051dad0570a4dd1b5",
+   "licenseConcluded": "NOASSERTION",
+   "fileName": "/etc/services"
+  },
+  {
+   "SPDXID": "SPDXRef-79ed7a7a9b91ef71",
+   "comment": "layerID: sha256:1a51d6228ab2461f601a267ae64808b97ff116ea70029973c47b2394c7f942ae",
+   "licenseConcluded": "NOASSERTION",
+   "fileName": "/etc/shadow"
+  },
+  {
+   "SPDXID": "SPDXRef-582dff32a6801300",
+   "comment": "layerID: sha256:1ad27bdd166b922492031b1938a4fb2f775e3d98c8f1b72051dad0570a4dd1b5",
+   "licenseConcluded": "NOASSERTION",
+   "fileName": "/etc/shells"
+  },
+  {
+   "SPDXID": "SPDXRef-4937b35733032401",
+   "comment": "layerID: sha256:2dca9c88e69552f5fbbbd2a4c532a77246f9ea2f5c8ea11af6503ce5650dd8d9",
+   "licenseConcluded": "NOASSERTION",
+   "fileName": "/etc/ssl/certs/ca-certificates.crt"
+  },
+  {
+   "SPDXID": "SPDXRef-12344e0f7d9ffcf1",
+   "comment": "layerID: sha256:1ad27bdd166b922492031b1938a4fb2f775e3d98c8f1b72051dad0570a4dd1b5",
+   "licenseConcluded": "NOASSERTION",
+   "fileName": "/etc/ssl/ct_log_list.cnf"
+  },
+  {
+   "SPDXID": "SPDXRef-160a2a6b81b5c71f",
+   "comment": "layerID: sha256:1ad27bdd166b922492031b1938a4fb2f775e3d98c8f1b72051dad0570a4dd1b5",
+   "licenseConcluded": "NOASSERTION",
+   "fileName": "/etc/ssl/ct_log_list.cnf.dist"
+  },
+  {
+   "SPDXID": "SPDXRef-e93eb4176356e1c0",
+   "comment": "layerID: sha256:1ad27bdd166b922492031b1938a4fb2f775e3d98c8f1b72051dad0570a4dd1b5",
+   "licenseConcluded": "NOASSERTION",
+   "fileName": "/etc/ssl/misc/CA.pl"
+  },
+  {
+   "SPDXID": "SPDXRef-cd70a9f7d86d85b3",
+   "comment": "layerID: sha256:1ad27bdd166b922492031b1938a4fb2f775e3d98c8f1b72051dad0570a4dd1b5",
+   "licenseConcluded": "NOASSERTION",
+   "fileName": "/etc/ssl/misc/tsget.pl"
+  },
+  {
+   "SPDXID": "SPDXRef-6432484de6ce51c1",
+   "comment": "layerID: sha256:1ad27bdd166b922492031b1938a4fb2f775e3d98c8f1b72051dad0570a4dd1b5",
+   "licenseConcluded": "NOASSERTION",
+   "fileName": "/etc/ssl/openssl.cnf"
+  },
+  {
+   "SPDXID": "SPDXRef-70365609df392e1f",
+   "comment": "layerID: sha256:1ad27bdd166b922492031b1938a4fb2f775e3d98c8f1b72051dad0570a4dd1b5",
+   "licenseConcluded": "NOASSERTION",
+   "fileName": "/etc/ssl/openssl.cnf.dist"
+  },
+  {
+   "SPDXID": "SPDXRef-645431670db7b8df",
+   "comment": "layerID: sha256:1ad27bdd166b922492031b1938a4fb2f775e3d98c8f1b72051dad0570a4dd1b5",
+   "licenseConcluded": "NOASSERTION",
+   "fileName": "/etc/sysctl.conf"
+  },
+  {
+   "SPDXID": "SPDXRef-ad5b3fa643444ef8",
+   "comment": "layerID: sha256:1ad27bdd166b922492031b1938a4fb2f775e3d98c8f1b72051dad0570a4dd1b5",
+   "licenseConcluded": "NOASSERTION",
+   "fileName": "/etc/udhcpd.conf"
+  },
+  {
+   "SPDXID": "SPDXRef-c6055811e7065b6d",
+   "comment": "layerID: sha256:1ad27bdd166b922492031b1938a4fb2f775e3d98c8f1b72051dad0570a4dd1b5",
+   "licenseConcluded": "NOASSERTION",
+   "fileName": "/lib/ld-musl-x86_64.so.1"
+  },
+  {
+   "SPDXID": "SPDXRef-94d22c3ea3d4a090",
+   "comment": "layerID: sha256:1ad27bdd166b922492031b1938a4fb2f775e3d98c8f1b72051dad0570a4dd1b5",
+   "licenseConcluded": "NOASSERTION",
+   "fileName": "/lib/libcrypto.so.1.1"
+  },
+  {
+   "SPDXID": "SPDXRef-d61cfbade57ca569",
+   "comment": "layerID: sha256:1ad27bdd166b922492031b1938a4fb2f775e3d98c8f1b72051dad0570a4dd1b5",
+   "licenseConcluded": "NOASSERTION",
+   "fileName": "/lib/libssl.so.1.1"
+  },
+  {
+   "SPDXID": "SPDXRef-c5e52c1b446d912",
+   "comment": "layerID: sha256:1ad27bdd166b922492031b1938a4fb2f775e3d98c8f1b72051dad0570a4dd1b5",
+   "licenseConcluded": "NOASSERTION",
+   "fileName": "/lib/libz.so.1.2.12"
+  },
+  {
+   "SPDXID": "SPDXRef-883f195f94c7c4f4",
+   "comment": "layerID: sha256:1ad27bdd166b922492031b1938a4fb2f775e3d98c8f1b72051dad0570a4dd1b5",
+   "licenseConcluded": "NOASSERTION",
+   "fileName": "/lib/sysctl.d/00-alpine.conf"
+  },
+  {
+   "SPDXID": "SPDXRef-bdcc0a7b2fcf6b08",
+   "comment": "layerID: sha256:1ad27bdd166b922492031b1938a4fb2f775e3d98c8f1b72051dad0570a4dd1b5",
+   "licenseConcluded": "NOASSERTION",
+   "fileName": "/sbin/apk"
+  },
+  {
+   "SPDXID": "SPDXRef-a194ade95e34168f",
+   "comment": "layerID: sha256:1ad27bdd166b922492031b1938a4fb2f775e3d98c8f1b72051dad0570a4dd1b5",
+   "licenseConcluded": "NOASSERTION",
+   "fileName": "/sbin/ldconfig"
+  },
+  {
+   "SPDXID": "SPDXRef-895745ccbe54628b",
+   "comment": "layerID: sha256:1ad27bdd166b922492031b1938a4fb2f775e3d98c8f1b72051dad0570a4dd1b5",
+   "licenseConcluded": "NOASSERTION",
+   "fileName": "/sbin/mkmntdirs"
+  },
+  {
+   "SPDXID": "SPDXRef-2ff353f3fcf8dbf1",
+   "comment": "layerID: sha256:2dca9c88e69552f5fbbbd2a4c532a77246f9ea2f5c8ea11af6503ce5650dd8d9",
+   "licenseConcluded": "NOASSERTION",
+   "fileName": "/usr/bin/c_rehash"
+  },
+  {
+   "SPDXID": "SPDXRef-c99a3ea03e3c3263",
+   "comment": "layerID: sha256:2dca9c88e69552f5fbbbd2a4c532a77246f9ea2f5c8ea11af6503ce5650dd8d9",
+   "licenseConcluded": "NOASSERTION",
+   "fileName": "/usr/bin/curl"
+  },
+  {
+   "SPDXID": "SPDXRef-4cc50c22c1ecc26b",
+   "comment": "layerID: sha256:1ad27bdd166b922492031b1938a4fb2f775e3d98c8f1b72051dad0570a4dd1b5",
+   "licenseConcluded": "NOASSERTION",
+   "fileName": "/usr/bin/getconf"
+  },
+  {
+   "SPDXID": "SPDXRef-e55f1e47bca93760",
+   "comment": "layerID: sha256:1ad27bdd166b922492031b1938a4fb2f775e3d98c8f1b72051dad0570a4dd1b5",
+   "licenseConcluded": "NOASSERTION",
+   "fileName": "/usr/bin/getent"
+  },
+  {
+   "SPDXID": "SPDXRef-b88df1b5a1c177b",
+   "comment": "layerID: sha256:1ad27bdd166b922492031b1938a4fb2f775e3d98c8f1b72051dad0570a4dd1b5",
+   "licenseConcluded": "NOASSERTION",
+   "fileName": "/usr/bin/iconv"
+  },
+  {
+   "SPDXID": "SPDXRef-bebe8d39645c5167",
+   "comment": "layerID: sha256:1ad27bdd166b922492031b1938a4fb2f775e3d98c8f1b72051dad0570a4dd1b5",
+   "licenseConcluded": "NOASSERTION",
+   "fileName": "/usr/bin/ldd"
+  },
+  {
+   "SPDXID": "SPDXRef-c88cf3fe63ed3e7f",
+   "comment": "layerID: sha256:1ad27bdd166b922492031b1938a4fb2f775e3d98c8f1b72051dad0570a4dd1b5",
+   "licenseConcluded": "NOASSERTION",
+   "fileName": "/usr/bin/scanelf"
+  },
+  {
+   "SPDXID": "SPDXRef-bf55dfa58d25a61e",
+   "comment": "layerID: sha256:1ad27bdd166b922492031b1938a4fb2f775e3d98c8f1b72051dad0570a4dd1b5",
+   "licenseConcluded": "NOASSERTION",
+   "fileName": "/usr/bin/ssl_client"
+  },
+  {
+   "SPDXID": "SPDXRef-f1433035c85d2afd",
+   "comment": "layerID: sha256:1ad27bdd166b922492031b1938a4fb2f775e3d98c8f1b72051dad0570a4dd1b5",
+   "licenseConcluded": "NOASSERTION",
+   "fileName": "/usr/lib/engines-1.1/afalg.so"
+  },
+  {
+   "SPDXID": "SPDXRef-8c9748a1943093c4",
+   "comment": "layerID: sha256:1ad27bdd166b922492031b1938a4fb2f775e3d98c8f1b72051dad0570a4dd1b5",
+   "licenseConcluded": "NOASSERTION",
+   "fileName": "/usr/lib/engines-1.1/capi.so"
+  },
+  {
+   "SPDXID": "SPDXRef-fbd1554781d38def",
+   "comment": "layerID: sha256:1ad27bdd166b922492031b1938a4fb2f775e3d98c8f1b72051dad0570a4dd1b5",
+   "licenseConcluded": "NOASSERTION",
+   "fileName": "/usr/lib/engines-1.1/padlock.so"
+  },
+  {
+   "SPDXID": "SPDXRef-5d0636015b3f1e36",
+   "comment": "layerID: sha256:2dca9c88e69552f5fbbbd2a4c532a77246f9ea2f5c8ea11af6503ce5650dd8d9",
+   "licenseConcluded": "NOASSERTION",
+   "fileName": "/usr/lib/libcurl.so.4.7.0"
+  },
+  {
+   "SPDXID": "SPDXRef-8571db6f2e131d39",
+   "comment": "layerID: sha256:2dca9c88e69552f5fbbbd2a4c532a77246f9ea2f5c8ea11af6503ce5650dd8d9",
+   "licenseConcluded": "NOASSERTION",
+   "fileName": "/usr/lib/libnghttp2.so.14.20.0"
+  },
+  {
+   "SPDXID": "SPDXRef-e86fd0f5baf3b2b3",
+   "comment": "layerID: sha256:1ad27bdd166b922492031b1938a4fb2f775e3d98c8f1b72051dad0570a4dd1b5",
+   "licenseConcluded": "NOASSERTION",
+   "fileName": "/usr/lib/libtls-standalone.so.1.0.0"
+  },
+  {
+   "SPDXID": "SPDXRef-9b850d929b67fe9f",
+   "comment": "layerID: sha256:2dca9c88e69552f5fbbbd2a4c532a77246f9ea2f5c8ea11af6503ce5650dd8d9",
+   "licenseConcluded": "NOASSERTION",
+   "fileName": "/usr/sbin/update-ca-certificates"
+  },
+  {
+   "SPDXID": "SPDXRef-3cdb1ab31a2aa0dd",
+   "comment": "layerID: sha256:1ad27bdd166b922492031b1938a4fb2f775e3d98c8f1b72051dad0570a4dd1b5",
+   "licenseConcluded": "NOASSERTION",
+   "fileName": "/usr/share/apk/keys/alpine-devel@lists.alpinelinux.org-4a6a0840.rsa.pub"
+  },
+  {
+   "SPDXID": "SPDXRef-951d6c844b0caa05",
+   "comment": "layerID: sha256:1ad27bdd166b922492031b1938a4fb2f775e3d98c8f1b72051dad0570a4dd1b5",
+   "licenseConcluded": "NOASSERTION",
+   "fileName": "/usr/share/apk/keys/alpine-devel@lists.alpinelinux.org-5243ef4b.rsa.pub"
+  },
+  {
+   "SPDXID": "SPDXRef-ad3289bb4034a182",
+   "comment": "layerID: sha256:1ad27bdd166b922492031b1938a4fb2f775e3d98c8f1b72051dad0570a4dd1b5",
+   "licenseConcluded": "NOASSERTION",
+   "fileName": "/usr/share/apk/keys/alpine-devel@lists.alpinelinux.org-524d27bb.rsa.pub"
+  },
+  {
+   "SPDXID": "SPDXRef-f641d79eba33c1f",
+   "comment": "layerID: sha256:1ad27bdd166b922492031b1938a4fb2f775e3d98c8f1b72051dad0570a4dd1b5",
+   "licenseConcluded": "NOASSERTION",
+   "fileName": "/usr/share/apk/keys/alpine-devel@lists.alpinelinux.org-5261cecb.rsa.pub"
+  },
+  {
+   "SPDXID": "SPDXRef-a8b24455dacbd886",
+   "comment": "layerID: sha256:1ad27bdd166b922492031b1938a4fb2f775e3d98c8f1b72051dad0570a4dd1b5",
+   "licenseConcluded": "NOASSERTION",
+   "fileName": "/usr/share/apk/keys/alpine-devel@lists.alpinelinux.org-58199dcc.rsa.pub"
+  },
+  {
+   "SPDXID": "SPDXRef-b81e73f5fe2099d2",
+   "comment": "layerID: sha256:1ad27bdd166b922492031b1938a4fb2f775e3d98c8f1b72051dad0570a4dd1b5",
+   "licenseConcluded": "NOASSERTION",
+   "fileName": "/usr/share/apk/keys/alpine-devel@lists.alpinelinux.org-58cbb476.rsa.pub"
+  },
+  {
+   "SPDXID": "SPDXRef-dc27e17e85e7af9d",
+   "comment": "layerID: sha256:1ad27bdd166b922492031b1938a4fb2f775e3d98c8f1b72051dad0570a4dd1b5",
+   "licenseConcluded": "NOASSERTION",
+   "fileName": "/usr/share/apk/keys/alpine-devel@lists.alpinelinux.org-58e4f17d.rsa.pub"
+  },
+  {
+   "SPDXID": "SPDXRef-e33680efc9e5e928",
+   "comment": "layerID: sha256:1ad27bdd166b922492031b1938a4fb2f775e3d98c8f1b72051dad0570a4dd1b5",
+   "licenseConcluded": "NOASSERTION",
+   "fileName": "/usr/share/apk/keys/alpine-devel@lists.alpinelinux.org-5e69ca50.rsa.pub"
+  },
+  {
+   "SPDXID": "SPDXRef-a7bc6f9b7016100b",
+   "comment": "layerID: sha256:1ad27bdd166b922492031b1938a4fb2f775e3d98c8f1b72051dad0570a4dd1b5",
+   "licenseConcluded": "NOASSERTION",
+   "fileName": "/usr/share/apk/keys/alpine-devel@lists.alpinelinux.org-60ac2099.rsa.pub"
+  },
+  {
+   "SPDXID": "SPDXRef-b5eae7b7c003c53d",
+   "comment": "layerID: sha256:1ad27bdd166b922492031b1938a4fb2f775e3d98c8f1b72051dad0570a4dd1b5",
+   "licenseConcluded": "NOASSERTION",
+   "fileName": "/usr/share/apk/keys/alpine-devel@lists.alpinelinux.org-6165ee59.rsa.pub"
+  },
+  {
+   "SPDXID": "SPDXRef-1ad15a63585cd3b8",
+   "comment": "layerID: sha256:1ad27bdd166b922492031b1938a4fb2f775e3d98c8f1b72051dad0570a4dd1b5",
+   "licenseConcluded": "NOASSERTION",
+   "fileName": "/usr/share/apk/keys/alpine-devel@lists.alpinelinux.org-61666e3f.rsa.pub"
+  },
+  {
+   "SPDXID": "SPDXRef-f12fc4f3cc901b0d",
+   "comment": "layerID: sha256:1ad27bdd166b922492031b1938a4fb2f775e3d98c8f1b72051dad0570a4dd1b5",
+   "licenseConcluded": "NOASSERTION",
+   "fileName": "/usr/share/apk/keys/alpine-devel@lists.alpinelinux.org-616a9724.rsa.pub"
+  },
+  {
+   "SPDXID": "SPDXRef-42b3660726a15ade",
+   "comment": "layerID: sha256:1ad27bdd166b922492031b1938a4fb2f775e3d98c8f1b72051dad0570a4dd1b5",
+   "licenseConcluded": "NOASSERTION",
+   "fileName": "/usr/share/apk/keys/alpine-devel@lists.alpinelinux.org-616abc23.rsa.pub"
+  },
+  {
+   "SPDXID": "SPDXRef-788c68d61e059b82",
+   "comment": "layerID: sha256:1ad27bdd166b922492031b1938a4fb2f775e3d98c8f1b72051dad0570a4dd1b5",
+   "licenseConcluded": "NOASSERTION",
+   "fileName": "/usr/share/apk/keys/alpine-devel@lists.alpinelinux.org-616ac3bc.rsa.pub"
+  },
+  {
+   "SPDXID": "SPDXRef-d95c60fca31191b0",
+   "comment": "layerID: sha256:1ad27bdd166b922492031b1938a4fb2f775e3d98c8f1b72051dad0570a4dd1b5",
+   "licenseConcluded": "NOASSERTION",
+   "fileName": "/usr/share/apk/keys/alpine-devel@lists.alpinelinux.org-616adfeb.rsa.pub"
+  },
+  {
+   "SPDXID": "SPDXRef-cf892a6bdba4760a",
+   "comment": "layerID: sha256:1ad27bdd166b922492031b1938a4fb2f775e3d98c8f1b72051dad0570a4dd1b5",
+   "licenseConcluded": "NOASSERTION",
+   "fileName": "/usr/share/apk/keys/alpine-devel@lists.alpinelinux.org-616ae350.rsa.pub"
+  },
+  {
+   "SPDXID": "SPDXRef-194d09c6a4a9c6ed",
+   "comment": "layerID: sha256:1ad27bdd166b922492031b1938a4fb2f775e3d98c8f1b72051dad0570a4dd1b5",
+   "licenseConcluded": "NOASSERTION",
+   "fileName": "/usr/share/apk/keys/alpine-devel@lists.alpinelinux.org-616db30d.rsa.pub"
+  },
+  {
+   "SPDXID": "SPDXRef-f2733accd4a24be2",
+   "comment": "layerID: sha256:2dca9c88e69552f5fbbbd2a4c532a77246f9ea2f5c8ea11af6503ce5650dd8d9",
+   "licenseConcluded": "NOASSERTION",
+   "fileName": "/usr/share/ca-certificates/mozilla/ACCVRAIZ1.crt"
+  },
+  {
+   "SPDXID": "SPDXRef-a769184b7b153d54",
+   "comment": "layerID: sha256:2dca9c88e69552f5fbbbd2a4c532a77246f9ea2f5c8ea11af6503ce5650dd8d9",
+   "licenseConcluded": "NOASSERTION",
+   "fileName": "/usr/share/ca-certificates/mozilla/AC_RAIZ_FNMT-RCM.crt"
+  },
+  {
+   "SPDXID": "SPDXRef-5915fa8c1cebe46b",
+   "comment": "layerID: sha256:2dca9c88e69552f5fbbbd2a4c532a77246f9ea2f5c8ea11af6503ce5650dd8d9",
+   "licenseConcluded": "NOASSERTION",
+   "fileName": "/usr/share/ca-certificates/mozilla/AC_RAIZ_FNMT-RCM_SERVIDORES_SEGUROS.crt"
+  },
+  {
+   "SPDXID": "SPDXRef-dc27cd7cfe26df9c",
+   "comment": "layerID: sha256:2dca9c88e69552f5fbbbd2a4c532a77246f9ea2f5c8ea11af6503ce5650dd8d9",
+   "licenseConcluded": "NOASSERTION",
+   "fileName": "/usr/share/ca-certificates/mozilla/ANF_Secure_Server_Root_CA.crt"
+  },
+  {
+   "SPDXID": "SPDXRef-5d168d760006f951",
+   "comment": "layerID: sha256:2dca9c88e69552f5fbbbd2a4c532a77246f9ea2f5c8ea11af6503ce5650dd8d9",
+   "licenseConcluded": "NOASSERTION",
+   "fileName": "/usr/share/ca-certificates/mozilla/Actalis_Authentication_Root_CA.crt"
+  },
+  {
+   "SPDXID": "SPDXRef-4dcafb964c87a4be",
+   "comment": "layerID: sha256:2dca9c88e69552f5fbbbd2a4c532a77246f9ea2f5c8ea11af6503ce5650dd8d9",
+   "licenseConcluded": "NOASSERTION",
+   "fileName": "/usr/share/ca-certificates/mozilla/AffirmTrust_Commercial.crt"
+  },
+  {
+   "SPDXID": "SPDXRef-e6bd0ebd0e7d7052",
+   "comment": "layerID: sha256:2dca9c88e69552f5fbbbd2a4c532a77246f9ea2f5c8ea11af6503ce5650dd8d9",
+   "licenseConcluded": "NOASSERTION",
+   "fileName": "/usr/share/ca-certificates/mozilla/AffirmTrust_Networking.crt"
+  },
+  {
+   "SPDXID": "SPDXRef-15c2d2a1fee28cc9",
+   "comment": "layerID: sha256:2dca9c88e69552f5fbbbd2a4c532a77246f9ea2f5c8ea11af6503ce5650dd8d9",
+   "licenseConcluded": "NOASSERTION",
+   "fileName": "/usr/share/ca-certificates/mozilla/AffirmTrust_Premium.crt"
+  },
+  {
+   "SPDXID": "SPDXRef-17711e1d0b1534c9",
+   "comment": "layerID: sha256:2dca9c88e69552f5fbbbd2a4c532a77246f9ea2f5c8ea11af6503ce5650dd8d9",
+   "licenseConcluded": "NOASSERTION",
+   "fileName": "/usr/share/ca-certificates/mozilla/AffirmTrust_Premium_ECC.crt"
+  },
+  {
+   "SPDXID": "SPDXRef-2681737f03f1cee1",
+   "comment": "layerID: sha256:2dca9c88e69552f5fbbbd2a4c532a77246f9ea2f5c8ea11af6503ce5650dd8d9",
+   "licenseConcluded": "NOASSERTION",
+   "fileName": "/usr/share/ca-certificates/mozilla/Amazon_Root_CA_1.crt"
+  },
+  {
+   "SPDXID": "SPDXRef-403eb294c4b7756",
+   "comment": "layerID: sha256:2dca9c88e69552f5fbbbd2a4c532a77246f9ea2f5c8ea11af6503ce5650dd8d9",
+   "licenseConcluded": "NOASSERTION",
+   "fileName": "/usr/share/ca-certificates/mozilla/Amazon_Root_CA_2.crt"
+  },
+  {
+   "SPDXID": "SPDXRef-6838dec0279b9e03",
+   "comment": "layerID: sha256:2dca9c88e69552f5fbbbd2a4c532a77246f9ea2f5c8ea11af6503ce5650dd8d9",
+   "licenseConcluded": "NOASSERTION",
+   "fileName": "/usr/share/ca-certificates/mozilla/Amazon_Root_CA_3.crt"
+  },
+  {
+   "SPDXID": "SPDXRef-5bc9edb1a9655b94",
+   "comment": "layerID: sha256:2dca9c88e69552f5fbbbd2a4c532a77246f9ea2f5c8ea11af6503ce5650dd8d9",
+   "licenseConcluded": "NOASSERTION",
+   "fileName": "/usr/share/ca-certificates/mozilla/Amazon_Root_CA_4.crt"
+  },
+  {
+   "SPDXID": "SPDXRef-596e38a2c876c163",
+   "comment": "layerID: sha256:2dca9c88e69552f5fbbbd2a4c532a77246f9ea2f5c8ea11af6503ce5650dd8d9",
+   "licenseConcluded": "NOASSERTION",
+   "fileName": "/usr/share/ca-certificates/mozilla/Atos_TrustedRoot_2011.crt"
+  },
+  {
+   "SPDXID": "SPDXRef-2045fd8d15f54751",
+   "comment": "layerID: sha256:2dca9c88e69552f5fbbbd2a4c532a77246f9ea2f5c8ea11af6503ce5650dd8d9",
+   "licenseConcluded": "NOASSERTION",
+   "fileName": "/usr/share/ca-certificates/mozilla/Autoridad_de_Certificacion_Firmaprofesional_CIF_A62634068.crt"
+  },
+  {
+   "SPDXID": "SPDXRef-4a271ed592613a83",
+   "comment": "layerID: sha256:2dca9c88e69552f5fbbbd2a4c532a77246f9ea2f5c8ea11af6503ce5650dd8d9",
+   "licenseConcluded": "NOASSERTION",
+   "fileName": "/usr/share/ca-certificates/mozilla/Baltimore_CyberTrust_Root.crt"
+  },
+  {
+   "SPDXID": "SPDXRef-c09e45d4b39b889e",
+   "comment": "layerID: sha256:2dca9c88e69552f5fbbbd2a4c532a77246f9ea2f5c8ea11af6503ce5650dd8d9",
+   "licenseConcluded": "NOASSERTION",
+   "fileName": "/usr/share/ca-certificates/mozilla/Buypass_Class_2_Root_CA.crt"
+  },
+  {
+   "SPDXID": "SPDXRef-7d3084b3a8a9e930",
+   "comment": "layerID: sha256:2dca9c88e69552f5fbbbd2a4c532a77246f9ea2f5c8ea11af6503ce5650dd8d9",
+   "licenseConcluded": "NOASSERTION",
+   "fileName": "/usr/share/ca-certificates/mozilla/Buypass_Class_3_Root_CA.crt"
+  },
+  {
+   "SPDXID": "SPDXRef-fae643796a73d6a4",
+   "comment": "layerID: sha256:2dca9c88e69552f5fbbbd2a4c532a77246f9ea2f5c8ea11af6503ce5650dd8d9",
+   "licenseConcluded": "NOASSERTION",
+   "fileName": "/usr/share/ca-certificates/mozilla/CA_Disig_Root_R2.crt"
+  },
+  {
+   "SPDXID": "SPDXRef-3137c932fea7963",
+   "comment": "layerID: sha256:2dca9c88e69552f5fbbbd2a4c532a77246f9ea2f5c8ea11af6503ce5650dd8d9",
+   "licenseConcluded": "NOASSERTION",
+   "fileName": "/usr/share/ca-certificates/mozilla/CFCA_EV_ROOT.crt"
+  },
+  {
+   "SPDXID": "SPDXRef-12c5de0712a9af2d",
+   "comment": "layerID: sha256:2dca9c88e69552f5fbbbd2a4c532a77246f9ea2f5c8ea11af6503ce5650dd8d9",
+   "licenseConcluded": "NOASSERTION",
+   "fileName": "/usr/share/ca-certificates/mozilla/COMODO_Certification_Authority.crt"
+  },
+  {
+   "SPDXID": "SPDXRef-c1cdb4744aed1ee7",
+   "comment": "layerID: sha256:2dca9c88e69552f5fbbbd2a4c532a77246f9ea2f5c8ea11af6503ce5650dd8d9",
+   "licenseConcluded": "NOASSERTION",
+   "fileName": "/usr/share/ca-certificates/mozilla/COMODO_ECC_Certification_Authority.crt"
+  },
+  {
+   "SPDXID": "SPDXRef-7a4683e223e17b24",
+   "comment": "layerID: sha256:2dca9c88e69552f5fbbbd2a4c532a77246f9ea2f5c8ea11af6503ce5650dd8d9",
+   "licenseConcluded": "NOASSERTION",
+   "fileName": "/usr/share/ca-certificates/mozilla/COMODO_RSA_Certification_Authority.crt"
+  },
+  {
+   "SPDXID": "SPDXRef-44d7a80da4c3ca63",
+   "comment": "layerID: sha256:2dca9c88e69552f5fbbbd2a4c532a77246f9ea2f5c8ea11af6503ce5650dd8d9",
+   "licenseConcluded": "NOASSERTION",
+   "fileName": "/usr/share/ca-certificates/mozilla/Certigna.crt"
+  },
+  {
+   "SPDXID": "SPDXRef-fc5661708a31114",
+   "comment": "layerID: sha256:2dca9c88e69552f5fbbbd2a4c532a77246f9ea2f5c8ea11af6503ce5650dd8d9",
+   "licenseConcluded": "NOASSERTION",
+   "fileName": "/usr/share/ca-certificates/mozilla/Certigna_Root_CA.crt"
+  },
+  {
+   "SPDXID": "SPDXRef-5fc6e724825d8751",
+   "comment": "layerID: sha256:2dca9c88e69552f5fbbbd2a4c532a77246f9ea2f5c8ea11af6503ce5650dd8d9",
+   "licenseConcluded": "NOASSERTION",
+   "fileName": "/usr/share/ca-certificates/mozilla/Certum_EC-384_CA.crt"
+  },
+  {
+   "SPDXID": "SPDXRef-28de1cc8554ba94b",
+   "comment": "layerID: sha256:2dca9c88e69552f5fbbbd2a4c532a77246f9ea2f5c8ea11af6503ce5650dd8d9",
+   "licenseConcluded": "NOASSERTION",
+   "fileName": "/usr/share/ca-certificates/mozilla/Certum_Trusted_Network_CA.crt"
+  },
+  {
+   "SPDXID": "SPDXRef-d26a671864f0c1da",
+   "comment": "layerID: sha256:2dca9c88e69552f5fbbbd2a4c532a77246f9ea2f5c8ea11af6503ce5650dd8d9",
+   "licenseConcluded": "NOASSERTION",
+   "fileName": "/usr/share/ca-certificates/mozilla/Certum_Trusted_Network_CA_2.crt"
+  },
+  {
+   "SPDXID": "SPDXRef-4650f5332613f05a",
+   "comment": "layerID: sha256:2dca9c88e69552f5fbbbd2a4c532a77246f9ea2f5c8ea11af6503ce5650dd8d9",
+   "licenseConcluded": "NOASSERTION",
+   "fileName": "/usr/share/ca-certificates/mozilla/Certum_Trusted_Root_CA.crt"
+  },
+  {
+   "SPDXID": "SPDXRef-f4f725bc4a99c96d",
+   "comment": "layerID: sha256:2dca9c88e69552f5fbbbd2a4c532a77246f9ea2f5c8ea11af6503ce5650dd8d9",
+   "licenseConcluded": "NOASSERTION",
+   "fileName": "/usr/share/ca-certificates/mozilla/Comodo_AAA_Services_root.crt"
+  },
+  {
+   "SPDXID": "SPDXRef-2db8fa28686390cb",
+   "comment": "layerID: sha256:2dca9c88e69552f5fbbbd2a4c532a77246f9ea2f5c8ea11af6503ce5650dd8d9",
+   "licenseConcluded": "NOASSERTION",
+   "fileName": "/usr/share/ca-certificates/mozilla/D-TRUST_Root_Class_3_CA_2_2009.crt"
+  },
+  {
+   "SPDXID": "SPDXRef-94baf54265e496b",
+   "comment": "layerID: sha256:2dca9c88e69552f5fbbbd2a4c532a77246f9ea2f5c8ea11af6503ce5650dd8d9",
+   "licenseConcluded": "NOASSERTION",
+   "fileName": "/usr/share/ca-certificates/mozilla/D-TRUST_Root_Class_3_CA_2_EV_2009.crt"
+  },
+  {
+   "SPDXID": "SPDXRef-e0fe01cef8156dee",
+   "comment": "layerID: sha256:2dca9c88e69552f5fbbbd2a4c532a77246f9ea2f5c8ea11af6503ce5650dd8d9",
+   "licenseConcluded": "NOASSERTION",
+   "fileName": "/usr/share/ca-certificates/mozilla/DigiCert_Assured_ID_Root_CA.crt"
+  },
+  {
+   "SPDXID": "SPDXRef-afa251b50bc5eabc",
+   "comment": "layerID: sha256:2dca9c88e69552f5fbbbd2a4c532a77246f9ea2f5c8ea11af6503ce5650dd8d9",
+   "licenseConcluded": "NOASSERTION",
+   "fileName": "/usr/share/ca-certificates/mozilla/DigiCert_Assured_ID_Root_G2.crt"
+  },
+  {
+   "SPDXID": "SPDXRef-180e34fcea424520",
+   "comment": "layerID: sha256:2dca9c88e69552f5fbbbd2a4c532a77246f9ea2f5c8ea11af6503ce5650dd8d9",
+   "licenseConcluded": "NOASSERTION",
+   "fileName": "/usr/share/ca-certificates/mozilla/DigiCert_Assured_ID_Root_G3.crt"
+  },
+  {
+   "SPDXID": "SPDXRef-4943f3e81193f75e",
+   "comment": "layerID: sha256:2dca9c88e69552f5fbbbd2a4c532a77246f9ea2f5c8ea11af6503ce5650dd8d9",
+   "licenseConcluded": "NOASSERTION",
+   "fileName": "/usr/share/ca-certificates/mozilla/DigiCert_Global_Root_CA.crt"
+  },
+  {
+   "SPDXID": "SPDXRef-58c8b7a3a50c1a87",
+   "comment": "layerID: sha256:2dca9c88e69552f5fbbbd2a4c532a77246f9ea2f5c8ea11af6503ce5650dd8d9",
+   "licenseConcluded": "NOASSERTION",
+   "fileName": "/usr/share/ca-certificates/mozilla/DigiCert_Global_Root_G2.crt"
+  },
+  {
+   "SPDXID": "SPDXRef-b205080b918cfd9f",
+   "comment": "layerID: sha256:2dca9c88e69552f5fbbbd2a4c532a77246f9ea2f5c8ea11af6503ce5650dd8d9",
+   "licenseConcluded": "NOASSERTION",
+   "fileName": "/usr/share/ca-certificates/mozilla/DigiCert_Global_Root_G3.crt"
+  },
+  {
+   "SPDXID": "SPDXRef-f59b869b64702d2",
+   "comment": "layerID: sha256:2dca9c88e69552f5fbbbd2a4c532a77246f9ea2f5c8ea11af6503ce5650dd8d9",
+   "licenseConcluded": "NOASSERTION",
+   "fileName": "/usr/share/ca-certificates/mozilla/DigiCert_High_Assurance_EV_Root_CA.crt"
+  },
+  {
+   "SPDXID": "SPDXRef-ce10d68eb506f481",
+   "comment": "layerID: sha256:2dca9c88e69552f5fbbbd2a4c532a77246f9ea2f5c8ea11af6503ce5650dd8d9",
+   "licenseConcluded": "NOASSERTION",
+   "fileName": "/usr/share/ca-certificates/mozilla/DigiCert_Trusted_Root_G4.crt"
+  },
+  {
+   "SPDXID": "SPDXRef-74208e03e63749c",
+   "comment": "layerID: sha256:2dca9c88e69552f5fbbbd2a4c532a77246f9ea2f5c8ea11af6503ce5650dd8d9",
+   "licenseConcluded": "NOASSERTION",
+   "fileName": "/usr/share/ca-certificates/mozilla/E-Tugra_Certification_Authority.crt"
+  },
+  {
+   "SPDXID": "SPDXRef-c99a69534b8774a1",
+   "comment": "layerID: sha256:2dca9c88e69552f5fbbbd2a4c532a77246f9ea2f5c8ea11af6503ce5650dd8d9",
+   "licenseConcluded": "NOASSERTION",
+   "fileName": "/usr/share/ca-certificates/mozilla/EC-ACC.crt"
+  },
+  {
+   "SPDXID": "SPDXRef-fda8ce5eb24eb60c",
+   "comment": "layerID: sha256:2dca9c88e69552f5fbbbd2a4c532a77246f9ea2f5c8ea11af6503ce5650dd8d9",
+   "licenseConcluded": "NOASSERTION",
+   "fileName": "/usr/share/ca-certificates/mozilla/Entrust.net_Premium_2048_Secure_Server_CA.crt"
+  },
+  {
+   "SPDXID": "SPDXRef-43fa7d90f1efcd44",
+   "comment": "layerID: sha256:2dca9c88e69552f5fbbbd2a4c532a77246f9ea2f5c8ea11af6503ce5650dd8d9",
+   "licenseConcluded": "NOASSERTION",
+   "fileName": "/usr/share/ca-certificates/mozilla/Entrust_Root_Certification_Authority.crt"
+  },
+  {
+   "SPDXID": "SPDXRef-5a8064ad21140555",
+   "comment": "layerID: sha256:2dca9c88e69552f5fbbbd2a4c532a77246f9ea2f5c8ea11af6503ce5650dd8d9",
+   "licenseConcluded": "NOASSERTION",
+   "fileName": "/usr/share/ca-certificates/mozilla/Entrust_Root_Certification_Authority_-_EC1.crt"
+  },
+  {
+   "SPDXID": "SPDXRef-3ae5ea8a549302e1",
+   "comment": "layerID: sha256:2dca9c88e69552f5fbbbd2a4c532a77246f9ea2f5c8ea11af6503ce5650dd8d9",
+   "licenseConcluded": "NOASSERTION",
+   "fileName": "/usr/share/ca-certificates/mozilla/Entrust_Root_Certification_Authority_-_G2.crt"
+  },
+  {
+   "SPDXID": "SPDXRef-208a5477ef939b25",
+   "comment": "layerID: sha256:2dca9c88e69552f5fbbbd2a4c532a77246f9ea2f5c8ea11af6503ce5650dd8d9",
+   "licenseConcluded": "NOASSERTION",
+   "fileName": "/usr/share/ca-certificates/mozilla/Entrust_Root_Certification_Authority_-_G4.crt"
+  },
+  {
+   "SPDXID": "SPDXRef-27a8658744ea9803",
+   "comment": "layerID: sha256:2dca9c88e69552f5fbbbd2a4c532a77246f9ea2f5c8ea11af6503ce5650dd8d9",
+   "licenseConcluded": "NOASSERTION",
+   "fileName": "/usr/share/ca-certificates/mozilla/GDCA_TrustAUTH_R5_ROOT.crt"
+  },
+  {
+   "SPDXID": "SPDXRef-11ddf7a8ee13e81f",
+   "comment": "layerID: sha256:2dca9c88e69552f5fbbbd2a4c532a77246f9ea2f5c8ea11af6503ce5650dd8d9",
+   "licenseConcluded": "NOASSERTION",
+   "fileName": "/usr/share/ca-certificates/mozilla/GLOBALTRUST_2020.crt"
+  },
+  {
+   "SPDXID": "SPDXRef-71ce47131531fd77",
+   "comment": "layerID: sha256:2dca9c88e69552f5fbbbd2a4c532a77246f9ea2f5c8ea11af6503ce5650dd8d9",
+   "licenseConcluded": "NOASSERTION",
+   "fileName": "/usr/share/ca-certificates/mozilla/GTS_Root_R1.crt"
+  },
+  {
+   "SPDXID": "SPDXRef-4902310574e2c5f4",
+   "comment": "layerID: sha256:2dca9c88e69552f5fbbbd2a4c532a77246f9ea2f5c8ea11af6503ce5650dd8d9",
+   "licenseConcluded": "NOASSERTION",
+   "fileName": "/usr/share/ca-certificates/mozilla/GTS_Root_R2.crt"
+  },
+  {
+   "SPDXID": "SPDXRef-abe866f298352754",
+   "comment": "layerID: sha256:2dca9c88e69552f5fbbbd2a4c532a77246f9ea2f5c8ea11af6503ce5650dd8d9",
+   "licenseConcluded": "NOASSERTION",
+   "fileName": "/usr/share/ca-certificates/mozilla/GTS_Root_R3.crt"
+  },
+  {
+   "SPDXID": "SPDXRef-23bcd3a6e11c1a08",
+   "comment": "layerID: sha256:2dca9c88e69552f5fbbbd2a4c532a77246f9ea2f5c8ea11af6503ce5650dd8d9",
+   "licenseConcluded": "NOASSERTION",
+   "fileName": "/usr/share/ca-certificates/mozilla/GTS_Root_R4.crt"
+  },
+  {
+   "SPDXID": "SPDXRef-dbf6503843592bfd",
+   "comment": "layerID: sha256:2dca9c88e69552f5fbbbd2a4c532a77246f9ea2f5c8ea11af6503ce5650dd8d9",
+   "licenseConcluded": "NOASSERTION",
+   "fileName": "/usr/share/ca-certificates/mozilla/GlobalSign_ECC_Root_CA_-_R4.crt"
+  },
+  {
+   "SPDXID": "SPDXRef-1235e63d85007da9",
+   "comment": "layerID: sha256:2dca9c88e69552f5fbbbd2a4c532a77246f9ea2f5c8ea11af6503ce5650dd8d9",
+   "licenseConcluded": "NOASSERTION",
+   "fileName": "/usr/share/ca-certificates/mozilla/GlobalSign_ECC_Root_CA_-_R5.crt"
+  },
+  {
+   "SPDXID": "SPDXRef-ea4e9672c8e8c6e4",
+   "comment": "layerID: sha256:2dca9c88e69552f5fbbbd2a4c532a77246f9ea2f5c8ea11af6503ce5650dd8d9",
+   "licenseConcluded": "NOASSERTION",
+   "fileName": "/usr/share/ca-certificates/mozilla/GlobalSign_Root_CA.crt"
+  },
+  {
+   "SPDXID": "SPDXRef-e3e03e403033a2aa",
+   "comment": "layerID: sha256:2dca9c88e69552f5fbbbd2a4c532a77246f9ea2f5c8ea11af6503ce5650dd8d9",
+   "licenseConcluded": "NOASSERTION",
+   "fileName": "/usr/share/ca-certificates/mozilla/GlobalSign_Root_CA_-_R3.crt"
+  },
+  {
+   "SPDXID": "SPDXRef-699c7985715495e2",
+   "comment": "layerID: sha256:2dca9c88e69552f5fbbbd2a4c532a77246f9ea2f5c8ea11af6503ce5650dd8d9",
+   "licenseConcluded": "NOASSERTION",
+   "fileName": "/usr/share/ca-certificates/mozilla/GlobalSign_Root_CA_-_R6.crt"
+  },
+  {
+   "SPDXID": "SPDXRef-a202b9521839186b",
+   "comment": "layerID: sha256:2dca9c88e69552f5fbbbd2a4c532a77246f9ea2f5c8ea11af6503ce5650dd8d9",
+   "licenseConcluded": "NOASSERTION",
+   "fileName": "/usr/share/ca-certificates/mozilla/GlobalSign_Root_E46.crt"
+  },
+  {
+   "SPDXID": "SPDXRef-f6e2f0880dfbf459",
+   "comment": "layerID: sha256:2dca9c88e69552f5fbbbd2a4c532a77246f9ea2f5c8ea11af6503ce5650dd8d9",
+   "licenseConcluded": "NOASSERTION",
+   "fileName": "/usr/share/ca-certificates/mozilla/GlobalSign_Root_R46.crt"
+  },
+  {
+   "SPDXID": "SPDXRef-e546a2dc7950920e",
+   "comment": "layerID: sha256:2dca9c88e69552f5fbbbd2a4c532a77246f9ea2f5c8ea11af6503ce5650dd8d9",
+   "licenseConcluded": "NOASSERTION",
+   "fileName": "/usr/share/ca-certificates/mozilla/Go_Daddy_Class_2_CA.crt"
+  },
+  {
+   "SPDXID": "SPDXRef-246b0972194b6338",
+   "comment": "layerID: sha256:2dca9c88e69552f5fbbbd2a4c532a77246f9ea2f5c8ea11af6503ce5650dd8d9",
+   "licenseConcluded": "NOASSERTION",
+   "fileName": "/usr/share/ca-certificates/mozilla/Go_Daddy_Root_Certificate_Authority_-_G2.crt"
+  },
+  {
+   "SPDXID": "SPDXRef-eb494d2d8011ad76",
+   "comment": "layerID: sha256:2dca9c88e69552f5fbbbd2a4c532a77246f9ea2f5c8ea11af6503ce5650dd8d9",
+   "licenseConcluded": "NOASSERTION",
+   "fileName": "/usr/share/ca-certificates/mozilla/HARICA_TLS_ECC_Root_CA_2021.crt"
+  },
+  {
+   "SPDXID": "SPDXRef-db63fa244e7f0383",
+   "comment": "layerID: sha256:2dca9c88e69552f5fbbbd2a4c532a77246f9ea2f5c8ea11af6503ce5650dd8d9",
+   "licenseConcluded": "NOASSERTION",
+   "fileName": "/usr/share/ca-certificates/mozilla/HARICA_TLS_RSA_Root_CA_2021.crt"
+  },
+  {
+   "SPDXID": "SPDXRef-e1a591003935490a",
+   "comment": "layerID: sha256:2dca9c88e69552f5fbbbd2a4c532a77246f9ea2f5c8ea11af6503ce5650dd8d9",
+   "licenseConcluded": "NOASSERTION",
+   "fileName": "/usr/share/ca-certificates/mozilla/Hellenic_Academic_and_Research_Institutions_ECC_RootCA_2015.crt"
+  },
+  {
+   "SPDXID": "SPDXRef-3499e9fa2d7fb998",
+   "comment": "layerID: sha256:2dca9c88e69552f5fbbbd2a4c532a77246f9ea2f5c8ea11af6503ce5650dd8d9",
+   "licenseConcluded": "NOASSERTION",
+   "fileName": "/usr/share/ca-certificates/mozilla/Hellenic_Academic_and_Research_Institutions_RootCA_2011.crt"
+  },
+  {
+   "SPDXID": "SPDXRef-f7237b88dd40e3ea",
+   "comment": "layerID: sha256:2dca9c88e69552f5fbbbd2a4c532a77246f9ea2f5c8ea11af6503ce5650dd8d9",
+   "licenseConcluded": "NOASSERTION",
+   "fileName": "/usr/share/ca-certificates/mozilla/Hellenic_Academic_and_Research_Institutions_RootCA_2015.crt"
+  },
+  {
+   "SPDXID": "SPDXRef-b4e50fac5e2a8ec8",
+   "comment": "layerID: sha256:2dca9c88e69552f5fbbbd2a4c532a77246f9ea2f5c8ea11af6503ce5650dd8d9",
+   "licenseConcluded": "NOASSERTION",
+   "fileName": "/usr/share/ca-certificates/mozilla/HiPKI_Root_CA_-_G1.crt"
+  },
+  {
+   "SPDXID": "SPDXRef-ecb613e24cacc7db",
+   "comment": "layerID: sha256:2dca9c88e69552f5fbbbd2a4c532a77246f9ea2f5c8ea11af6503ce5650dd8d9",
+   "licenseConcluded": "NOASSERTION",
+   "fileName": "/usr/share/ca-certificates/mozilla/Hongkong_Post_Root_CA_1.crt"
+  },
+  {
+   "SPDXID": "SPDXRef-94cf743028863edc",
+   "comment": "layerID: sha256:2dca9c88e69552f5fbbbd2a4c532a77246f9ea2f5c8ea11af6503ce5650dd8d9",
+   "licenseConcluded": "NOASSERTION",
+   "fileName": "/usr/share/ca-certificates/mozilla/Hongkong_Post_Root_CA_3.crt"
+  },
+  {
+   "SPDXID": "SPDXRef-107cc029e4506c26",
+   "comment": "layerID: sha256:2dca9c88e69552f5fbbbd2a4c532a77246f9ea2f5c8ea11af6503ce5650dd8d9",
+   "licenseConcluded": "NOASSERTION",
+   "fileName": "/usr/share/ca-certificates/mozilla/ISRG_Root_X1.crt"
+  },
+  {
+   "SPDXID": "SPDXRef-865d90f3f1ee2b91",
+   "comment": "layerID: sha256:2dca9c88e69552f5fbbbd2a4c532a77246f9ea2f5c8ea11af6503ce5650dd8d9",
+   "licenseConcluded": "NOASSERTION",
+   "fileName": "/usr/share/ca-certificates/mozilla/ISRG_Root_X2.crt"
+  },
+  {
+   "SPDXID": "SPDXRef-9cbbc2042ab45c3b",
+   "comment": "layerID: sha256:2dca9c88e69552f5fbbbd2a4c532a77246f9ea2f5c8ea11af6503ce5650dd8d9",
+   "licenseConcluded": "NOASSERTION",
+   "fileName": "/usr/share/ca-certificates/mozilla/IdenTrust_Commercial_Root_CA_1.crt"
+  },
+  {
+   "SPDXID": "SPDXRef-8c70aded018b0742",
+   "comment": "layerID: sha256:2dca9c88e69552f5fbbbd2a4c532a77246f9ea2f5c8ea11af6503ce5650dd8d9",
+   "licenseConcluded": "NOASSERTION",
+   "fileName": "/usr/share/ca-certificates/mozilla/IdenTrust_Public_Sector_Root_CA_1.crt"
+  },
+  {
+   "SPDXID": "SPDXRef-2b894774488486df",
+   "comment": "layerID: sha256:2dca9c88e69552f5fbbbd2a4c532a77246f9ea2f5c8ea11af6503ce5650dd8d9",
+   "licenseConcluded": "NOASSERTION",
+   "fileName": "/usr/share/ca-certificates/mozilla/Izenpe.com.crt"
+  },
+  {
+   "SPDXID": "SPDXRef-1ed580b3580f934c",
+   "comment": "layerID: sha256:2dca9c88e69552f5fbbbd2a4c532a77246f9ea2f5c8ea11af6503ce5650dd8d9",
+   "licenseConcluded": "NOASSERTION",
+   "fileName": "/usr/share/ca-certificates/mozilla/Microsec_e-Szigno_Root_CA_2009.crt"
+  },
+  {
+   "SPDXID": "SPDXRef-d562672dd55dbddd",
+   "comment": "layerID: sha256:2dca9c88e69552f5fbbbd2a4c532a77246f9ea2f5c8ea11af6503ce5650dd8d9",
+   "licenseConcluded": "NOASSERTION",
+   "fileName": "/usr/share/ca-certificates/mozilla/Microsoft_ECC_Root_Certificate_Authority_2017.crt"
+  },
+  {
+   "SPDXID": "SPDXRef-71fa421261f03c22",
+   "comment": "layerID: sha256:2dca9c88e69552f5fbbbd2a4c532a77246f9ea2f5c8ea11af6503ce5650dd8d9",
+   "licenseConcluded": "NOASSERTION",
+   "fileName": "/usr/share/ca-certificates/mozilla/Microsoft_RSA_Root_Certificate_Authority_2017.crt"
+  },
+  {
+   "SPDXID": "SPDXRef-21cd484531cfd32",
+   "comment": "layerID: sha256:2dca9c88e69552f5fbbbd2a4c532a77246f9ea2f5c8ea11af6503ce5650dd8d9",
+   "licenseConcluded": "NOASSERTION",
+   "fileName": "/usr/share/ca-certificates/mozilla/NAVER_Global_Root_Certification_Authority.crt"
+  },
+  {
+   "SPDXID": "SPDXRef-33b53de0cdf62f6b",
+   "comment": "layerID: sha256:2dca9c88e69552f5fbbbd2a4c532a77246f9ea2f5c8ea11af6503ce5650dd8d9",
+   "licenseConcluded": "NOASSERTION",
+   "fileName": "/usr/share/ca-certificates/mozilla/NetLock_Arany_=Class_Gold=_Főtanúsítvány.crt"
+  },
+  {
+   "SPDXID": "SPDXRef-f83da9a4ec4558ad",
+   "comment": "layerID: sha256:2dca9c88e69552f5fbbbd2a4c532a77246f9ea2f5c8ea11af6503ce5650dd8d9",
+   "licenseConcluded": "NOASSERTION",
+   "fileName": "/usr/share/ca-certificates/mozilla/Network_Solutions_Certificate_Authority.crt"
+  },
+  {
+   "SPDXID": "SPDXRef-d6c17b32a4bb5483",
+   "comment": "layerID: sha256:2dca9c88e69552f5fbbbd2a4c532a77246f9ea2f5c8ea11af6503ce5650dd8d9",
+   "licenseConcluded": "NOASSERTION",
+   "fileName": "/usr/share/ca-certificates/mozilla/OISTE_WISeKey_Global_Root_GB_CA.crt"
+  },
+  {
+   "SPDXID": "SPDXRef-94be6c94c8be58a7",
+   "comment": "layerID: sha256:2dca9c88e69552f5fbbbd2a4c532a77246f9ea2f5c8ea11af6503ce5650dd8d9",
+   "licenseConcluded": "NOASSERTION",
+   "fileName": "/usr/share/ca-certificates/mozilla/OISTE_WISeKey_Global_Root_GC_CA.crt"
+  },
+  {
+   "SPDXID": "SPDXRef-3a240f8d33617be4",
+   "comment": "layerID: sha256:2dca9c88e69552f5fbbbd2a4c532a77246f9ea2f5c8ea11af6503ce5650dd8d9",
+   "licenseConcluded": "NOASSERTION",
+   "fileName": "/usr/share/ca-certificates/mozilla/QuoVadis_Root_CA_1_G3.crt"
+  },
+  {
+   "SPDXID": "SPDXRef-6a964d850676d4cc",
+   "comment": "layerID: sha256:2dca9c88e69552f5fbbbd2a4c532a77246f9ea2f5c8ea11af6503ce5650dd8d9",
+   "licenseConcluded": "NOASSERTION",
+   "fileName": "/usr/share/ca-certificates/mozilla/QuoVadis_Root_CA_2.crt"
+  },
+  {
+   "SPDXID": "SPDXRef-76f1cecb693af82f",
+   "comment": "layerID: sha256:2dca9c88e69552f5fbbbd2a4c532a77246f9ea2f5c8ea11af6503ce5650dd8d9",
+   "licenseConcluded": "NOASSERTION",
+   "fileName": "/usr/share/ca-certificates/mozilla/QuoVadis_Root_CA_2_G3.crt"
+  },
+  {
+   "SPDXID": "SPDXRef-a24a0066e484e355",
+   "comment": "layerID: sha256:2dca9c88e69552f5fbbbd2a4c532a77246f9ea2f5c8ea11af6503ce5650dd8d9",
+   "licenseConcluded": "NOASSERTION",
+   "fileName": "/usr/share/ca-certificates/mozilla/QuoVadis_Root_CA_3.crt"
+  },
+  {
+   "SPDXID": "SPDXRef-c4fd76ff5bfcff86",
+   "comment": "layerID: sha256:2dca9c88e69552f5fbbbd2a4c532a77246f9ea2f5c8ea11af6503ce5650dd8d9",
+   "licenseConcluded": "NOASSERTION",
+   "fileName": "/usr/share/ca-certificates/mozilla/QuoVadis_Root_CA_3_G3.crt"
+  },
+  {
+   "SPDXID": "SPDXRef-33a6b7522707e6c5",
+   "comment": "layerID: sha256:2dca9c88e69552f5fbbbd2a4c532a77246f9ea2f5c8ea11af6503ce5650dd8d9",
+   "licenseConcluded": "NOASSERTION",
+   "fileName": "/usr/share/ca-certificates/mozilla/SSL.com_EV_Root_Certification_Authority_ECC.crt"
+  },
+  {
+   "SPDXID": "SPDXRef-e9a0a188b5bb1533",
+   "comment": "layerID: sha256:2dca9c88e69552f5fbbbd2a4c532a77246f9ea2f5c8ea11af6503ce5650dd8d9",
+   "licenseConcluded": "NOASSERTION",
+   "fileName": "/usr/share/ca-certificates/mozilla/SSL.com_EV_Root_Certification_Authority_RSA_R2.crt"
+  },
+  {
+   "SPDXID": "SPDXRef-ad114a6042ca8fa2",
+   "comment": "layerID: sha256:2dca9c88e69552f5fbbbd2a4c532a77246f9ea2f5c8ea11af6503ce5650dd8d9",
+   "licenseConcluded": "NOASSERTION",
+   "fileName": "/usr/share/ca-certificates/mozilla/SSL.com_Root_Certification_Authority_ECC.crt"
+  },
+  {
+   "SPDXID": "SPDXRef-94592f45fd93bdd8",
+   "comment": "layerID: sha256:2dca9c88e69552f5fbbbd2a4c532a77246f9ea2f5c8ea11af6503ce5650dd8d9",
+   "licenseConcluded": "NOASSERTION",
+   "fileName": "/usr/share/ca-certificates/mozilla/SSL.com_Root_Certification_Authority_RSA.crt"
+  },
+  {
+   "SPDXID": "SPDXRef-53c76b135591d7cf",
+   "comment": "layerID: sha256:2dca9c88e69552f5fbbbd2a4c532a77246f9ea2f5c8ea11af6503ce5650dd8d9",
+   "licenseConcluded": "NOASSERTION",
+   "fileName": "/usr/share/ca-certificates/mozilla/SZAFIR_ROOT_CA2.crt"
+  },
+  {
+   "SPDXID": "SPDXRef-f02d1b11f87ecb54",
+   "comment": "layerID: sha256:2dca9c88e69552f5fbbbd2a4c532a77246f9ea2f5c8ea11af6503ce5650dd8d9",
+   "licenseConcluded": "NOASSERTION",
+   "fileName": "/usr/share/ca-certificates/mozilla/SecureSign_RootCA11.crt"
+  },
+  {
+   "SPDXID": "SPDXRef-e8628a72592a57ea",
+   "comment": "layerID: sha256:2dca9c88e69552f5fbbbd2a4c532a77246f9ea2f5c8ea11af6503ce5650dd8d9",
+   "licenseConcluded": "NOASSERTION",
+   "fileName": "/usr/share/ca-certificates/mozilla/SecureTrust_CA.crt"
+  },
+  {
+   "SPDXID": "SPDXRef-cdd0c4a36b0a8648",
+   "comment": "layerID: sha256:2dca9c88e69552f5fbbbd2a4c532a77246f9ea2f5c8ea11af6503ce5650dd8d9",
+   "licenseConcluded": "NOASSERTION",
+   "fileName": "/usr/share/ca-certificates/mozilla/Secure_Global_CA.crt"
+  },
+  {
+   "SPDXID": "SPDXRef-56b0c9961c715b68",
+   "comment": "layerID: sha256:2dca9c88e69552f5fbbbd2a4c532a77246f9ea2f5c8ea11af6503ce5650dd8d9",
+   "licenseConcluded": "NOASSERTION",
+   "fileName": "/usr/share/ca-certificates/mozilla/Security_Communication_RootCA2.crt"
+  },
+  {
+   "SPDXID": "SPDXRef-384a998cc1330bdb",
+   "comment": "layerID: sha256:2dca9c88e69552f5fbbbd2a4c532a77246f9ea2f5c8ea11af6503ce5650dd8d9",
+   "licenseConcluded": "NOASSERTION",
+   "fileName": "/usr/share/ca-certificates/mozilla/Security_Communication_Root_CA.crt"
+  },
+  {
+   "SPDXID": "SPDXRef-6df30c4de23e372",
+   "comment": "layerID: sha256:2dca9c88e69552f5fbbbd2a4c532a77246f9ea2f5c8ea11af6503ce5650dd8d9",
+   "licenseConcluded": "NOASSERTION",
+   "fileName": "/usr/share/ca-certificates/mozilla/Staat_der_Nederlanden_EV_Root_CA.crt"
+  },
+  {
+   "SPDXID": "SPDXRef-82d1f95863f0767a",
+   "comment": "layerID: sha256:2dca9c88e69552f5fbbbd2a4c532a77246f9ea2f5c8ea11af6503ce5650dd8d9",
+   "licenseConcluded": "NOASSERTION",
+   "fileName": "/usr/share/ca-certificates/mozilla/Starfield_Class_2_CA.crt"
+  },
+  {
+   "SPDXID": "SPDXRef-2274088f30b2ab1b",
+   "comment": "layerID: sha256:2dca9c88e69552f5fbbbd2a4c532a77246f9ea2f5c8ea11af6503ce5650dd8d9",
+   "licenseConcluded": "NOASSERTION",
+   "fileName": "/usr/share/ca-certificates/mozilla/Starfield_Root_Certificate_Authority_-_G2.crt"
+  },
+  {
+   "SPDXID": "SPDXRef-8fd02e714cb58675",
+   "comment": "layerID: sha256:2dca9c88e69552f5fbbbd2a4c532a77246f9ea2f5c8ea11af6503ce5650dd8d9",
+   "licenseConcluded": "NOASSERTION",
+   "fileName": "/usr/share/ca-certificates/mozilla/Starfield_Services_Root_Certificate_Authority_-_G2.crt"
+  },
+  {
+   "SPDXID": "SPDXRef-6fe656e4bac8a2cc",
+   "comment": "layerID: sha256:2dca9c88e69552f5fbbbd2a4c532a77246f9ea2f5c8ea11af6503ce5650dd8d9",
+   "licenseConcluded": "NOASSERTION",
+   "fileName": "/usr/share/ca-certificates/mozilla/SwissSign_Gold_CA_-_G2.crt"
+  },
+  {
+   "SPDXID": "SPDXRef-42a48c6a5d70a2ca",
+   "comment": "layerID: sha256:2dca9c88e69552f5fbbbd2a4c532a77246f9ea2f5c8ea11af6503ce5650dd8d9",
+   "licenseConcluded": "NOASSERTION",
+   "fileName": "/usr/share/ca-certificates/mozilla/SwissSign_Silver_CA_-_G2.crt"
+  },
+  {
+   "SPDXID": "SPDXRef-678fd40ca189c1f4",
+   "comment": "layerID: sha256:2dca9c88e69552f5fbbbd2a4c532a77246f9ea2f5c8ea11af6503ce5650dd8d9",
+   "licenseConcluded": "NOASSERTION",
+   "fileName": "/usr/share/ca-certificates/mozilla/T-TeleSec_GlobalRoot_Class_2.crt"
+  },
+  {
+   "SPDXID": "SPDXRef-d516a440b401a47f",
+   "comment": "layerID: sha256:2dca9c88e69552f5fbbbd2a4c532a77246f9ea2f5c8ea11af6503ce5650dd8d9",
+   "licenseConcluded": "NOASSERTION",
+   "fileName": "/usr/share/ca-certificates/mozilla/T-TeleSec_GlobalRoot_Class_3.crt"
+  },
+  {
+   "SPDXID": "SPDXRef-297ed5b432c320a3",
+   "comment": "layerID: sha256:2dca9c88e69552f5fbbbd2a4c532a77246f9ea2f5c8ea11af6503ce5650dd8d9",
+   "licenseConcluded": "NOASSERTION",
+   "fileName": "/usr/share/ca-certificates/mozilla/TUBITAK_Kamu_SM_SSL_Kok_Sertifikasi_-_Surum_1.crt"
+  },
+  {
+   "SPDXID": "SPDXRef-ea938bcb9c2b03c7",
+   "comment": "layerID: sha256:2dca9c88e69552f5fbbbd2a4c532a77246f9ea2f5c8ea11af6503ce5650dd8d9",
+   "licenseConcluded": "NOASSERTION",
+   "fileName": "/usr/share/ca-certificates/mozilla/TWCA_Global_Root_CA.crt"
+  },
+  {
+   "SPDXID": "SPDXRef-cf7a963e56d1fe",
+   "comment": "layerID: sha256:2dca9c88e69552f5fbbbd2a4c532a77246f9ea2f5c8ea11af6503ce5650dd8d9",
+   "licenseConcluded": "NOASSERTION",
+   "fileName": "/usr/share/ca-certificates/mozilla/TWCA_Root_Certification_Authority.crt"
+  },
+  {
+   "SPDXID": "SPDXRef-8607efebaf81326c",
+   "comment": "layerID: sha256:2dca9c88e69552f5fbbbd2a4c532a77246f9ea2f5c8ea11af6503ce5650dd8d9",
+   "licenseConcluded": "NOASSERTION",
+   "fileName": "/usr/share/ca-certificates/mozilla/TeliaSonera_Root_CA_v1.crt"
+  },
+  {
+   "SPDXID": "SPDXRef-45bfb388e7eff7ac",
+   "comment": "layerID: sha256:2dca9c88e69552f5fbbbd2a4c532a77246f9ea2f5c8ea11af6503ce5650dd8d9",
+   "licenseConcluded": "NOASSERTION",
+   "fileName": "/usr/share/ca-certificates/mozilla/TrustCor_ECA-1.crt"
+  },
+  {
+   "SPDXID": "SPDXRef-609f8ef579ebd708",
+   "comment": "layerID: sha256:2dca9c88e69552f5fbbbd2a4c532a77246f9ea2f5c8ea11af6503ce5650dd8d9",
+   "licenseConcluded": "NOASSERTION",
+   "fileName": "/usr/share/ca-certificates/mozilla/TrustCor_RootCert_CA-1.crt"
+  },
+  {
+   "SPDXID": "SPDXRef-cee0f16d6f7606c2",
+   "comment": "layerID: sha256:2dca9c88e69552f5fbbbd2a4c532a77246f9ea2f5c8ea11af6503ce5650dd8d9",
+   "licenseConcluded": "NOASSERTION",
+   "fileName": "/usr/share/ca-certificates/mozilla/TrustCor_RootCert_CA-2.crt"
+  },
+  {
+   "SPDXID": "SPDXRef-533bcccf9e227ffa",
+   "comment": "layerID: sha256:2dca9c88e69552f5fbbbd2a4c532a77246f9ea2f5c8ea11af6503ce5650dd8d9",
+   "licenseConcluded": "NOASSERTION",
+   "fileName": "/usr/share/ca-certificates/mozilla/Trustwave_Global_Certification_Authority.crt"
+  },
+  {
+   "SPDXID": "SPDXRef-714fa4262708c796",
+   "comment": "layerID: sha256:2dca9c88e69552f5fbbbd2a4c532a77246f9ea2f5c8ea11af6503ce5650dd8d9",
+   "licenseConcluded": "NOASSERTION",
+   "fileName": "/usr/share/ca-certificates/mozilla/Trustwave_Global_ECC_P256_Certification_Authority.crt"
+  },
+  {
+   "SPDXID": "SPDXRef-14aa0f0752144295",
+   "comment": "layerID: sha256:2dca9c88e69552f5fbbbd2a4c532a77246f9ea2f5c8ea11af6503ce5650dd8d9",
+   "licenseConcluded": "NOASSERTION",
+   "fileName": "/usr/share/ca-certificates/mozilla/Trustwave_Global_ECC_P384_Certification_Authority.crt"
+  },
+  {
+   "SPDXID": "SPDXRef-386407f0ef08609",
+   "comment": "layerID: sha256:2dca9c88e69552f5fbbbd2a4c532a77246f9ea2f5c8ea11af6503ce5650dd8d9",
+   "licenseConcluded": "NOASSERTION",
+   "fileName": "/usr/share/ca-certificates/mozilla/TunTrust_Root_CA.crt"
+  },
+  {
+   "SPDXID": "SPDXRef-9ff012531c8ee679",
+   "comment": "layerID: sha256:2dca9c88e69552f5fbbbd2a4c532a77246f9ea2f5c8ea11af6503ce5650dd8d9",
+   "licenseConcluded": "NOASSERTION",
+   "fileName": "/usr/share/ca-certificates/mozilla/UCA_Extended_Validation_Root.crt"
+  },
+  {
+   "SPDXID": "SPDXRef-715e2f4a522911c4",
+   "comment": "layerID: sha256:2dca9c88e69552f5fbbbd2a4c532a77246f9ea2f5c8ea11af6503ce5650dd8d9",
+   "licenseConcluded": "NOASSERTION",
+   "fileName": "/usr/share/ca-certificates/mozilla/UCA_Global_G2_Root.crt"
+  },
+  {
+   "SPDXID": "SPDXRef-7d95f58316734e07",
+   "comment": "layerID: sha256:2dca9c88e69552f5fbbbd2a4c532a77246f9ea2f5c8ea11af6503ce5650dd8d9",
+   "licenseConcluded": "NOASSERTION",
+   "fileName": "/usr/share/ca-certificates/mozilla/USERTrust_ECC_Certification_Authority.crt"
+  },
+  {
+   "SPDXID": "SPDXRef-435bed633b82c08f",
+   "comment": "layerID: sha256:2dca9c88e69552f5fbbbd2a4c532a77246f9ea2f5c8ea11af6503ce5650dd8d9",
+   "licenseConcluded": "NOASSERTION",
+   "fileName": "/usr/share/ca-certificates/mozilla/USERTrust_RSA_Certification_Authority.crt"
+  },
+  {
+   "SPDXID": "SPDXRef-8050bee4b5dc6c7e",
+   "comment": "layerID: sha256:2dca9c88e69552f5fbbbd2a4c532a77246f9ea2f5c8ea11af6503ce5650dd8d9",
+   "licenseConcluded": "NOASSERTION",
+   "fileName": "/usr/share/ca-certificates/mozilla/XRamp_Global_CA_Root.crt"
+  },
+  {
+   "SPDXID": "SPDXRef-d8047657a20e57ba",
+   "comment": "layerID: sha256:2dca9c88e69552f5fbbbd2a4c532a77246f9ea2f5c8ea11af6503ce5650dd8d9",
+   "licenseConcluded": "NOASSERTION",
+   "fileName": "/usr/share/ca-certificates/mozilla/certSIGN_ROOT_CA.crt"
+  },
+  {
+   "SPDXID": "SPDXRef-9237a2ea3cc32d9",
+   "comment": "layerID: sha256:2dca9c88e69552f5fbbbd2a4c532a77246f9ea2f5c8ea11af6503ce5650dd8d9",
+   "licenseConcluded": "NOASSERTION",
+   "fileName": "/usr/share/ca-certificates/mozilla/certSIGN_Root_CA_G2.crt"
+  },
+  {
+   "SPDXID": "SPDXRef-1563f3f6529f4f5e",
+   "comment": "layerID: sha256:2dca9c88e69552f5fbbbd2a4c532a77246f9ea2f5c8ea11af6503ce5650dd8d9",
+   "licenseConcluded": "NOASSERTION",
+   "fileName": "/usr/share/ca-certificates/mozilla/e-Szigno_Root_CA_2017.crt"
+  },
+  {
+   "SPDXID": "SPDXRef-670a29b5ba8e9d26",
+   "comment": "layerID: sha256:2dca9c88e69552f5fbbbd2a4c532a77246f9ea2f5c8ea11af6503ce5650dd8d9",
+   "licenseConcluded": "NOASSERTION",
+   "fileName": "/usr/share/ca-certificates/mozilla/ePKI_Root_Certification_Authority.crt"
+  },
+  {
+   "SPDXID": "SPDXRef-8cab717e7cf55904",
+   "comment": "layerID: sha256:2dca9c88e69552f5fbbbd2a4c532a77246f9ea2f5c8ea11af6503ce5650dd8d9",
+   "licenseConcluded": "NOASSERTION",
+   "fileName": "/usr/share/ca-certificates/mozilla/emSign_ECC_Root_CA_-_C3.crt"
+  },
+  {
+   "SPDXID": "SPDXRef-1207977b9b6aa39",
+   "comment": "layerID: sha256:2dca9c88e69552f5fbbbd2a4c532a77246f9ea2f5c8ea11af6503ce5650dd8d9",
+   "licenseConcluded": "NOASSERTION",
+   "fileName": "/usr/share/ca-certificates/mozilla/emSign_ECC_Root_CA_-_G3.crt"
+  },
+  {
+   "SPDXID": "SPDXRef-94db06ffac1f93b6",
+   "comment": "layerID: sha256:2dca9c88e69552f5fbbbd2a4c532a77246f9ea2f5c8ea11af6503ce5650dd8d9",
+   "licenseConcluded": "NOASSERTION",
+   "fileName": "/usr/share/ca-certificates/mozilla/emSign_Root_CA_-_C1.crt"
+  },
+  {
+   "SPDXID": "SPDXRef-d57aab9ef81dea1c",
+   "comment": "layerID: sha256:2dca9c88e69552f5fbbbd2a4c532a77246f9ea2f5c8ea11af6503ce5650dd8d9",
+   "licenseConcluded": "NOASSERTION",
+   "fileName": "/usr/share/ca-certificates/mozilla/emSign_Root_CA_-_G1.crt"
+  },
+  {
+   "SPDXID": "SPDXRef-3ee00fe20dae6657",
+   "comment": "layerID: sha256:2dca9c88e69552f5fbbbd2a4c532a77246f9ea2f5c8ea11af6503ce5650dd8d9",
+   "licenseConcluded": "NOASSERTION",
+   "fileName": "/usr/share/ca-certificates/mozilla/vTrus_ECC_Root_CA.crt"
+  },
+  {
+   "SPDXID": "SPDXRef-1ec8a8511d53a722",
+   "comment": "layerID: sha256:2dca9c88e69552f5fbbbd2a4c532a77246f9ea2f5c8ea11af6503ce5650dd8d9",
+   "licenseConcluded": "NOASSERTION",
+   "fileName": "/usr/share/ca-certificates/mozilla/vTrus_Root_CA.crt"
+  },
+  {
+   "SPDXID": "SPDXRef-619d7de3315dd70e",
+   "comment": "layerID: sha256:1ad27bdd166b922492031b1938a4fb2f775e3d98c8f1b72051dad0570a4dd1b5",
+   "licenseConcluded": "NOASSERTION",
+   "fileName": "/usr/share/udhcpc/default.script"
+  }
+ ],
+ "relationships": [
+  {
+   "spdxElementId": "SPDXRef-8838e981d6f951d5",
+   "relationshipType": "CONTAINS",
+   "relatedSpdxElement": "SPDXRef-c6055811e7065b6d"
+  },
+  {
+   "spdxElementId": "SPDXRef-8838e981d6f951d5",
+   "relationshipType": "CONTAINS",
+   "relatedSpdxElement": "SPDXRef-c6055811e7065b6d"
+  },
+  {
+   "spdxElementId": "SPDXRef-a2df16fe1b3cca11",
+   "relationshipType": "CONTAINS",
+   "relatedSpdxElement": "SPDXRef-93cb7e72e1829439"
+  },
+  {
+   "spdxElementId": "SPDXRef-a2df16fe1b3cca11",
+   "relationshipType": "CONTAINS",
+   "relatedSpdxElement": "SPDXRef-93cb7e72e1829439"
+  },
+  {
+   "spdxElementId": "SPDXRef-a2df16fe1b3cca11",
+   "relationshipType": "CONTAINS",
+   "relatedSpdxElement": "SPDXRef-163a7959656c5a0d"
+  },
+  {
+   "spdxElementId": "SPDXRef-a2df16fe1b3cca11",
+   "relationshipType": "CONTAINS",
+   "relatedSpdxElement": "SPDXRef-b2ab419080b18b68"
+  },
+  {
+   "spdxElementId": "SPDXRef-a2df16fe1b3cca11",
+   "relationshipType": "CONTAINS",
+   "relatedSpdxElement": "SPDXRef-769bde8c4aae1502"
+  },
+  {
+   "spdxElementId": "SPDXRef-a2df16fe1b3cca11",
+   "relationshipType": "CONTAINS",
+   "relatedSpdxElement": "SPDXRef-ad5b3fa643444ef8"
+  },
+  {
+   "spdxElementId": "SPDXRef-a2df16fe1b3cca11",
+   "relationshipType": "CONTAINS",
+   "relatedSpdxElement": "SPDXRef-619d7de3315dd70e"
+  },
+  {
+   "spdxElementId": "SPDXRef-ab971b290905df2",
+   "relationshipType": "CONTAINS",
+   "relatedSpdxElement": "SPDXRef-e0c55db1366565e6"
+  },
+  {
+   "spdxElementId": "SPDXRef-ab971b290905df2",
+   "relationshipType": "CONTAINS",
+   "relatedSpdxElement": "SPDXRef-6c6a945680115454"
+  },
+  {
+   "spdxElementId": "SPDXRef-ab971b290905df2",
+   "relationshipType": "CONTAINS",
+   "relatedSpdxElement": "SPDXRef-799314c19f28688f"
+  },
+  {
+   "spdxElementId": "SPDXRef-ab971b290905df2",
+   "relationshipType": "CONTAINS",
+   "relatedSpdxElement": "SPDXRef-24ba95f0a7931610"
+  },
+  {
+   "spdxElementId": "SPDXRef-ab971b290905df2",
+   "relationshipType": "CONTAINS",
+   "relatedSpdxElement": "SPDXRef-5387251fe0618aa8"
+  },
+  {
+   "spdxElementId": "SPDXRef-ab971b290905df2",
+   "relationshipType": "CONTAINS",
+   "relatedSpdxElement": "SPDXRef-1d147f7477369788"
+  },
+  {
+   "spdxElementId": "SPDXRef-ab971b290905df2",
+   "relationshipType": "CONTAINS",
+   "relatedSpdxElement": "SPDXRef-8b9bff90db6dd7e"
+  },
+  {
+   "spdxElementId": "SPDXRef-ab971b290905df2",
+   "relationshipType": "CONTAINS",
+   "relatedSpdxElement": "SPDXRef-6f43d88b1a7f4075"
+  },
+  {
+   "spdxElementId": "SPDXRef-ab971b290905df2",
+   "relationshipType": "CONTAINS",
+   "relatedSpdxElement": "SPDXRef-a7e8b36870f42da6"
+  },
+  {
+   "spdxElementId": "SPDXRef-ab971b290905df2",
+   "relationshipType": "CONTAINS",
+   "relatedSpdxElement": "SPDXRef-c379647b57783d0d"
+  },
+  {
+   "spdxElementId": "SPDXRef-ab971b290905df2",
+   "relationshipType": "CONTAINS",
+   "relatedSpdxElement": "SPDXRef-fd2cf3ff487cb228"
+  },
+  {
+   "spdxElementId": "SPDXRef-ab971b290905df2",
+   "relationshipType": "CONTAINS",
+   "relatedSpdxElement": "SPDXRef-be69f9d1091986a2"
+  },
+  {
+   "spdxElementId": "SPDXRef-ab971b290905df2",
+   "relationshipType": "CONTAINS",
+   "relatedSpdxElement": "SPDXRef-1b80fe8feb08c88a"
+  },
+  {
+   "spdxElementId": "SPDXRef-ab971b290905df2",
+   "relationshipType": "CONTAINS",
+   "relatedSpdxElement": "SPDXRef-61a566ae390d188a"
+  },
+  {
+   "spdxElementId": "SPDXRef-ab971b290905df2",
+   "relationshipType": "CONTAINS",
+   "relatedSpdxElement": "SPDXRef-e01b1c9adc498675"
+  },
+  {
+   "spdxElementId": "SPDXRef-ab971b290905df2",
+   "relationshipType": "CONTAINS",
+   "relatedSpdxElement": "SPDXRef-224d34ec6788fe45"
+  },
+  {
+   "spdxElementId": "SPDXRef-ab971b290905df2",
+   "relationshipType": "CONTAINS",
+   "relatedSpdxElement": "SPDXRef-2a4fd6037d5e6a0b"
+  },
+  {
+   "spdxElementId": "SPDXRef-ab971b290905df2",
+   "relationshipType": "CONTAINS",
+   "relatedSpdxElement": "SPDXRef-d9fc3f0279137264"
+  },
+  {
+   "spdxElementId": "SPDXRef-ab971b290905df2",
+   "relationshipType": "CONTAINS",
+   "relatedSpdxElement": "SPDXRef-79ed7a7a9b91ef71"
+  },
+  {
+   "spdxElementId": "SPDXRef-ab971b290905df2",
+   "relationshipType": "CONTAINS",
+   "relatedSpdxElement": "SPDXRef-582dff32a6801300"
+  },
+  {
+   "spdxElementId": "SPDXRef-ab971b290905df2",
+   "relationshipType": "CONTAINS",
+   "relatedSpdxElement": "SPDXRef-645431670db7b8df"
+  },
+  {
+   "spdxElementId": "SPDXRef-ab971b290905df2",
+   "relationshipType": "CONTAINS",
+   "relatedSpdxElement": "SPDXRef-883f195f94c7c4f4"
+  },
+  {
+   "spdxElementId": "SPDXRef-ab971b290905df2",
+   "relationshipType": "CONTAINS",
+   "relatedSpdxElement": "SPDXRef-895745ccbe54628b"
+  },
+  {
+   "spdxElementId": "SPDXRef-fdfd5687263b905c",
+   "relationshipType": "CONTAINS",
+   "relatedSpdxElement": "SPDXRef-6427e5f1405a6c5a"
+  },
+  {
+   "spdxElementId": "SPDXRef-fdfd5687263b905c",
+   "relationshipType": "CONTAINS",
+   "relatedSpdxElement": "SPDXRef-6cc8c06359bf631a"
+  },
+  {
+   "spdxElementId": "SPDXRef-fdfd5687263b905c",
+   "relationshipType": "CONTAINS",
+   "relatedSpdxElement": "SPDXRef-a6f58a29a7532518"
+  },
+  {
+   "spdxElementId": "SPDXRef-fdfd5687263b905c",
+   "relationshipType": "CONTAINS",
+   "relatedSpdxElement": "SPDXRef-4596fdd00636bad4"
+  },
+  {
+   "spdxElementId": "SPDXRef-fdfd5687263b905c",
+   "relationshipType": "CONTAINS",
+   "relatedSpdxElement": "SPDXRef-a5885d4f40b256b0"
+  },
+  {
+   "spdxElementId": "SPDXRef-fdfd5687263b905c",
+   "relationshipType": "CONTAINS",
+   "relatedSpdxElement": "SPDXRef-a8b24455dacbd886"
+  },
+  {
+   "spdxElementId": "SPDXRef-fdfd5687263b905c",
+   "relationshipType": "CONTAINS",
+   "relatedSpdxElement": "SPDXRef-cf892a6bdba4760a"
+  },
+  {
+   "spdxElementId": "SPDXRef-fdfd5687263b905c",
+   "relationshipType": "CONTAINS",
+   "relatedSpdxElement": "SPDXRef-3cdb1ab31a2aa0dd"
+  },
+  {
+   "spdxElementId": "SPDXRef-fdfd5687263b905c",
+   "relationshipType": "CONTAINS",
+   "relatedSpdxElement": "SPDXRef-951d6c844b0caa05"
+  },
+  {
+   "spdxElementId": "SPDXRef-fdfd5687263b905c",
+   "relationshipType": "CONTAINS",
+   "relatedSpdxElement": "SPDXRef-ad3289bb4034a182"
+  },
+  {
+   "spdxElementId": "SPDXRef-fdfd5687263b905c",
+   "relationshipType": "CONTAINS",
+   "relatedSpdxElement": "SPDXRef-f641d79eba33c1f"
+  },
+  {
+   "spdxElementId": "SPDXRef-fdfd5687263b905c",
+   "relationshipType": "CONTAINS",
+   "relatedSpdxElement": "SPDXRef-a8b24455dacbd886"
+  },
+  {
+   "spdxElementId": "SPDXRef-fdfd5687263b905c",
+   "relationshipType": "CONTAINS",
+   "relatedSpdxElement": "SPDXRef-b81e73f5fe2099d2"
+  },
+  {
+   "spdxElementId": "SPDXRef-fdfd5687263b905c",
+   "relationshipType": "CONTAINS",
+   "relatedSpdxElement": "SPDXRef-dc27e17e85e7af9d"
+  },
+  {
+   "spdxElementId": "SPDXRef-fdfd5687263b905c",
+   "relationshipType": "CONTAINS",
+   "relatedSpdxElement": "SPDXRef-e33680efc9e5e928"
+  },
+  {
+   "spdxElementId": "SPDXRef-fdfd5687263b905c",
+   "relationshipType": "CONTAINS",
+   "relatedSpdxElement": "SPDXRef-a7bc6f9b7016100b"
+  },
+  {
+   "spdxElementId": "SPDXRef-fdfd5687263b905c",
+   "relationshipType": "CONTAINS",
+   "relatedSpdxElement": "SPDXRef-b5eae7b7c003c53d"
+  },
+  {
+   "spdxElementId": "SPDXRef-fdfd5687263b905c",
+   "relationshipType": "CONTAINS",
+   "relatedSpdxElement": "SPDXRef-1ad15a63585cd3b8"
+  },
+  {
+   "spdxElementId": "SPDXRef-fdfd5687263b905c",
+   "relationshipType": "CONTAINS",
+   "relatedSpdxElement": "SPDXRef-f12fc4f3cc901b0d"
+  },
+  {
+   "spdxElementId": "SPDXRef-fdfd5687263b905c",
+   "relationshipType": "CONTAINS",
+   "relatedSpdxElement": "SPDXRef-42b3660726a15ade"
+  },
+  {
+   "spdxElementId": "SPDXRef-fdfd5687263b905c",
+   "relationshipType": "CONTAINS",
+   "relatedSpdxElement": "SPDXRef-788c68d61e059b82"
+  },
+  {
+   "spdxElementId": "SPDXRef-fdfd5687263b905c",
+   "relationshipType": "CONTAINS",
+   "relatedSpdxElement": "SPDXRef-d95c60fca31191b0"
+  },
+  {
+   "spdxElementId": "SPDXRef-fdfd5687263b905c",
+   "relationshipType": "CONTAINS",
+   "relatedSpdxElement": "SPDXRef-cf892a6bdba4760a"
+  },
+  {
+   "spdxElementId": "SPDXRef-fdfd5687263b905c",
+   "relationshipType": "CONTAINS",
+   "relatedSpdxElement": "SPDXRef-194d09c6a4a9c6ed"
+  },
+  {
+   "spdxElementId": "SPDXRef-fdfd5687263b905c",
+   "relationshipType": "CONTAINS",
+   "relatedSpdxElement": "SPDXRef-ad3289bb4034a182"
+  },
+  {
+   "spdxElementId": "SPDXRef-fdfd5687263b905c",
+   "relationshipType": "CONTAINS",
+   "relatedSpdxElement": "SPDXRef-f12fc4f3cc901b0d"
+  },
+  {
+   "spdxElementId": "SPDXRef-fdfd5687263b905c",
+   "relationshipType": "CONTAINS",
+   "relatedSpdxElement": "SPDXRef-ad3289bb4034a182"
+  },
+  {
+   "spdxElementId": "SPDXRef-fdfd5687263b905c",
+   "relationshipType": "CONTAINS",
+   "relatedSpdxElement": "SPDXRef-d95c60fca31191b0"
+  },
+  {
+   "spdxElementId": "SPDXRef-fdfd5687263b905c",
+   "relationshipType": "CONTAINS",
+   "relatedSpdxElement": "SPDXRef-e33680efc9e5e928"
+  },
+  {
+   "spdxElementId": "SPDXRef-fdfd5687263b905c",
+   "relationshipType": "CONTAINS",
+   "relatedSpdxElement": "SPDXRef-b81e73f5fe2099d2"
+  },
+  {
+   "spdxElementId": "SPDXRef-fdfd5687263b905c",
+   "relationshipType": "CONTAINS",
+   "relatedSpdxElement": "SPDXRef-42b3660726a15ade"
+  },
+  {
+   "spdxElementId": "SPDXRef-fdfd5687263b905c",
+   "relationshipType": "CONTAINS",
+   "relatedSpdxElement": "SPDXRef-a7bc6f9b7016100b"
+  },
+  {
+   "spdxElementId": "SPDXRef-fdfd5687263b905c",
+   "relationshipType": "CONTAINS",
+   "relatedSpdxElement": "SPDXRef-194d09c6a4a9c6ed"
+  },
+  {
+   "spdxElementId": "SPDXRef-fdfd5687263b905c",
+   "relationshipType": "CONTAINS",
+   "relatedSpdxElement": "SPDXRef-dc27e17e85e7af9d"
+  },
+  {
+   "spdxElementId": "SPDXRef-fdfd5687263b905c",
+   "relationshipType": "CONTAINS",
+   "relatedSpdxElement": "SPDXRef-788c68d61e059b82"
+  },
+  {
+   "spdxElementId": "SPDXRef-fdfd5687263b905c",
+   "relationshipType": "CONTAINS",
+   "relatedSpdxElement": "SPDXRef-3cdb1ab31a2aa0dd"
+  },
+  {
+   "spdxElementId": "SPDXRef-fdfd5687263b905c",
+   "relationshipType": "CONTAINS",
+   "relatedSpdxElement": "SPDXRef-951d6c844b0caa05"
+  },
+  {
+   "spdxElementId": "SPDXRef-fdfd5687263b905c",
+   "relationshipType": "CONTAINS",
+   "relatedSpdxElement": "SPDXRef-1ad15a63585cd3b8"
+  },
+  {
+   "spdxElementId": "SPDXRef-fdfd5687263b905c",
+   "relationshipType": "CONTAINS",
+   "relatedSpdxElement": "SPDXRef-3cdb1ab31a2aa0dd"
+  },
+  {
+   "spdxElementId": "SPDXRef-fdfd5687263b905c",
+   "relationshipType": "CONTAINS",
+   "relatedSpdxElement": "SPDXRef-f641d79eba33c1f"
+  },
+  {
+   "spdxElementId": "SPDXRef-fdfd5687263b905c",
+   "relationshipType": "CONTAINS",
+   "relatedSpdxElement": "SPDXRef-b5eae7b7c003c53d"
+  },
+  {
+   "spdxElementId": "SPDXRef-29dec83807252c4d",
+   "relationshipType": "CONTAINS",
+   "relatedSpdxElement": "SPDXRef-12344e0f7d9ffcf1"
+  },
+  {
+   "spdxElementId": "SPDXRef-29dec83807252c4d",
+   "relationshipType": "CONTAINS",
+   "relatedSpdxElement": "SPDXRef-160a2a6b81b5c71f"
+  },
+  {
+   "spdxElementId": "SPDXRef-29dec83807252c4d",
+   "relationshipType": "CONTAINS",
+   "relatedSpdxElement": "SPDXRef-e93eb4176356e1c0"
+  },
+  {
+   "spdxElementId": "SPDXRef-29dec83807252c4d",
+   "relationshipType": "CONTAINS",
+   "relatedSpdxElement": "SPDXRef-cd70a9f7d86d85b3"
+  },
+  {
+   "spdxElementId": "SPDXRef-29dec83807252c4d",
+   "relationshipType": "CONTAINS",
+   "relatedSpdxElement": "SPDXRef-cd70a9f7d86d85b3"
+  },
+  {
+   "spdxElementId": "SPDXRef-29dec83807252c4d",
+   "relationshipType": "CONTAINS",
+   "relatedSpdxElement": "SPDXRef-6432484de6ce51c1"
+  },
+  {
+   "spdxElementId": "SPDXRef-29dec83807252c4d",
+   "relationshipType": "CONTAINS",
+   "relatedSpdxElement": "SPDXRef-70365609df392e1f"
+  },
+  {
+   "spdxElementId": "SPDXRef-29dec83807252c4d",
+   "relationshipType": "CONTAINS",
+   "relatedSpdxElement": "SPDXRef-94d22c3ea3d4a090"
+  },
+  {
+   "spdxElementId": "SPDXRef-29dec83807252c4d",
+   "relationshipType": "CONTAINS",
+   "relatedSpdxElement": "SPDXRef-f1433035c85d2afd"
+  },
+  {
+   "spdxElementId": "SPDXRef-29dec83807252c4d",
+   "relationshipType": "CONTAINS",
+   "relatedSpdxElement": "SPDXRef-8c9748a1943093c4"
+  },
+  {
+   "spdxElementId": "SPDXRef-29dec83807252c4d",
+   "relationshipType": "CONTAINS",
+   "relatedSpdxElement": "SPDXRef-fbd1554781d38def"
+  },
+  {
+   "spdxElementId": "SPDXRef-29dec83807252c4d",
+   "relationshipType": "CONTAINS",
+   "relatedSpdxElement": "SPDXRef-94d22c3ea3d4a090"
+  },
+  {
+   "spdxElementId": "SPDXRef-7aa7a3e1413a8d52",
+   "relationshipType": "CONTAINS",
+   "relatedSpdxElement": "SPDXRef-d61cfbade57ca569"
+  },
+  {
+   "spdxElementId": "SPDXRef-7aa7a3e1413a8d52",
+   "relationshipType": "CONTAINS",
+   "relatedSpdxElement": "SPDXRef-d61cfbade57ca569"
+  },
+  {
+   "spdxElementId": "SPDXRef-d44f92f020efc258",
+   "relationshipType": "CONTAINS",
+   "relatedSpdxElement": "SPDXRef-4937b35733032401"
+  },
+  {
+   "spdxElementId": "SPDXRef-d44f92f020efc258",
+   "relationshipType": "CONTAINS",
+   "relatedSpdxElement": "SPDXRef-4937b35733032401"
+  },
+  {
+   "spdxElementId": "SPDXRef-cb2f5162c15647c4",
+   "relationshipType": "CONTAINS",
+   "relatedSpdxElement": "SPDXRef-e86fd0f5baf3b2b3"
+  },
+  {
+   "spdxElementId": "SPDXRef-cb2f5162c15647c4",
+   "relationshipType": "CONTAINS",
+   "relatedSpdxElement": "SPDXRef-e86fd0f5baf3b2b3"
+  },
+  {
+   "spdxElementId": "SPDXRef-45ae35e9af81ecdf",
+   "relationshipType": "CONTAINS",
+   "relatedSpdxElement": "SPDXRef-bf55dfa58d25a61e"
+  },
+  {
+   "spdxElementId": "SPDXRef-10b3990af8d43075",
+   "relationshipType": "CONTAINS",
+   "relatedSpdxElement": "SPDXRef-c5e52c1b446d912"
+  },
+  {
+   "spdxElementId": "SPDXRef-10b3990af8d43075",
+   "relationshipType": "CONTAINS",
+   "relatedSpdxElement": "SPDXRef-c5e52c1b446d912"
+  },
+  {
+   "spdxElementId": "SPDXRef-7609c21653a53e4f",
+   "relationshipType": "CONTAINS",
+   "relatedSpdxElement": "SPDXRef-bdcc0a7b2fcf6b08"
+  },
+  {
+   "spdxElementId": "SPDXRef-9bb2292736678189",
+   "relationshipType": "CONTAINS",
+   "relatedSpdxElement": "SPDXRef-c88cf3fe63ed3e7f"
+  },
+  {
+   "spdxElementId": "SPDXRef-a9ea2a9f57787a19",
+   "relationshipType": "CONTAINS",
+   "relatedSpdxElement": "SPDXRef-a194ade95e34168f"
+  },
+  {
+   "spdxElementId": "SPDXRef-a9ea2a9f57787a19",
+   "relationshipType": "CONTAINS",
+   "relatedSpdxElement": "SPDXRef-4cc50c22c1ecc26b"
+  },
+  {
+   "spdxElementId": "SPDXRef-a9ea2a9f57787a19",
+   "relationshipType": "CONTAINS",
+   "relatedSpdxElement": "SPDXRef-e55f1e47bca93760"
+  },
+  {
+   "spdxElementId": "SPDXRef-a9ea2a9f57787a19",
+   "relationshipType": "CONTAINS",
+   "relatedSpdxElement": "SPDXRef-b88df1b5a1c177b"
+  },
+  {
+   "spdxElementId": "SPDXRef-a9ea2a9f57787a19",
+   "relationshipType": "CONTAINS",
+   "relatedSpdxElement": "SPDXRef-bebe8d39645c5167"
+  },
+  {
+   "spdxElementId": "SPDXRef-37964d136f439ff1",
+   "relationshipType": "CONTAINS",
+   "relatedSpdxElement": "SPDXRef-61bf61feba348fc1"
+  },
+  {
+   "spdxElementId": "SPDXRef-37964d136f439ff1",
+   "relationshipType": "CONTAINS",
+   "relatedSpdxElement": "SPDXRef-f58f4de80a0b7b7"
+  },
+  {
+   "spdxElementId": "SPDXRef-37964d136f439ff1",
+   "relationshipType": "CONTAINS",
+   "relatedSpdxElement": "SPDXRef-2507f42319d423b7"
+  },
+  {
+   "spdxElementId": "SPDXRef-37964d136f439ff1",
+   "relationshipType": "CONTAINS",
+   "relatedSpdxElement": "SPDXRef-2ff353f3fcf8dbf1"
+  },
+  {
+   "spdxElementId": "SPDXRef-37964d136f439ff1",
+   "relationshipType": "CONTAINS",
+   "relatedSpdxElement": "SPDXRef-9b850d929b67fe9f"
+  },
+  {
+   "spdxElementId": "SPDXRef-37964d136f439ff1",
+   "relationshipType": "CONTAINS",
+   "relatedSpdxElement": "SPDXRef-f2733accd4a24be2"
+  },
+  {
+   "spdxElementId": "SPDXRef-37964d136f439ff1",
+   "relationshipType": "CONTAINS",
+   "relatedSpdxElement": "SPDXRef-a769184b7b153d54"
+  },
+  {
+   "spdxElementId": "SPDXRef-37964d136f439ff1",
+   "relationshipType": "CONTAINS",
+   "relatedSpdxElement": "SPDXRef-5915fa8c1cebe46b"
+  },
+  {
+   "spdxElementId": "SPDXRef-37964d136f439ff1",
+   "relationshipType": "CONTAINS",
+   "relatedSpdxElement": "SPDXRef-dc27cd7cfe26df9c"
+  },
+  {
+   "spdxElementId": "SPDXRef-37964d136f439ff1",
+   "relationshipType": "CONTAINS",
+   "relatedSpdxElement": "SPDXRef-5d168d760006f951"
+  },
+  {
+   "spdxElementId": "SPDXRef-37964d136f439ff1",
+   "relationshipType": "CONTAINS",
+   "relatedSpdxElement": "SPDXRef-4dcafb964c87a4be"
+  },
+  {
+   "spdxElementId": "SPDXRef-37964d136f439ff1",
+   "relationshipType": "CONTAINS",
+   "relatedSpdxElement": "SPDXRef-e6bd0ebd0e7d7052"
+  },
+  {
+   "spdxElementId": "SPDXRef-37964d136f439ff1",
+   "relationshipType": "CONTAINS",
+   "relatedSpdxElement": "SPDXRef-15c2d2a1fee28cc9"
+  },
+  {
+   "spdxElementId": "SPDXRef-37964d136f439ff1",
+   "relationshipType": "CONTAINS",
+   "relatedSpdxElement": "SPDXRef-17711e1d0b1534c9"
+  },
+  {
+   "spdxElementId": "SPDXRef-37964d136f439ff1",
+   "relationshipType": "CONTAINS",
+   "relatedSpdxElement": "SPDXRef-2681737f03f1cee1"
+  },
+  {
+   "spdxElementId": "SPDXRef-37964d136f439ff1",
+   "relationshipType": "CONTAINS",
+   "relatedSpdxElement": "SPDXRef-403eb294c4b7756"
+  },
+  {
+   "spdxElementId": "SPDXRef-37964d136f439ff1",
+   "relationshipType": "CONTAINS",
+   "relatedSpdxElement": "SPDXRef-6838dec0279b9e03"
+  },
+  {
+   "spdxElementId": "SPDXRef-37964d136f439ff1",
+   "relationshipType": "CONTAINS",
+   "relatedSpdxElement": "SPDXRef-5bc9edb1a9655b94"
+  },
+  {
+   "spdxElementId": "SPDXRef-37964d136f439ff1",
+   "relationshipType": "CONTAINS",
+   "relatedSpdxElement": "SPDXRef-596e38a2c876c163"
+  },
+  {
+   "spdxElementId": "SPDXRef-37964d136f439ff1",
+   "relationshipType": "CONTAINS",
+   "relatedSpdxElement": "SPDXRef-2045fd8d15f54751"
+  },
+  {
+   "spdxElementId": "SPDXRef-37964d136f439ff1",
+   "relationshipType": "CONTAINS",
+   "relatedSpdxElement": "SPDXRef-4a271ed592613a83"
+  },
+  {
+   "spdxElementId": "SPDXRef-37964d136f439ff1",
+   "relationshipType": "CONTAINS",
+   "relatedSpdxElement": "SPDXRef-c09e45d4b39b889e"
+  },
+  {
+   "spdxElementId": "SPDXRef-37964d136f439ff1",
+   "relationshipType": "CONTAINS",
+   "relatedSpdxElement": "SPDXRef-7d3084b3a8a9e930"
+  },
+  {
+   "spdxElementId": "SPDXRef-37964d136f439ff1",
+   "relationshipType": "CONTAINS",
+   "relatedSpdxElement": "SPDXRef-fae643796a73d6a4"
+  },
+  {
+   "spdxElementId": "SPDXRef-37964d136f439ff1",
+   "relationshipType": "CONTAINS",
+   "relatedSpdxElement": "SPDXRef-3137c932fea7963"
+  },
+  {
+   "spdxElementId": "SPDXRef-37964d136f439ff1",
+   "relationshipType": "CONTAINS",
+   "relatedSpdxElement": "SPDXRef-12c5de0712a9af2d"
+  },
+  {
+   "spdxElementId": "SPDXRef-37964d136f439ff1",
+   "relationshipType": "CONTAINS",
+   "relatedSpdxElement": "SPDXRef-c1cdb4744aed1ee7"
+  },
+  {
+   "spdxElementId": "SPDXRef-37964d136f439ff1",
+   "relationshipType": "CONTAINS",
+   "relatedSpdxElement": "SPDXRef-7a4683e223e17b24"
+  },
+  {
+   "spdxElementId": "SPDXRef-37964d136f439ff1",
+   "relationshipType": "CONTAINS",
+   "relatedSpdxElement": "SPDXRef-44d7a80da4c3ca63"
+  },
+  {
+   "spdxElementId": "SPDXRef-37964d136f439ff1",
+   "relationshipType": "CONTAINS",
+   "relatedSpdxElement": "SPDXRef-fc5661708a31114"
+  },
+  {
+   "spdxElementId": "SPDXRef-37964d136f439ff1",
+   "relationshipType": "CONTAINS",
+   "relatedSpdxElement": "SPDXRef-5fc6e724825d8751"
+  },
+  {
+   "spdxElementId": "SPDXRef-37964d136f439ff1",
+   "relationshipType": "CONTAINS",
+   "relatedSpdxElement": "SPDXRef-28de1cc8554ba94b"
+  },
+  {
+   "spdxElementId": "SPDXRef-37964d136f439ff1",
+   "relationshipType": "CONTAINS",
+   "relatedSpdxElement": "SPDXRef-d26a671864f0c1da"
+  },
+  {
+   "spdxElementId": "SPDXRef-37964d136f439ff1",
+   "relationshipType": "CONTAINS",
+   "relatedSpdxElement": "SPDXRef-4650f5332613f05a"
+  },
+  {
+   "spdxElementId": "SPDXRef-37964d136f439ff1",
+   "relationshipType": "CONTAINS",
+   "relatedSpdxElement": "SPDXRef-f4f725bc4a99c96d"
+  },
+  {
+   "spdxElementId": "SPDXRef-37964d136f439ff1",
+   "relationshipType": "CONTAINS",
+   "relatedSpdxElement": "SPDXRef-2db8fa28686390cb"
+  },
+  {
+   "spdxElementId": "SPDXRef-37964d136f439ff1",
+   "relationshipType": "CONTAINS",
+   "relatedSpdxElement": "SPDXRef-94baf54265e496b"
+  },
+  {
+   "spdxElementId": "SPDXRef-37964d136f439ff1",
+   "relationshipType": "CONTAINS",
+   "relatedSpdxElement": "SPDXRef-e0fe01cef8156dee"
+  },
+  {
+   "spdxElementId": "SPDXRef-37964d136f439ff1",
+   "relationshipType": "CONTAINS",
+   "relatedSpdxElement": "SPDXRef-afa251b50bc5eabc"
+  },
+  {
+   "spdxElementId": "SPDXRef-37964d136f439ff1",
+   "relationshipType": "CONTAINS",
+   "relatedSpdxElement": "SPDXRef-180e34fcea424520"
+  },
+  {
+   "spdxElementId": "SPDXRef-37964d136f439ff1",
+   "relationshipType": "CONTAINS",
+   "relatedSpdxElement": "SPDXRef-4943f3e81193f75e"
+  },
+  {
+   "spdxElementId": "SPDXRef-37964d136f439ff1",
+   "relationshipType": "CONTAINS",
+   "relatedSpdxElement": "SPDXRef-58c8b7a3a50c1a87"
+  },
+  {
+   "spdxElementId": "SPDXRef-37964d136f439ff1",
+   "relationshipType": "CONTAINS",
+   "relatedSpdxElement": "SPDXRef-b205080b918cfd9f"
+  },
+  {
+   "spdxElementId": "SPDXRef-37964d136f439ff1",
+   "relationshipType": "CONTAINS",
+   "relatedSpdxElement": "SPDXRef-f59b869b64702d2"
+  },
+  {
+   "spdxElementId": "SPDXRef-37964d136f439ff1",
+   "relationshipType": "CONTAINS",
+   "relatedSpdxElement": "SPDXRef-ce10d68eb506f481"
+  },
+  {
+   "spdxElementId": "SPDXRef-37964d136f439ff1",
+   "relationshipType": "CONTAINS",
+   "relatedSpdxElement": "SPDXRef-74208e03e63749c"
+  },
+  {
+   "spdxElementId": "SPDXRef-37964d136f439ff1",
+   "relationshipType": "CONTAINS",
+   "relatedSpdxElement": "SPDXRef-c99a69534b8774a1"
+  },
+  {
+   "spdxElementId": "SPDXRef-37964d136f439ff1",
+   "relationshipType": "CONTAINS",
+   "relatedSpdxElement": "SPDXRef-fda8ce5eb24eb60c"
+  },
+  {
+   "spdxElementId": "SPDXRef-37964d136f439ff1",
+   "relationshipType": "CONTAINS",
+   "relatedSpdxElement": "SPDXRef-43fa7d90f1efcd44"
+  },
+  {
+   "spdxElementId": "SPDXRef-37964d136f439ff1",
+   "relationshipType": "CONTAINS",
+   "relatedSpdxElement": "SPDXRef-5a8064ad21140555"
+  },
+  {
+   "spdxElementId": "SPDXRef-37964d136f439ff1",
+   "relationshipType": "CONTAINS",
+   "relatedSpdxElement": "SPDXRef-3ae5ea8a549302e1"
+  },
+  {
+   "spdxElementId": "SPDXRef-37964d136f439ff1",
+   "relationshipType": "CONTAINS",
+   "relatedSpdxElement": "SPDXRef-208a5477ef939b25"
+  },
+  {
+   "spdxElementId": "SPDXRef-37964d136f439ff1",
+   "relationshipType": "CONTAINS",
+   "relatedSpdxElement": "SPDXRef-27a8658744ea9803"
+  },
+  {
+   "spdxElementId": "SPDXRef-37964d136f439ff1",
+   "relationshipType": "CONTAINS",
+   "relatedSpdxElement": "SPDXRef-11ddf7a8ee13e81f"
+  },
+  {
+   "spdxElementId": "SPDXRef-37964d136f439ff1",
+   "relationshipType": "CONTAINS",
+   "relatedSpdxElement": "SPDXRef-71ce47131531fd77"
+  },
+  {
+   "spdxElementId": "SPDXRef-37964d136f439ff1",
+   "relationshipType": "CONTAINS",
+   "relatedSpdxElement": "SPDXRef-4902310574e2c5f4"
+  },
+  {
+   "spdxElementId": "SPDXRef-37964d136f439ff1",
+   "relationshipType": "CONTAINS",
+   "relatedSpdxElement": "SPDXRef-abe866f298352754"
+  },
+  {
+   "spdxElementId": "SPDXRef-37964d136f439ff1",
+   "relationshipType": "CONTAINS",
+   "relatedSpdxElement": "SPDXRef-23bcd3a6e11c1a08"
+  },
+  {
+   "spdxElementId": "SPDXRef-37964d136f439ff1",
+   "relationshipType": "CONTAINS",
+   "relatedSpdxElement": "SPDXRef-dbf6503843592bfd"
+  },
+  {
+   "spdxElementId": "SPDXRef-37964d136f439ff1",
+   "relationshipType": "CONTAINS",
+   "relatedSpdxElement": "SPDXRef-1235e63d85007da9"
+  },
+  {
+   "spdxElementId": "SPDXRef-37964d136f439ff1",
+   "relationshipType": "CONTAINS",
+   "relatedSpdxElement": "SPDXRef-ea4e9672c8e8c6e4"
+  },
+  {
+   "spdxElementId": "SPDXRef-37964d136f439ff1",
+   "relationshipType": "CONTAINS",
+   "relatedSpdxElement": "SPDXRef-e3e03e403033a2aa"
+  },
+  {
+   "spdxElementId": "SPDXRef-37964d136f439ff1",
+   "relationshipType": "CONTAINS",
+   "relatedSpdxElement": "SPDXRef-699c7985715495e2"
+  },
+  {
+   "spdxElementId": "SPDXRef-37964d136f439ff1",
+   "relationshipType": "CONTAINS",
+   "relatedSpdxElement": "SPDXRef-a202b9521839186b"
+  },
+  {
+   "spdxElementId": "SPDXRef-37964d136f439ff1",
+   "relationshipType": "CONTAINS",
+   "relatedSpdxElement": "SPDXRef-f6e2f0880dfbf459"
+  },
+  {
+   "spdxElementId": "SPDXRef-37964d136f439ff1",
+   "relationshipType": "CONTAINS",
+   "relatedSpdxElement": "SPDXRef-e546a2dc7950920e"
+  },
+  {
+   "spdxElementId": "SPDXRef-37964d136f439ff1",
+   "relationshipType": "CONTAINS",
+   "relatedSpdxElement": "SPDXRef-246b0972194b6338"
+  },
+  {
+   "spdxElementId": "SPDXRef-37964d136f439ff1",
+   "relationshipType": "CONTAINS",
+   "relatedSpdxElement": "SPDXRef-eb494d2d8011ad76"
+  },
+  {
+   "spdxElementId": "SPDXRef-37964d136f439ff1",
+   "relationshipType": "CONTAINS",
+   "relatedSpdxElement": "SPDXRef-db63fa244e7f0383"
+  },
+  {
+   "spdxElementId": "SPDXRef-37964d136f439ff1",
+   "relationshipType": "CONTAINS",
+   "relatedSpdxElement": "SPDXRef-e1a591003935490a"
+  },
+  {
+   "spdxElementId": "SPDXRef-37964d136f439ff1",
+   "relationshipType": "CONTAINS",
+   "relatedSpdxElement": "SPDXRef-3499e9fa2d7fb998"
+  },
+  {
+   "spdxElementId": "SPDXRef-37964d136f439ff1",
+   "relationshipType": "CONTAINS",
+   "relatedSpdxElement": "SPDXRef-f7237b88dd40e3ea"
+  },
+  {
+   "spdxElementId": "SPDXRef-37964d136f439ff1",
+   "relationshipType": "CONTAINS",
+   "relatedSpdxElement": "SPDXRef-b4e50fac5e2a8ec8"
+  },
+  {
+   "spdxElementId": "SPDXRef-37964d136f439ff1",
+   "relationshipType": "CONTAINS",
+   "relatedSpdxElement": "SPDXRef-ecb613e24cacc7db"
+  },
+  {
+   "spdxElementId": "SPDXRef-37964d136f439ff1",
+   "relationshipType": "CONTAINS",
+   "relatedSpdxElement": "SPDXRef-94cf743028863edc"
+  },
+  {
+   "spdxElementId": "SPDXRef-37964d136f439ff1",
+   "relationshipType": "CONTAINS",
+   "relatedSpdxElement": "SPDXRef-107cc029e4506c26"
+  },
+  {
+   "spdxElementId": "SPDXRef-37964d136f439ff1",
+   "relationshipType": "CONTAINS",
+   "relatedSpdxElement": "SPDXRef-865d90f3f1ee2b91"
+  },
+  {
+   "spdxElementId": "SPDXRef-37964d136f439ff1",
+   "relationshipType": "CONTAINS",
+   "relatedSpdxElement": "SPDXRef-9cbbc2042ab45c3b"
+  },
+  {
+   "spdxElementId": "SPDXRef-37964d136f439ff1",
+   "relationshipType": "CONTAINS",
+   "relatedSpdxElement": "SPDXRef-8c70aded018b0742"
+  },
+  {
+   "spdxElementId": "SPDXRef-37964d136f439ff1",
+   "relationshipType": "CONTAINS",
+   "relatedSpdxElement": "SPDXRef-2b894774488486df"
+  },
+  {
+   "spdxElementId": "SPDXRef-37964d136f439ff1",
+   "relationshipType": "CONTAINS",
+   "relatedSpdxElement": "SPDXRef-1ed580b3580f934c"
+  },
+  {
+   "spdxElementId": "SPDXRef-37964d136f439ff1",
+   "relationshipType": "CONTAINS",
+   "relatedSpdxElement": "SPDXRef-d562672dd55dbddd"
+  },
+  {
+   "spdxElementId": "SPDXRef-37964d136f439ff1",
+   "relationshipType": "CONTAINS",
+   "relatedSpdxElement": "SPDXRef-71fa421261f03c22"
+  },
+  {
+   "spdxElementId": "SPDXRef-37964d136f439ff1",
+   "relationshipType": "CONTAINS",
+   "relatedSpdxElement": "SPDXRef-21cd484531cfd32"
+  },
+  {
+   "spdxElementId": "SPDXRef-37964d136f439ff1",
+   "relationshipType": "CONTAINS",
+   "relatedSpdxElement": "SPDXRef-33b53de0cdf62f6b"
+  },
+  {
+   "spdxElementId": "SPDXRef-37964d136f439ff1",
+   "relationshipType": "CONTAINS",
+   "relatedSpdxElement": "SPDXRef-f83da9a4ec4558ad"
+  },
+  {
+   "spdxElementId": "SPDXRef-37964d136f439ff1",
+   "relationshipType": "CONTAINS",
+   "relatedSpdxElement": "SPDXRef-d6c17b32a4bb5483"
+  },
+  {
+   "spdxElementId": "SPDXRef-37964d136f439ff1",
+   "relationshipType": "CONTAINS",
+   "relatedSpdxElement": "SPDXRef-94be6c94c8be58a7"
+  },
+  {
+   "spdxElementId": "SPDXRef-37964d136f439ff1",
+   "relationshipType": "CONTAINS",
+   "relatedSpdxElement": "SPDXRef-3a240f8d33617be4"
+  },
+  {
+   "spdxElementId": "SPDXRef-37964d136f439ff1",
+   "relationshipType": "CONTAINS",
+   "relatedSpdxElement": "SPDXRef-6a964d850676d4cc"
+  },
+  {
+   "spdxElementId": "SPDXRef-37964d136f439ff1",
+   "relationshipType": "CONTAINS",
+   "relatedSpdxElement": "SPDXRef-76f1cecb693af82f"
+  },
+  {
+   "spdxElementId": "SPDXRef-37964d136f439ff1",
+   "relationshipType": "CONTAINS",
+   "relatedSpdxElement": "SPDXRef-a24a0066e484e355"
+  },
+  {
+   "spdxElementId": "SPDXRef-37964d136f439ff1",
+   "relationshipType": "CONTAINS",
+   "relatedSpdxElement": "SPDXRef-c4fd76ff5bfcff86"
+  },
+  {
+   "spdxElementId": "SPDXRef-37964d136f439ff1",
+   "relationshipType": "CONTAINS",
+   "relatedSpdxElement": "SPDXRef-33a6b7522707e6c5"
+  },
+  {
+   "spdxElementId": "SPDXRef-37964d136f439ff1",
+   "relationshipType": "CONTAINS",
+   "relatedSpdxElement": "SPDXRef-e9a0a188b5bb1533"
+  },
+  {
+   "spdxElementId": "SPDXRef-37964d136f439ff1",
+   "relationshipType": "CONTAINS",
+   "relatedSpdxElement": "SPDXRef-ad114a6042ca8fa2"
+  },
+  {
+   "spdxElementId": "SPDXRef-37964d136f439ff1",
+   "relationshipType": "CONTAINS",
+   "relatedSpdxElement": "SPDXRef-94592f45fd93bdd8"
+  },
+  {
+   "spdxElementId": "SPDXRef-37964d136f439ff1",
+   "relationshipType": "CONTAINS",
+   "relatedSpdxElement": "SPDXRef-53c76b135591d7cf"
+  },
+  {
+   "spdxElementId": "SPDXRef-37964d136f439ff1",
+   "relationshipType": "CONTAINS",
+   "relatedSpdxElement": "SPDXRef-f02d1b11f87ecb54"
+  },
+  {
+   "spdxElementId": "SPDXRef-37964d136f439ff1",
+   "relationshipType": "CONTAINS",
+   "relatedSpdxElement": "SPDXRef-e8628a72592a57ea"
+  },
+  {
+   "spdxElementId": "SPDXRef-37964d136f439ff1",
+   "relationshipType": "CONTAINS",
+   "relatedSpdxElement": "SPDXRef-cdd0c4a36b0a8648"
+  },
+  {
+   "spdxElementId": "SPDXRef-37964d136f439ff1",
+   "relationshipType": "CONTAINS",
+   "relatedSpdxElement": "SPDXRef-56b0c9961c715b68"
+  },
+  {
+   "spdxElementId": "SPDXRef-37964d136f439ff1",
+   "relationshipType": "CONTAINS",
+   "relatedSpdxElement": "SPDXRef-384a998cc1330bdb"
+  },
+  {
+   "spdxElementId": "SPDXRef-37964d136f439ff1",
+   "relationshipType": "CONTAINS",
+   "relatedSpdxElement": "SPDXRef-6df30c4de23e372"
+  },
+  {
+   "spdxElementId": "SPDXRef-37964d136f439ff1",
+   "relationshipType": "CONTAINS",
+   "relatedSpdxElement": "SPDXRef-82d1f95863f0767a"
+  },
+  {
+   "spdxElementId": "SPDXRef-37964d136f439ff1",
+   "relationshipType": "CONTAINS",
+   "relatedSpdxElement": "SPDXRef-2274088f30b2ab1b"
+  },
+  {
+   "spdxElementId": "SPDXRef-37964d136f439ff1",
+   "relationshipType": "CONTAINS",
+   "relatedSpdxElement": "SPDXRef-8fd02e714cb58675"
+  },
+  {
+   "spdxElementId": "SPDXRef-37964d136f439ff1",
+   "relationshipType": "CONTAINS",
+   "relatedSpdxElement": "SPDXRef-6fe656e4bac8a2cc"
+  },
+  {
+   "spdxElementId": "SPDXRef-37964d136f439ff1",
+   "relationshipType": "CONTAINS",
+   "relatedSpdxElement": "SPDXRef-42a48c6a5d70a2ca"
+  },
+  {
+   "spdxElementId": "SPDXRef-37964d136f439ff1",
+   "relationshipType": "CONTAINS",
+   "relatedSpdxElement": "SPDXRef-678fd40ca189c1f4"
+  },
+  {
+   "spdxElementId": "SPDXRef-37964d136f439ff1",
+   "relationshipType": "CONTAINS",
+   "relatedSpdxElement": "SPDXRef-d516a440b401a47f"
+  },
+  {
+   "spdxElementId": "SPDXRef-37964d136f439ff1",
+   "relationshipType": "CONTAINS",
+   "relatedSpdxElement": "SPDXRef-297ed5b432c320a3"
+  },
+  {
+   "spdxElementId": "SPDXRef-37964d136f439ff1",
+   "relationshipType": "CONTAINS",
+   "relatedSpdxElement": "SPDXRef-ea938bcb9c2b03c7"
+  },
+  {
+   "spdxElementId": "SPDXRef-37964d136f439ff1",
+   "relationshipType": "CONTAINS",
+   "relatedSpdxElement": "SPDXRef-cf7a963e56d1fe"
+  },
+  {
+   "spdxElementId": "SPDXRef-37964d136f439ff1",
+   "relationshipType": "CONTAINS",
+   "relatedSpdxElement": "SPDXRef-8607efebaf81326c"
+  },
+  {
+   "spdxElementId": "SPDXRef-37964d136f439ff1",
+   "relationshipType": "CONTAINS",
+   "relatedSpdxElement": "SPDXRef-45bfb388e7eff7ac"
+  },
+  {
+   "spdxElementId": "SPDXRef-37964d136f439ff1",
+   "relationshipType": "CONTAINS",
+   "relatedSpdxElement": "SPDXRef-609f8ef579ebd708"
+  },
+  {
+   "spdxElementId": "SPDXRef-37964d136f439ff1",
+   "relationshipType": "CONTAINS",
+   "relatedSpdxElement": "SPDXRef-cee0f16d6f7606c2"
+  },
+  {
+   "spdxElementId": "SPDXRef-37964d136f439ff1",
+   "relationshipType": "CONTAINS",
+   "relatedSpdxElement": "SPDXRef-533bcccf9e227ffa"
+  },
+  {
+   "spdxElementId": "SPDXRef-37964d136f439ff1",
+   "relationshipType": "CONTAINS",
+   "relatedSpdxElement": "SPDXRef-714fa4262708c796"
+  },
+  {
+   "spdxElementId": "SPDXRef-37964d136f439ff1",
+   "relationshipType": "CONTAINS",
+   "relatedSpdxElement": "SPDXRef-14aa0f0752144295"
+  },
+  {
+   "spdxElementId": "SPDXRef-37964d136f439ff1",
+   "relationshipType": "CONTAINS",
+   "relatedSpdxElement": "SPDXRef-386407f0ef08609"
+  },
+  {
+   "spdxElementId": "SPDXRef-37964d136f439ff1",
+   "relationshipType": "CONTAINS",
+   "relatedSpdxElement": "SPDXRef-9ff012531c8ee679"
+  },
+  {
+   "spdxElementId": "SPDXRef-37964d136f439ff1",
+   "relationshipType": "CONTAINS",
+   "relatedSpdxElement": "SPDXRef-715e2f4a522911c4"
+  },
+  {
+   "spdxElementId": "SPDXRef-37964d136f439ff1",
+   "relationshipType": "CONTAINS",
+   "relatedSpdxElement": "SPDXRef-7d95f58316734e07"
+  },
+  {
+   "spdxElementId": "SPDXRef-37964d136f439ff1",
+   "relationshipType": "CONTAINS",
+   "relatedSpdxElement": "SPDXRef-435bed633b82c08f"
+  },
+  {
+   "spdxElementId": "SPDXRef-37964d136f439ff1",
+   "relationshipType": "CONTAINS",
+   "relatedSpdxElement": "SPDXRef-8050bee4b5dc6c7e"
+  },
+  {
+   "spdxElementId": "SPDXRef-37964d136f439ff1",
+   "relationshipType": "CONTAINS",
+   "relatedSpdxElement": "SPDXRef-d8047657a20e57ba"
+  },
+  {
+   "spdxElementId": "SPDXRef-37964d136f439ff1",
+   "relationshipType": "CONTAINS",
+   "relatedSpdxElement": "SPDXRef-9237a2ea3cc32d9"
+  },
+  {
+   "spdxElementId": "SPDXRef-37964d136f439ff1",
+   "relationshipType": "CONTAINS",
+   "relatedSpdxElement": "SPDXRef-1563f3f6529f4f5e"
+  },
+  {
+   "spdxElementId": "SPDXRef-37964d136f439ff1",
+   "relationshipType": "CONTAINS",
+   "relatedSpdxElement": "SPDXRef-670a29b5ba8e9d26"
+  },
+  {
+   "spdxElementId": "SPDXRef-37964d136f439ff1",
+   "relationshipType": "CONTAINS",
+   "relatedSpdxElement": "SPDXRef-8cab717e7cf55904"
+  },
+  {
+   "spdxElementId": "SPDXRef-37964d136f439ff1",
+   "relationshipType": "CONTAINS",
+   "relatedSpdxElement": "SPDXRef-1207977b9b6aa39"
+  },
+  {
+   "spdxElementId": "SPDXRef-37964d136f439ff1",
+   "relationshipType": "CONTAINS",
+   "relatedSpdxElement": "SPDXRef-94db06ffac1f93b6"
+  },
+  {
+   "spdxElementId": "SPDXRef-37964d136f439ff1",
+   "relationshipType": "CONTAINS",
+   "relatedSpdxElement": "SPDXRef-d57aab9ef81dea1c"
+  },
+  {
+   "spdxElementId": "SPDXRef-37964d136f439ff1",
+   "relationshipType": "CONTAINS",
+   "relatedSpdxElement": "SPDXRef-3ee00fe20dae6657"
+  },
+  {
+   "spdxElementId": "SPDXRef-37964d136f439ff1",
+   "relationshipType": "CONTAINS",
+   "relatedSpdxElement": "SPDXRef-1ec8a8511d53a722"
+  },
+  {
+   "spdxElementId": "SPDXRef-496ebaafefe360d0",
+   "relationshipType": "CONTAINS",
+   "relatedSpdxElement": "SPDXRef-8571db6f2e131d39"
+  },
+  {
+   "spdxElementId": "SPDXRef-496ebaafefe360d0",
+   "relationshipType": "CONTAINS",
+   "relatedSpdxElement": "SPDXRef-8571db6f2e131d39"
+  },
+  {
+   "spdxElementId": "SPDXRef-45e3407a0d11e6ad",
+   "relationshipType": "CONTAINS",
+   "relatedSpdxElement": "SPDXRef-5d0636015b3f1e36"
+  },
+  {
+   "spdxElementId": "SPDXRef-45e3407a0d11e6ad",
+   "relationshipType": "CONTAINS",
+   "relatedSpdxElement": "SPDXRef-5d0636015b3f1e36"
+  },
+  {
+   "spdxElementId": "SPDXRef-40ab39beb3d999c7",
+   "relationshipType": "CONTAINS",
+   "relatedSpdxElement": "SPDXRef-c99a3ea03e3c3263"
+  }
+ ]
+}
