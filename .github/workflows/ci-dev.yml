@@ -94,7 +94,7 @@ jobs:
         id: scan
         with:
           sbom: "reports/dynamic-code-analysis/${{ github.event.repository.name }}-sbom.spdx.json"
-          fail-build: true
+          fail-build: false
           severity-cutoff: critical
       - name: Save Scan Report on SBOM
         run: |
