@@ -88,22 +88,22 @@ jobs:
       - uses: anchore/sbom-action@v0
         with:
           image: ghcr.io/${{ github.repository_owner }}/${{ github.event.repository.name }}:${{ steps.get_yaml_values.outputs.imageversion  }}
-          output-file: reports/dynamic-code-analysis/${{ github.event.repository.name }}-sbom.spdx.json
+          output-file: reports/container-security-analysis/${{ github.event.repository.name }}-sbom.spdx.json
       - name: Scan SBOM
         uses: anchore/scan-action@v3
         id: scan
         with:
-          sbom: "reports/dynamic-code-analysis/${{ github.event.repository.name }}-sbom.spdx.json"
+          sbom: "reports/container-security-analysis/${{ github.event.repository.name }}-sbom.spdx.json"
           fail-build: false
           severity-cutoff: critical
       - name: Save Scan Report on SBOM
         run: |
           curl -sSfL https://raw.githubusercontent.com/anchore/grype/main/install.sh | sh -s -- -b /usr/local/bin
-          grype sbom:reports/dynamic-code-analysis/${{ github.event.repository.name }}-sbom.spdx.json --file reports/dynamic-code-analysis/${{ github.event.repository.name }}-scan-sbom.json 
+          grype sbom:reports/container-security-analysis/${{ github.event.repository.name }}-sbom.spdx.json --file reports/dynamic-code-analysis/${{ github.event.repository.name }}-scan-sbom.json 
       - name: Remove File
         run: rm -r .cache/*
       - name: Scan YAML files
-        run: kubescape scan . > reports/kubernetes-security-compliance/helm-scan.txt
+        run: kubescape scan . > reports/kubernetes-nsa-cisa-yaml-scan-analysis/helm-scan.txt
       - name: Updating the chart yaml with repository name
         uses: fjogeleit/yaml-update-action@main
         with:
