@@ -1,0 +1,25 @@
+
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+Controls: 42 (Failed: 11, Excluded: 0, Skipped: 0)
+Failed Resources by Severity: Critical — 0, High — 1, Medium — 9, Low — 2
+
++----------+--------------------------------------+------------------+--------------------+---------------+--------------+
+| SEVERITY |             CONTROL NAME             | FAILED RESOURCES | EXCLUDED RESOURCES | ALL RESOURCES | % RISK-SCORE |
++----------+--------------------------------------+------------------+--------------------+---------------+--------------+
+| High     | List Kubernetes secrets              |        1         |         0          |       1       |     100%     |
+| Medium   | Access container service account     |        1         |         0          |       1       |     100%     |
+| Medium   | Automatic mapping of service account |        2         |         0          |       2       |     100%     |
+| Medium   | Configured liveness probe            |        1         |         0          |       1       |     100%     |
+| Medium   | Data Destruction                     |        1         |         0          |       1       |     100%     |
+| Medium   | Exec into container                  |        1         |         0          |       1       |     100%     |
+| Medium   | Images from allowed registry         |        1         |         0          |       1       |     100%     |
+| Medium   | Ingress and Egress blocked           |        1         |         0          |       1       |     100%     |
+| Medium   | Linux hardening                      |        1         |         0          |       1       |     100%     |
+| Low      | Configured readiness probe           |        1         |         0          |       1       |     100%     |
+| Low      | Label usage for resources            |        1         |         0          |       1       |     100%     |
++----------+--------------------------------------+------------------+--------------------+---------------+--------------+
+|          |           RESOURCE SUMMARY           |        3         |         0          |       4       |    25.99%    |
++----------+--------------------------------------+------------------+--------------------+---------------+--------------+
+FRAMEWORKS: AllControls (risk: 25.99), MITRE (risk: 29.11), DevOpsBest (risk: 21.95), NSA (risk: 26.47), ArmoBest (risk: 22.70)
+
